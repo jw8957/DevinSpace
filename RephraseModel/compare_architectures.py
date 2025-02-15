@@ -55,9 +55,12 @@ def evaluate_model(model, test_loader, device):
 def compare_models(train_loader, val_loader, test_loader):
     """Compare BiLSTM+Attention vs Attention-only architectures"""
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    logger.info(f"Using device: {device}")
     
     # Initialize models
+    logger.info("Initializing BiLSTM+Attention model...")
     bilstm_model = ContentFilterModel().to(device)
+    logger.info("Initializing Attention-only model...")
     attn_model = ContentFilterModelAttentionOnly().to(device)
     
     # Results dictionary
@@ -67,6 +70,7 @@ def compare_models(train_loader, val_loader, test_loader):
         'memory': {'bilstm': 0, 'attention': 0},
         'training_time': {'bilstm': 0, 'attention': 0}
     }
+    logger.info("Starting model comparison...")
     
     # Compare models
     for model_name, model in [('bilstm', bilstm_model), 
