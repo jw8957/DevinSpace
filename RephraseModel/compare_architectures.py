@@ -90,10 +90,17 @@ def compare_models(train_loader, val_loader, test_loader):
     # Compare models
     for model_name, model in [('bilstm', bilstm_model), 
                             ('attention', attn_model)]:
+        logger.info(f"Starting training for {model_name} model")
         # Training time
         start_time = time.time()
-        train_model(model, train_loader, val_loader)
-        results['training_time'][model_name] = time.time() - start_time
+        try:
+            train_model(model, train_loader, val_loader)
+            training_time = time.time() - start_time
+            results['training_time'][model_name] = training_time
+            logger.info(f"Completed {model_name} training in {training_time/60:.2f} minutes")
+        except Exception as e:
+            logger.error(f"Error training {model_name} model: {str(e)}")
+            raise
         
         # Inference metrics
         results['latency'][model_name] = measure_inference_latency(
