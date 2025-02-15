@@ -3,40 +3,34 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import confusion_matrix
 
-def analyze_cross_lingual_transfer(model_results, languages):
+def analyze_cross_lingual_transfer(predictions, languages, labels):
     """Analyze how well models transfer between languages"""
     transfer_metrics = {
-        'en_to_zh': {
-            'accuracy': [],
-            'false_positives': [],
-            'false_negatives': []
-        },
-        'zh_to_en': {
-            'accuracy': [],
-            'false_positives': [],
-            'false_negatives': []
-        }
+        'en': {'correct': 0, 'total': 0},
+        'zh': {'correct': 0, 'total': 0},
+        'overall': {'correct': 0, 'total': 0}
     }
     
-    # Split data by language
-    en_indices = [i for i, lang in enumerate(languages) if lang == 'en']
-    zh_indices = [i for i, lang in enumerate(languages) if lang == 'zh']
+    # Calculate metrics per language
+    for pred, label, lang in zip(predictions, labels, languages):
+        # Update language-specific metrics
+        transfer_metrics[lang]['total'] += 1
+        if pred == label:
+            transfer_metrics[lang]['correct'] += 1
+        
+        # Update overall metrics
+        transfer_metrics['overall']['total'] += 1
+        if pred == label:
+            transfer_metrics['overall']['correct'] += 1
     
-    for model_name, results in model_results.items():
-        preds = np.array(results['predictions'])
-        labels = np.array(results['labels'])
-        
-        # Calculate metrics for English training effect on Chinese predictions
-        en_trained_zh_preds = preds[zh_indices]
-        zh_labels = labels[zh_indices]
-        transfer_metrics['en_to_zh']['accuracy'].append(
-            np.mean(en_trained_zh_preds == zh_labels))
-        
-        # Calculate metrics for Chinese training effect on English predictions
-        zh_trained_en_preds = preds[en_indices]
-        en_labels = labels[en_indices]
-        transfer_metrics['zh_to_en']['accuracy'].append(
-            np.mean(zh_trained_en_preds == en_labels))
+    # Calculate accuracies
+    results = {}
+    for category in transfer_metrics:
+        if transfer_metrics[category]['total'] > 0:
+            results[category] = {
+                'accuracy': transfer_metrics[category]['correct'] / transfer_metrics[category]['total'],
+                'samples': transfer_metrics[category]['total']
+            }
     
     return transfer_metrics
 
