@@ -183,13 +183,21 @@ def train_model(model, train_loader, val_loader,
                 
                 outputs = model(input_ids, attention_mask)
                 
-                # Calculate validation loss
+                # Calculate validation loss and accuracy
                 active_loss = attention_mask.view(-1) == 1
                 active_logits = outputs.view(-1, 2)[active_loss]
                 active_labels = labels.view(-1)[active_loss]
                 
-                val_loss += torch.nn.functional.cross_entropy(
+                batch_loss = torch.nn.functional.cross_entropy(
                     active_logits, active_labels).item()
+                val_loss += batch_loss
+                
+                # Calculate batch accuracy
+                _, predicted = torch.max(active_logits, 1)
+                correct = (predicted == active_labels).sum().item()
+                total = active_labels.size(0)
+                if batch_idx % 10 == 0:
+                    logger.info(f"  Batch {batch_idx} validation loss: {batch_loss:.4f}, accuracy: {correct/total:.4f}")
         
         val_loss /= len(val_loader)
         
