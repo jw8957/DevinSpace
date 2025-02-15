@@ -25,13 +25,15 @@ class FinalAnalysis:
         
         try:
             # Import all analysis modules
-            from analyze_architectures import compare_architectures
-            from analyze_convergence import analyze_convergence
-            from analyze_errors import analyze_error_patterns
-            from analyze_content_types import analyze_content_type_performance
-            from analyze_cross_lingual import analyze_cross_lingual_transfer
-            from analyze_semantic_preservation import analyze_semantic_preservation
-            from analyze_syntax import analyze_syntactic_patterns
+            from .analyzers import (
+                compare_architectures,
+                analyze_convergence,
+                analyze_error_patterns,
+                analyze_content_type_performance,
+                analyze_cross_lingual_transfer,
+                analyze_semantic_preservation,
+                analyze_syntactic_patterns
+            )
             from debug_models import ModelDebugger
             from test_scenarios import TestScenarioManager
             from validate_results import validate_and_report
