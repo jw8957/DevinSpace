@@ -157,10 +157,14 @@ def train_model(model, train_loader, val_loader,
                 active_logits, active_labels)
             loss.backward()
             optimizer.step()
+            
+            if batch_idx % 10 == 0:
+                logger.info(f"  Training loss: {loss.item():.4f}")
         
         # Validation
         model.eval()
         val_loss = 0
+        logger.info("Starting validation...")
         with torch.no_grad():
             for batch in val_loader:
                 input_ids = batch['input_ids'].to(device)
