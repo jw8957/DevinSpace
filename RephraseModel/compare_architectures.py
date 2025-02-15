@@ -171,8 +171,12 @@ def train_model(model, train_loader, val_loader,
         model.eval()
         val_loss = 0
         logger.info("Starting validation...")
+        num_val_batches = len(val_loader)
+        logger.info(f"Validating on {num_val_batches} batches")
         with torch.no_grad():
-            for batch in val_loader:
+            for batch_idx, batch in enumerate(val_loader):
+                if batch_idx % 10 == 0:
+                    logger.info(f"  Validation batch {batch_idx}/{num_val_batches}")
                 input_ids = batch['input_ids'].to(device)
                 attention_mask = batch['attention_mask'].to(device)
                 labels = batch['labels'].to(device)
