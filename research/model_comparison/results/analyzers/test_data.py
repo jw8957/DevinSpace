@@ -1,5 +1,6 @@
 import torch
 from typing import Dict, Any
+from transformers import AutoTokenizer
 
 def create_test_model(model_type: str) -> torch.nn.Module:
     """Create a test model with realistic architecture"""
@@ -61,5 +62,5 @@ def get_test_data() -> Dict[str, Any]:
         },
         'attention_weights': torch.randn(30, 30),  # Sample attention weights for analysis
         'device': 'cpu',
-        'tokenizer': None  # Placeholder for tokenizer
+        'tokenizer': AutoTokenizer.from_pretrained('sentence-transformers/all-MiniLM-L6-v2')
     }

@@ -101,10 +101,14 @@ class TestScenarioManager:
     
     def _run_single_test(self, model, tokenizer, device, case: TestCase) -> bool:
         """Run a single test case"""
-        inputs = tokenizer(case.input_text, 
-                         return_tensors='pt',
-                         padding=True,
-                         truncation=True)
+        if tokenizer is None:
+            return False  # Skip test if tokenizer not available
+            
+        try:
+            inputs = tokenizer(case.input_text, 
+                             return_tensors='pt',
+                             padding=True,
+                             truncation=True)
         
         with torch.no_grad():
             outputs = model(inputs['input_ids'].to(device),
