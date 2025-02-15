@@ -89,7 +89,7 @@ def compare_models(train_loader, val_loader, test_loader):
 def train_model(model, train_loader, val_loader, 
                 num_epochs=5, learning_rate=2e-5):
     """Train model with early stopping"""
-    device = model.device
+    device = next(model.parameters()).device
     optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
     best_val_loss = float('inf')
     patience = 3
