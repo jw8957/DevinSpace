@@ -68,15 +68,18 @@ class FinalAnalysis:
             ling_results = {
                 'cross_lingual': analyze_cross_lingual_transfer(
                     training_results['predictions'],
-                    training_results['languages']
+                    training_results['languages'],
+                    training_results['labels']
                 ),
                 'semantic': analyze_semantic_preservation(
                     training_results['predictions'],
-                    training_results['texts']
+                    training_results['texts'],
+                    training_results['labels']
                 ),
                 'syntax': analyze_syntactic_patterns(
                     training_results['predictions'],
-                    training_results['texts']
+                    training_results['texts'],
+                    training_results['labels']
                 )
             }
             
