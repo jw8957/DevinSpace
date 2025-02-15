@@ -109,10 +109,15 @@ class TestScenarioManager:
                              return_tensors='pt',
                              padding=True,
                              truncation=True)
-        
-        with torch.no_grad():
-            outputs = model(inputs['input_ids'].to(device),
-                          inputs['attention_mask'].to(device))
+            
+            with torch.no_grad():
+                outputs = model(inputs['input_ids'].to(device),
+                              inputs['attention_mask'].to(device))
+                prediction = torch.argmax(outputs, dim=-1)[0].cpu().item()
+            return bool(prediction)
+        except Exception as e:
+            print(f"Error running test case {case.name}: {str(e)}")
+            return False
             prediction = torch.argmax(outputs, dim=-1)[0].cpu().item()
         
         return bool(prediction)
