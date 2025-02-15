@@ -22,9 +22,15 @@ def analyze_sentence_structure(text, nlp):
         'verb_phrases': len([token for token in doc if token.pos_ == 'VERB'])
     }
 
-def analyze_syntactic_patterns(predictions, labels, texts, languages):
+def analyze_syntactic_patterns(predictions, texts, labels, languages):
     """Analyze model performance across different syntactic patterns"""
-    nlp_models = load_nlp_models()
+    try:
+        nlp = spacy.load('en_core_web_sm')
+    except OSError:
+        import subprocess
+        subprocess.run(['python', '-m', 'spacy', 'download', 'en_core_web_sm'])
+        nlp = spacy.load('en_core_web_sm')
+    
     syntax_metrics = defaultdict(lambda: {'correct': 0, 'total': 0})
     
     for pred, label, text, lang in zip(predictions, labels, texts, languages):

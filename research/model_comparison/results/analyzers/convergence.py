@@ -7,8 +7,8 @@ def analyze_convergence(metrics):
     """Analyze training convergence behavior"""
     convergence_metrics = {}
     for model in ['bilstm', 'attention']:
-        train_loss = metrics[model]['training_loss']
-        val_loss = metrics[model]['validation_loss']
+        train_loss = metrics['training_loss'][model]
+        val_loss = metrics['validation_loss'][model]
         
         # Calculate convergence speed
         min_val_loss = min(val_loss)
