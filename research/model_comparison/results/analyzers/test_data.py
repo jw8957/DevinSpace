@@ -1,11 +1,29 @@
 import torch
 from typing import Dict, Any
 
+def create_test_model(model_type: str) -> torch.nn.Module:
+    """Create a test model with realistic architecture"""
+    if model_type == 'bilstm':
+        model = torch.nn.Sequential(
+            torch.nn.LSTM(input_size=768, hidden_size=256, bidirectional=True, batch_first=True),
+            torch.nn.Linear(512, 128),
+            torch.nn.ReLU(),
+            torch.nn.Linear(128, 2)
+        )
+    else:  # attention
+        model = torch.nn.Sequential(
+            torch.nn.MultiheadAttention(embed_dim=768, num_heads=8),
+            torch.nn.Linear(768, 128),
+            torch.nn.ReLU(),
+            torch.nn.Linear(128, 2)
+        )
+    return model
+
 def get_test_data() -> Dict[str, Any]:
     """Generate test data for analysis pipeline development"""
     return {
-        'bilstm_model': torch.nn.Module(),  # Placeholder model
-        'attention_model': torch.nn.Module(),  # Placeholder model
+        'bilstm_model': create_test_model('bilstm'),
+        'attention_model': create_test_model('attention'),
         'predictions': [True, False, True] * 10,  # Sample predictions
         'labels': [True, True, False] * 10,  # Sample labels
         'texts': [
