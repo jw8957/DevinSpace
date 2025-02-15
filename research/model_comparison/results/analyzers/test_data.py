@@ -23,6 +23,7 @@ class TestModel(torch.nn.Module):
         self.model_type = model_type
     
     def forward(self, x, attention_mask=None):
+        x = x.float()  # Convert input to float
         if self.model_type == 'bilstm':
             lstm_out, _ = self.lstm(x)
             return self.classifier(lstm_out[:, -1, :])

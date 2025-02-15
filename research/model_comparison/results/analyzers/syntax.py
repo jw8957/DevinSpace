@@ -33,6 +33,40 @@ def analyze_syntactic_patterns(predictions, texts, labels, languages):
     
     syntax_metrics = defaultdict(lambda: {'correct': 0, 'total': 0})
     
+    for pred, text, label, lang in zip(predictions, texts, labels, languages):
+        try:
+            if lang != 'en':  # Skip non-English text for now
+                continue
+                
+            doc = nlp(text)
+            
+            # Analyze sentence structure
+            structure = analyze_sentence_structure(text, nlp)
+            
+            # Categorize complexity
+            complexity = 'simple'
+            if structure['dep_tree_depth'] > 5:
+                complexity = 'complex'
+            elif structure['clause_count'] > 2:
+                complexity = 'moderate'
+            
+            syntax_metrics[complexity]['total'] += 1
+            if pred == label:
+                syntax_metrics[complexity]['correct'] += 1
+                
+        except Exception as e:
+            print(f"Error analyzing text: {str(e)}")
+            continue
+    
+    # Calculate accuracy per category
+    accuracies = {
+        category: metrics['correct'] / metrics['total']
+        for category, metrics in syntax_metrics.items()
+        if metrics['total'] > 0
+    }
+    
+    return accuracies, syntax_metrics
+    
     for pred, label, text, lang in zip(predictions, labels, texts, languages):
         try:
             structure = analyze_sentence_structure(text, nlp_models[lang])
