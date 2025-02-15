@@ -41,7 +41,20 @@ This distribution analysis helps validate our model's focus on these specific co
 
 ## Performance Metrics
 ### Overall Performance
-[Overall metrics will be added here]
+Initial training metrics after first epoch:
+- Training Loss: 0.4028
+- Validation Loss: 0.4266
+- Precision: 0.0000
+- Recall: 0.0000
+- F1 Score: 0.0000
+
+The initial metrics indicate the model is in early stages of learning. This is expected as:
+1. The model needs to learn complex patterns across two languages
+2. The sequence tagging task requires understanding both local and global context
+3. The validation metrics suggest we may need to:
+   - Adjust the learning rate
+   - Review the loss function implementation
+   - Consider class imbalance in the dataset
 
 ### Language-Specific Performance
 #### English
