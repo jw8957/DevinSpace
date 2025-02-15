@@ -74,6 +74,9 @@ def compare_models(train_loader, val_loader, test_loader):
         attn_model = attn_model.to(device)
         
         logger.info("Models initialized successfully")
+    except Exception as e:
+        logger.error(f"Error initializing models: {str(e)}")
+        raise
     
     # Results dictionary
     results = {
