@@ -179,11 +179,19 @@ def train_model(model, train_loader, val_loader,
         
         val_loss /= len(val_loader)
         
+        # Calculate validation accuracy
+        val_accuracy = evaluate_model(model, val_loader, device)
+        logger.info(f"Epoch {epoch + 1}/{num_epochs}:")
+        logger.info(f"  Validation Loss: {val_loss:.4f}")
+        logger.info(f"  Validation Accuracy: {val_accuracy:.4f}")
+        
         # Early stopping
         if val_loss < best_val_loss:
             best_val_loss = val_loss
             no_improvement = 0
+            logger.info("  New best validation loss!")
         else:
             no_improvement += 1
             if no_improvement >= patience:
+                logger.info(f"Early stopping triggered after {epoch + 1} epochs")
                 break
