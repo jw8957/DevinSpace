@@ -6,6 +6,10 @@ from torch.utils.data import DataLoader
 import time
 import psutil
 import os
+import logging
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 def measure_inference_latency(model, test_loader, device):
     """Measure average inference time per batch"""
