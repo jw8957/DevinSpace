@@ -24,8 +24,8 @@ def get_test_data() -> Dict[str, Any]:
     return {
         'bilstm_model': create_test_model('bilstm'),
         'attention_model': create_test_model('attention'),
-        'predictions': [True, False, True] * 10,  # Sample predictions
-        'labels': [True, True, False] * 10,  # Sample labels
+        'predictions': [1, 0, 1] * 10,  # Sample predictions (1=keep, 0=filter)
+        'labels': [1, 1, 0] * 10,  # Sample labels (1=keep, 0=filter)
         'texts': [
             "This is a main content article.",
             "Home About Contact",
@@ -59,6 +59,7 @@ def get_test_data() -> Dict[str, Any]:
             'hidden_states': torch.randn(30, 128),  # Sample hidden states
             'attention_weights': torch.randn(30, 30)  # Sample attention weights
         },
+        'attention_weights': torch.randn(30, 30),  # Sample attention weights for analysis
         'device': 'cpu',
         'tokenizer': None  # Placeholder for tokenizer
     }
