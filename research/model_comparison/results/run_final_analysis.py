@@ -80,7 +80,8 @@ class FinalAnalysis:
                 'syntax': analyze_syntactic_patterns(
                     training_results['predictions'],
                     training_results['texts'],
-                    training_results['labels']
+                    training_results['labels'],
+                    training_results['languages']
                 )
             }
             
