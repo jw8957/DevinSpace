@@ -138,6 +138,7 @@ def train_model(model, train_loader, val_loader,
         # Training
         model.train()
         train_loss = 0
+        num_batches = 0
         for batch_idx, batch in enumerate(train_loader):
             optimizer.zero_grad()
             input_ids = batch['input_ids'].to(device)
@@ -158,8 +159,13 @@ def train_model(model, train_loader, val_loader,
             loss.backward()
             optimizer.step()
             
+            train_loss += loss.item()
+            num_batches += 1
             if batch_idx % 10 == 0:
-                logger.info(f"  Training loss: {loss.item():.4f}")
+                logger.info(f"  Batch {batch_idx} training loss: {loss.item():.4f}")
+        
+        avg_train_loss = train_loss / num_batches
+        logger.info(f"  Average training loss for epoch: {avg_train_loss:.4f}")
         
         # Validation
         model.eval()
