@@ -1,9 +1,9 @@
 import logging
 import os
-from run_final_analysis import FinalAnalysis
-from monitor_training import TrainingMonitor
-from validate_results import validate_and_report
-from create_visualization_dashboard import create_dashboard
+from results.run_final_analysis import FinalAnalysis
+from results.monitor_training import TrainingMonitor
+from results.validate_results import validate_and_report
+from results.create_visualization_dashboard import create_dashboard
 
 def main():
     # Setup logging
