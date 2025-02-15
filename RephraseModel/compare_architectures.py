@@ -106,13 +106,17 @@ def train_model(model, train_loader, val_loader,
     logger.info(f"Starting training for {num_epochs} epochs with learning rate {learning_rate}")
     
     for epoch in range(num_epochs):
+        logger.info(f"Starting epoch {epoch + 1}/{num_epochs}")
         # Training
         model.train()
-        for batch in train_loader:
+        train_loss = 0
+        for batch_idx, batch in enumerate(train_loader):
             optimizer.zero_grad()
             input_ids = batch['input_ids'].to(device)
             attention_mask = batch['attention_mask'].to(device)
             labels = batch['labels'].to(device)
+            if batch_idx % 10 == 0:
+                logger.info(f"Training batch {batch_idx}/{len(train_loader)}")
             
             outputs = model(input_ids, attention_mask)
             
