@@ -66,17 +66,6 @@ def analyze_syntactic_patterns(predictions, texts, labels, languages):
     }
     
     return accuracies, syntax_metrics
-    
-    for pred, text, label, lang in zip(predictions, texts, labels, languages):
-        try:
-            if lang != 'en':  # Skip non-English text for now
-                continue
-                
-            doc = nlp(text)
-            structure = analyze_sentence_structure(text, nlp)
-            
-            # Categorize complexity
-            complexity = 'simple'
             if structure['dep_tree_depth'] > 5:
                 complexity = 'complex'
             elif structure['clause_count'] > 2:
