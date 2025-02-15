@@ -103,12 +103,22 @@ def compare_models(train_loader, val_loader, test_loader):
             raise
         
         # Inference metrics
-        results['latency'][model_name] = measure_inference_latency(
-            model, test_loader, device)
-        results['memory'][model_name] = measure_memory_usage(
-            model, next(iter(test_loader)), device)
-        results['accuracy'][model_name] = evaluate_model(
-            model, test_loader, device)
+        logger.info(f"Measuring inference metrics for {model_name} model")
+        try:
+            latency = measure_inference_latency(model, test_loader, device)
+            results['latency'][model_name] = latency
+            logger.info(f"{model_name} inference latency: {latency*1000:.2f}ms")
+
+            memory = measure_memory_usage(model, next(iter(test_loader)), device)
+            results['memory'][model_name] = memory
+            logger.info(f"{model_name} memory usage: {memory/1e6:.2f}MB")
+
+            accuracy = evaluate_model(model, test_loader, device)
+            results['accuracy'][model_name] = accuracy
+            logger.info(f"{model_name} accuracy: {accuracy:.4f}")
+        except Exception as e:
+            logger.error(f"Error measuring {model_name} metrics: {str(e)}")
+            raise
     
     return results
 
