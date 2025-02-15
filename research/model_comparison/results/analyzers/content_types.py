@@ -19,7 +19,7 @@ def categorize_content(text):
             return category
     return 'other'
 
-def analyze_model_performance_by_type(predictions, labels, texts):
+def analyze_content_type_performance(predictions, labels, texts):
     """Analyze model performance across different content types"""
     performance = {}
     type_counts = {}
