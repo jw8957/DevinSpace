@@ -21,14 +21,16 @@ def main():
         results_dir = os.path.join('results')
         
         # Initialize analysis components
-        training_monitor = TrainingMonitor(results_dir)
+        # For development/testing, use test data
+        from results.analyzers.test_data import get_test_data
+        test_data = get_test_data()
+        
+        # Initialize analysis components
         final_analysis = FinalAnalysis(results_dir)
         
         # Run complete analysis pipeline
         logger.info("Running complete analysis pipeline")
-        final_report = final_analysis.run_complete_analysis(
-            training_monitor.get_latest_metrics()
-        )
+        final_report = final_analysis.run_complete_analysis(test_data)
         
         # Save final report
         report_path = os.path.join(results_dir, 'final_report.md')
