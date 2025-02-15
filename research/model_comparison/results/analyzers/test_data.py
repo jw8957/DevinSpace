@@ -23,18 +23,23 @@ class TestModel(torch.nn.Module):
         self.model_type = model_type
     
     def forward(self, x, attention_mask=None):
-        x = x.float()  # Convert input to float
+        # Create embeddings - assume x is token IDs
+        embedding_dim = 768
+        batch_size = x.size(0)
+        seq_len = x.size(1)
+        embeddings = torch.randn(batch_size, seq_len, embedding_dim).to(x.device)
+        
         if self.model_type == 'bilstm':
-            lstm_out, _ = self.lstm(x)
+            lstm_out, _ = self.lstm(embeddings)
             return self.classifier(lstm_out[:, -1, :])
         else:
-            attn_out, _ = self.attention(x, x, x, key_padding_mask=~attention_mask.bool())
+            attn_out, _ = self.attention(embeddings, embeddings, embeddings, 
+                                       key_padding_mask=~attention_mask.bool() if attention_mask is not None else None)
             return self.classifier(attn_out.mean(dim=1))
 
 def create_test_model(model_type: str) -> torch.nn.Module:
     """Create a test model with realistic architecture"""
     return TestModel(model_type)
-    return model
 
 def get_test_data() -> Dict[str, Any]:
     """Generate test data for analysis pipeline development"""

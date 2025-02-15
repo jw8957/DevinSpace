@@ -4,10 +4,11 @@ from typing import Dict, Any
 def analyze_performance_tradeoffs(results: Dict[str, Any]) -> Dict[str, str]:
     """Analyze performance tradeoffs between architectures"""
     tradeoffs = {}
+    metrics = results.get('metrics', {})
     
     # Accuracy vs Speed
-    acc_diff = results['accuracy']['bilstm'] - results['accuracy']['attention']
-    speed_ratio = results['latency']['bilstm'] / results['latency']['attention']
+    acc_diff = metrics['accuracy']['bilstm'] - metrics['accuracy']['attention']
+    speed_ratio = metrics['latency']['bilstm'] / metrics['latency']['attention']
     
     if acc_diff > 0.02 and speed_ratio > 1.2:
         tradeoffs['accuracy_vs_speed'] = (
@@ -59,7 +60,8 @@ def generate_recommendations(results: Dict[str, Any]) -> str:
     
     # Overall recommendation
     report += "## Primary Recommendation\n"
-    if results['accuracy']['bilstm'] > results['accuracy']['attention'] * 1.05:
+    metrics = results.get('metrics', {})
+    if metrics['accuracy']['bilstm'] > metrics['accuracy']['attention'] * 1.05:
         report += ("Use BiLSTM+Attention model for highest accuracy, "
                   "especially for complex content filtering tasks.\n\n")
     else:
@@ -80,10 +82,11 @@ def generate_recommendations(results: Dict[str, Any]) -> str:
     
     # Deployment considerations
     report += "## Deployment Considerations\n"
+    metrics = results.get('metrics', {})
     report += ("- Resource Requirements:\n"
-               f"  - BiLSTM: {results['memory']['bilstm']/1e6:.1f}MB memory, "
-               f"{results['latency']['bilstm']*1000:.1f}ms latency\n"
-               f"  - Attention: {results['memory']['attention']/1e6:.1f}MB memory, "
-               f"{results['latency']['attention']*1000:.1f}ms latency\n\n")
+               f"  - BiLSTM: {metrics['memory']['bilstm']/1e6:.1f}MB memory, "
+               f"{metrics['latency']['bilstm']*1000:.1f}ms latency\n"
+               f"  - Attention: {metrics['memory']['attention']/1e6:.1f}MB memory, "
+               f"{metrics['latency']['attention']*1000:.1f}ms latency\n\n")
     
     return report
