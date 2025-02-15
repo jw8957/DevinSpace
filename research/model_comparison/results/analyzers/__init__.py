@@ -6,3 +6,4 @@ from .content_types import analyze_content_type_performance
 from .cross_lingual import analyze_cross_lingual_transfer
 from .semantic_preservation import analyze_semantic_preservation
 from .syntax import analyze_syntactic_patterns
+from .debug_models import ModelDebugger

@@ -34,11 +34,11 @@ class FinalAnalysis:
                 analyze_semantic_preservation,
                 analyze_syntactic_patterns
             )
-            from debug_models import ModelDebugger
-            from test_scenarios import TestScenarioManager
-            from validate_results import validate_and_report
-            from create_visualization_dashboard import create_dashboard
-            from generate_recommendations import generate_recommendations
+            from .analyzers.debug_models import ModelDebugger
+            from .analyzers.test_scenarios import TestScenarioManager
+            from .analyzers.validate_results import validate_and_report
+            from .analyzers.visualization import create_dashboard
+            from .analyzers.recommendations import generate_recommendations
             
             # Run architecture analysis
             self.logger.info("Analyzing model architectures")
