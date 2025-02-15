@@ -98,10 +98,12 @@ def train_model(model, train_loader, val_loader,
                 num_epochs=5, learning_rate=2e-5):
     """Train model with early stopping"""
     device = next(model.parameters()).device
+    logger.info(f"Training model on device: {device}")
     optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
     best_val_loss = float('inf')
     patience = 3
     no_improvement = 0
+    logger.info(f"Starting training for {num_epochs} epochs with learning rate {learning_rate}")
     
     for epoch in range(num_epochs):
         # Training
