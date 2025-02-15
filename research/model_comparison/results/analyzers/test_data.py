@@ -33,10 +33,22 @@ def get_test_data() -> Dict[str, Any]:
         ] * 10,
         'languages': ['en', 'zh', 'en'] * 10,
         'metrics': {
-            'accuracy': {'bilstm': 0.85, 'attention': 0.82},
-            'latency': {'bilstm': 0.015, 'attention': 0.012},
-            'memory': {'bilstm': 256e6, 'attention': 200e6},
-            'training_time': {'bilstm': 3600, 'attention': 3000}
+            'bilstm': {
+                'accuracy': 0.85,
+                'latency': 0.015,
+                'memory': 256e6,
+                'training_time': 3600,
+                'training_loss': [2.5, 1.8, 1.2, 0.9, 0.7],
+                'validation_loss': [2.6, 1.9, 1.3, 1.0, 0.8]
+            },
+            'attention': {
+                'accuracy': 0.82,
+                'latency': 0.012,
+                'memory': 200e6,
+                'training_time': 3000,
+                'training_loss': [2.3, 1.7, 1.1, 0.8, 0.6],
+                'validation_loss': [2.4, 1.8, 1.2, 0.9, 0.7]
+            }
         },
         'outputs': {
             'hidden_states': torch.randn(30, 128),  # Sample hidden states
