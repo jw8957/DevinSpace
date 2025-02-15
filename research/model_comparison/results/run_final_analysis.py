@@ -53,10 +53,12 @@ class FinalAnalysis:
                 'convergence': analyze_convergence(training_results['metrics']),
                 'errors': analyze_error_patterns(
                     training_results['predictions'],
-                    training_results['labels']
+                    training_results['labels'],
+                    training_results['texts']
                 ),
                 'content_types': analyze_content_type_performance(
                     training_results['predictions'],
+                    training_results['labels'],
                     training_results['texts']
                 )
             }
