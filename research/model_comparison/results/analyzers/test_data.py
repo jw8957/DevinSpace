@@ -31,6 +31,11 @@ def get_test_data() -> Dict[str, Any]:
             "Home About Contact",
             "Share on social media"
         ] * 10,
+        'original_texts': [
+            "This is a main content article with some extra navigation.",
+            "Home About Contact Products Services",
+            "Share on social media Follow us Subscribe"
+        ] * 10,
         'languages': ['en', 'zh', 'en'] * 10,
         'metrics': {
             'bilstm': {
