@@ -61,11 +61,19 @@ def compare_models(train_loader, val_loader, test_loader):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     logger.info(f"Using device: {device}")
     
-    # Initialize models
-    logger.info("Initializing BiLSTM+Attention model...")
-    bilstm_model = ContentFilterModel().to(device)
-    logger.info("Initializing Attention-only model...")
-    attn_model = ContentFilterModelAttentionOnly().to(device)
+    try:
+        # Initialize models
+        logger.info("Initializing BiLSTM+Attention model...")
+        bilstm_model = ContentFilterModel()
+        logger.info("Model parameters: %d", sum(p.numel() for p in bilstm_model.parameters()))
+        bilstm_model = bilstm_model.to(device)
+        
+        logger.info("Initializing Attention-only model...")
+        attn_model = ContentFilterModelAttentionOnly()
+        logger.info("Model parameters: %d", sum(p.numel() for p in attn_model.parameters()))
+        attn_model = attn_model.to(device)
+        
+        logger.info("Models initialized successfully")
     
     # Results dictionary
     results = {
