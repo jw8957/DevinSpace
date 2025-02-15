@@ -1,0 +1,18 @@
+{
+    "bilstm": {
+        "accuracy": [],
+        "training_loss": [],
+        "validation_loss": [],
+        "inference_latency": null,
+        "memory_usage": null,
+        "training_time": null
+    },
+    "attention": {
+        "accuracy": [],
+        "training_loss": [],
+        "validation_loss": [],
+        "inference_latency": null,
+        "memory_usage": null,
+        "training_time": null
+    }
+}
