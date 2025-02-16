@@ -102,10 +102,16 @@ def evaluate_rule_based(dataset: ContentDataset) -> List[Dict[str, Any]]:
 def main():
     # Initialize models and tokenizer
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    tokenizer = AutoTokenizer.from_pretrained('sentence-transformers/all-MiniLM-L6-v2')
+    logger.info(f"Using device: {device}")
     
-    attention_model = ContentFilterModel().to(device)
-    lstm_model = LSTMAttentionModel().to(device)
+    try:
+        tokenizer = AutoTokenizer.from_pretrained('sentence-transformers/all-MiniLM-L6-v2')
+        attention_model = ContentFilterModel().to(device)
+        lstm_model = LSTMAttentionModel().to(device)
+        logger.info("Models loaded successfully")
+    except Exception as e:
+        logger.error(f"Error loading models: {str(e)}")
+        return
     
     # Test files
     en_file = '/tmp/test_data.json'  # Use smaller test set
