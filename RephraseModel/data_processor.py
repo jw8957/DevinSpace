@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 class ContentDataset(Dataset):
     def __init__(self, data_file: str, tokenizer_name: str = "sentence-transformers/all-MiniLM-L6-v2", max_length: int = 512):
         logger.info(f"Initializing ContentDataset with file: {data_file}")
-        self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
+        self.tokenizer = tokenizer
         self.max_length = max_length
         self.samples = self.load_and_process_data(data_file)
         logger.info(f"Loaded {len(self.samples)} samples from {data_file}")

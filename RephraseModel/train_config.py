@@ -15,9 +15,9 @@ class TrainingConfig:
     
     # Data configuration
     max_length: int = 512
-    train_file: str = 'train.json'
-    val_file: str = 'val.json'
-    test_file: str = 'test.json'
+    train_file: str = 'RephraseModel/data/train.json'
+    val_file: str = 'RephraseModel/data/test.json'  # Using test file as val for now
+    test_file: str = 'RephraseModel/data/test.json'
     
     # Model paths
     model_dir: str = 'models'
