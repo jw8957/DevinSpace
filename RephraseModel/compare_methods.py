@@ -35,18 +35,33 @@ def evaluate_model_performance(model, dataset, device='cpu'):
                 if not text or text == "empty":
                     continue
                 
+                # Process text
+                text = text.strip()
+                if not text:
+                    continue
+                
                 outputs = model(input_ids, attention_mask)
                 predicted = outputs.argmax(dim=1).item()
                 
                 correct += (predicted == label)
                 total += 1
                 
+                # Calculate confidence
+                probs = torch.softmax(outputs, dim=1)
+                confidence = probs[0][predicted].item()
+                
                 results.append({
                     'text': text,
                     'predicted': predicted,
                     'actual': label,
+                    'confidence': confidence,
                     'method': model.__class__.__name__
                 })
+                
+                # Log progress
+                if (i + 1) % 100 == 0:
+                    logger.info(f"Processed {i + 1}/{len(dataset)} samples")
+                    
             except Exception as e:
                 logger.error(f"Error evaluating sample {i}: {str(e)}")
                 logger.error(f"Text: {text if 'text' in locals() else 'unknown'}")
@@ -57,7 +72,7 @@ def evaluate_model_performance(model, dataset, device='cpu'):
         return 0.0, results
         
     accuracy = 100. * correct / total
-    logger.info(f'Accuracy: {accuracy:.2f}%')
+    logger.info(f'Accuracy: {accuracy:.2f}% ({correct}/{total} samples)')
     return accuracy, results
 
 def evaluate_rule_based(dataset: ContentDataset) -> List[Dict[str, Any]]:
