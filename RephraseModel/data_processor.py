@@ -95,10 +95,13 @@ class ContentDataset(Dataset):
         text = self.data[idx]
         label = self.labels[idx]
         
-        # Ensure text is a string
+        # Ensure text is a string and not empty
         if not isinstance(text, str):
             text = str(text)
-        
+        text = text.strip()
+        if not text:
+            text = "empty"  # Default text for empty strings
+            
         # Tokenize text
         encoding = self.tokenizer(
             text,
@@ -108,9 +111,14 @@ class ContentDataset(Dataset):
             return_tensors='pt'
         )
         
+        # Convert to tensors
+        input_ids = encoding['input_ids'].squeeze()
+        attention_mask = encoding['attention_mask'].squeeze()
+        label = torch.tensor(label, dtype=torch.long)
+        
         return {
-            'input_ids': encoding['input_ids'].squeeze(),
-            'attention_mask': encoding['attention_mask'].squeeze(),
-            'labels': torch.tensor(label, dtype=torch.long),
+            'input_ids': input_ids,
+            'attention_mask': attention_mask,
+            'labels': label,
             'text': text  # Include original text for evaluation
         }
