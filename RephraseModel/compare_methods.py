@@ -45,29 +45,39 @@ def evaluate_model_performance(model, dataset, device='cpu'):
     logger.info(f'Accuracy: {accuracy:.2f}%')
     return accuracy, results
 
-def evaluate_rule_based(texts: List[str]) -> List[Dict[str, Any]]:
+def evaluate_rule_based(dataset: ContentDataset) -> List[Dict[str, Any]]:
     """Evaluate rule-based method."""
     results = []
-    for text in texts:
+    for i in range(len(dataset)):
         try:
+            # Get text and label from dataset
+            text = dataset.data[i]
+            label = dataset.labels[i]
+            
+            # Skip if text is not a string or empty
+            if not isinstance(text, str) or not text.strip():
+                continue
+                
             # Create processor instance for each text
-            if isinstance(text, (list, tuple)):
-                text = text[0] if text else ""  # Take first element if tuple/list
             processor = RephraseContent_V2(raw_markdown=text)
             # Apply rule-based processing
             processed = processor.process_content()
             # Consider text kept if it appears in processed output
             kept = text.strip() in processed
+            
             results.append({
                 'text': text,
                 'predicted': int(kept),
+                'actual': label,
                 'method': 'rule_based'
             })
         except Exception as e:
             logger.error(f"Error processing text with rule-based method: {str(e)}")
+            logger.error(f"Text: {text}")
             results.append({
-                'text': text if isinstance(text, str) else str(text),
+                'text': text,
                 'predicted': 0,  # Default to removing text on error
+                'actual': label,
                 'method': 'rule_based',
                 'error': str(e)
             })

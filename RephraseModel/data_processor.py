@@ -90,10 +90,14 @@ class ContentDataset(Dataset):
         """Return the number of samples."""
         return len(self.data)
     
-    def __getitem__(self, idx: int) -> Dict[str, torch.Tensor]:
+    def __getitem__(self, idx: int) -> Dict[str, Any]:
         """Get a sample by index."""
         text = self.data[idx]
         label = self.labels[idx]
+        
+        # Ensure text is a string
+        if not isinstance(text, str):
+            text = str(text)
         
         # Tokenize text
         encoding = self.tokenizer(
@@ -107,5 +111,6 @@ class ContentDataset(Dataset):
         return {
             'input_ids': encoding['input_ids'].squeeze(),
             'attention_mask': encoding['attention_mask'].squeeze(),
-            'labels': torch.tensor(label, dtype=torch.long)
+            'labels': torch.tensor(label, dtype=torch.long),
+            'text': text  # Include original text for evaluation
         }
