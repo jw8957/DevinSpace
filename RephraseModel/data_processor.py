@@ -10,12 +10,34 @@ import logging
 logger = logging.getLogger(__name__)
 
 class ContentDataset(Dataset):
-    def __init__(self, data_file: str, tokenizer_name: str = "sentence-transformers/all-MiniLM-L6-v2", max_length: int = 512):
+    def __init__(self, data_file: str, tokenizer, max_length: int = 512):
+        """Initialize dataset with data file and tokenizer.
+        
+        Args:
+            data_file: Path to JSONL data file
+            tokenizer: HuggingFace tokenizer instance
+            max_length: Maximum sequence length
+        """
         logger.info(f"Initializing ContentDataset with file: {data_file}")
         self.tokenizer = tokenizer
         self.max_length = max_length
-        self.samples = self.load_and_process_data(data_file)
-        logger.info(f"Loaded {len(self.samples)} samples from {data_file}")
+        self.data = []
+        self.labels = []
+        
+        # Load and process data
+        with open(data_file, 'r', encoding='utf-8') as f:
+            for line in f:
+                item = json.loads(line)
+                # Original text contains potential boilerplate
+                orig_text = item['origin']
+                # Rephrased text has boilerplate removed
+                clean_text = item['rephrase_with_img']
+                
+                # Create binary labels (1 for keep, 0 for remove)
+                # by comparing original and cleaned text
+                self._process_text_pair(orig_text, clean_text)
+        
+        logger.info(f"Loaded {len(self.data)} samples from {data_file}")
         
     def load_and_process_data(self, data_file: str) -> List[Dict]:
         logger.info("Starting data processing...")
