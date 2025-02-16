@@ -33,11 +33,54 @@ class ContentDataset(Dataset):
                 # Rephrased text has boilerplate removed
                 clean_text = item['rephrase_with_img']
                 
-                # Create binary labels (1 for keep, 0 for remove)
-                # by comparing original and cleaned text
-                self._process_text_pair(orig_text, clean_text)
+                # Split texts into sentences
+                orig_sents = self._split_sentences(orig_text)
+                clean_sents = self._split_sentences(clean_text)
+                
+                # Process each original sentence
+                for sent in orig_sents:
+                    if not sent.strip():
+                        continue
+                    # Label is 1 if sentence appears in cleaned text (keep)
+                    # Label is 0 if sentence was removed (filter)
+                    label = 1 if self._is_sentence_kept(sent, clean_sents) else 0
+                    self.data.append(sent)
+                    self.labels.append(label)
         
         logger.info(f"Loaded {len(self.data)} samples from {data_file}")
+    
+    def _split_sentences(self, text: str) -> list:
+        """Split text into sentences."""
+        # Simple sentence splitting
+        sentences = []
+        for line in text.split('\n'):
+            if not line.strip():
+                continue
+            # Split on common sentence endings
+            for sent in line.split('. '):
+                if sent.strip():
+                    sentences.append(sent.strip())
+        return sentences
+    
+    def _is_sentence_kept(self, sent: str, clean_sents: list, threshold: float = 0.8) -> bool:
+        """Check if sentence appears in cleaned text."""
+        sent_tokens = set(sent.lower().split())
+        if not sent_tokens:
+            return False
+        
+        for clean_sent in clean_sents:
+            clean_tokens = set(clean_sent.lower().split())
+            if not clean_tokens:
+                continue
+            
+            # Calculate token overlap
+            overlap = len(sent_tokens.intersection(clean_tokens))
+            similarity = overlap / max(len(sent_tokens), len(clean_tokens))
+            
+            if similarity >= threshold:
+                return True
+        
+        return False
         
     def load_and_process_data(self, data_file: str) -> List[Dict]:
         logger.info("Starting data processing...")
