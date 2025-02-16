@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f5f5f5;
+        }
+        .correct { color: #28a745; }
+        .incorrect { color: #dc3545; }
+        .highlight { background-color: #fff3cd; }
+    </style>
+</head>
+<body>
+    <h1>Model Comparison: Example Cases</h1>
+    
+    <h2>Navigation Elements</h2>
+    <table>
+        <tr>
+            <th>Original Text</th>
+            <td>Home > Products > Electronics > Smartphones > Latest Models</td>
+        </tr>
+        <tr>
+            <th>BiLSTM Output</th>
+            <td class="correct">✓ Filtered (Correctly identified as navigation)</td>
+        </tr>
+        <tr>
+            <th>Attention-only Output</th>
+            <td class="correct">✓ Filtered (Correctly identified as navigation)</td>
+        </tr>
+        <tr>
+            <th>Ground Truth</th>
+            <td>Should be filtered</td>
+        </tr>
+    </table>
+
+    <h2>Main Content</h2>
+    <table>
+        <tr>
+            <th>Original Text</th>
+            <td>The new iPhone 15 features a revolutionary camera system with advanced AI capabilities. This groundbreaking technology allows users to capture professional-quality photos in any lighting condition.</td>
+        </tr>
+        <tr>
+            <th>BiLSTM Output</th>
+            <td class="correct">✓ Kept (Correctly identified as main content)</td>
+        </tr>
+        <tr>
+            <th>Attention-only Output</th>
+            <td class="correct">✓ Kept (Correctly identified as main content)</td>
+        </tr>
+        <tr>
+            <th>Ground Truth</th>
+            <td>Should be kept</td>
+        </tr>
+    </table>
+
+    <h2>Mixed Language Content (Challenge Case)</h2>
+    <table>
+        <tr>
+            <th>Original Text</th>
+            <td>购买最新的iPhone 15 Pro Max with revolutionary camera features. 现在购买还有优惠!</td>
+        </tr>
+        <tr>
+            <th>BiLSTM Output</th>
+            <td class="incorrect">✗ Filtered (Incorrectly removed mixed language content)</td>
+        </tr>
+        <tr>
+            <th>Attention-only Output</th>
+            <td class="correct">✓ Kept (Correctly preserved mixed language content)</td>
+        </tr>
+        <tr>
+            <th>Ground Truth</th>
+            <td>Should be kept</td>
+        </tr>
+    </table>
+
+    <h2>Social Media Widget (Both Models Excel)</h2>
+    <table>
+        <tr>
+            <th>Original Text</th>
+            <td>Share this article: Facebook Twitter LinkedIn Email</td>
+        </tr>
+        <tr>
+            <th>BiLSTM Output</th>
+            <td class="correct">✓ Filtered (Correctly identified as social widget)</td>
+        </tr>
+        <tr>
+            <th>Attention-only Output</th>
+            <td class="correct">✓ Filtered (Correctly identified as social widget)</td>
+        </tr>
+        <tr>
+            <th>Ground Truth</th>
+            <td>Should be filtered</td>
+        </tr>
+    </table>
+
+    <h2>Complex Content (BiLSTM Advantage Case)</h2>
+    <table>
+        <tr>
+            <th>Original Text</th>
+            <td>While the latest smartphone releases have been impressive, industry experts suggest waiting for the next generation. According to recent surveys, 73% of users prefer...</td>
+        </tr>
+        <tr>
+            <th>BiLSTM Output</th>
+            <td class="correct">✓ Kept (Correctly preserved complex analysis)</td>
+        </tr>
+        <tr>
+            <th>Attention-only Output</th>
+            <td class="incorrect">✗ Filtered (Incorrectly removed valid content)</td>
+        </tr>
+        <tr>
+            <th>Ground Truth</th>
+            <td>Should be kept</td>
+        </tr>
+    </table>
+</body>
+</html>
