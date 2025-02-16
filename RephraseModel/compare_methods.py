@@ -74,12 +74,22 @@ def evaluate_rule_based(dataset: ContentDataset) -> List[Dict[str, Any]]:
             if not text or text == "empty":
                 continue
                 
-            # Create processor instance for each text
-            processor = RephraseContent_V2(raw_markdown=text)
-            # Apply rule-based processing
-            processed = processor.process_content()
-            # Consider text kept if it appears in processed output
-            kept = text.strip() in processed
+            # Clean text for processing
+            text = text.strip()
+            if not text:
+                continue
+                
+            try:
+                # Create processor instance for each text
+                processor = RephraseContent_V2(raw_markdown=text)
+                # Apply rule-based processing
+                processed = processor.process_content()
+                # Consider text kept if it appears in processed output
+                kept = text in processed
+            except Exception as e:
+                logger.warning(f"Rule-based processing failed for text: {text[:100]}...")
+                logger.warning(f"Error: {str(e)}")
+                kept = False  # Default to removing text on processing error
             
             results.append({
                 'text': text,
@@ -88,15 +98,12 @@ def evaluate_rule_based(dataset: ContentDataset) -> List[Dict[str, Any]]:
                 'method': 'rule_based'
             })
         except Exception as e:
-            logger.error(f"Error processing text with rule-based method: {str(e)}")
-            logger.error(f"Text: {text}")
-            results.append({
-                'text': text,
-                'predicted': 0,  # Default to removing text on error
-                'actual': label,
-                'method': 'rule_based',
-                'error': str(e)
-            })
+            logger.error(f"Error accessing sample {i}: {str(e)}")
+            continue
+            
+    if not results:
+        logger.warning("No valid samples processed by rule-based method")
+        
     return results
 
 def main():
