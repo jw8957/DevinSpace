@@ -48,45 +48,54 @@
 <body>
     <h1>Model Comparison: Example Cases</h1>
     
-    <h2>Navigation Elements</h2>
-    <table>
-        <tr>
-            <th>Original Text</th>
-            <td>Home &gt; Products &gt; Electronics &gt; Smartphones &gt; Latest Models</td>
-        </tr>
-        <tr>
-            <th>BiLSTM Output</th>
-            <td class="correct">✓ Filtered (Correctly identified as navigation)</td>
-        </tr>
-        <tr>
-            <th>Attention-only Output</th>
-            <td class="correct">✓ Filtered (Correctly identified as navigation)</td>
-        </tr>
-        <tr>
-            <th>Ground Truth</th>
-            <td>Should be filtered</td>
-        </tr>
-    </table>
+    <h2>Case 1: Navigation Menu</h2>
+    <div class="model-comparison">
+        <table>
+            <tr>
+                <th>Original Text</th>
+                <td>Home &gt; Products &gt; Electronics &gt; Smartphones &gt; Latest Models<br>
+                    Main Menu: About Us | Contact | Support | Login</td>
+            </tr>
+            <tr>
+                <th>BiLSTM Rephrase</th>
+                <td class="correct">[Content Removed - Navigation Menu]</td>
+            </tr>
+            <tr>
+                <th>Attention-only Rephrase</th>
+                <td class="correct">[Content Removed - Navigation Menu]</td>
+            </tr>
+            <tr>
+                <th>Ground Truth</th>
+                <td>[Should Remove - Navigation Elements]</td>
+            </tr>
+        </table>
+        <p class="analysis">Both models correctly identify and remove navigation elements. The structured pattern of breadcrumbs and menu items is consistently detected.</p>
+    </div>
 
-    <h2>Main Content</h2>
-    <table>
-        <tr>
-            <th>Original Text</th>
-            <td>The new iPhone 15 features a revolutionary camera system with advanced AI capabilities. This groundbreaking technology allows users to capture professional-quality photos in any lighting condition.</td>
-        </tr>
-        <tr>
-            <th>BiLSTM Output</th>
-            <td class="correct">✓ Kept (Correctly identified as main content)</td>
-        </tr>
-        <tr>
-            <th>Attention-only Output</th>
-            <td class="correct">✓ Kept (Correctly identified as main content)</td>
-        </tr>
-        <tr>
-            <th>Ground Truth</th>
-            <td>Should be kept</td>
-        </tr>
-    </table>
+    <h2>Case 2: Article Content with Metadata</h2>
+    <div class="model-comparison">
+        <table>
+            <tr>
+                <th>Original Text</th>
+                <td>Posted on February 15, 2025 by John Smith<br>
+                    The new iPhone 15 features a revolutionary camera system with advanced AI capabilities. This groundbreaking technology allows users to capture professional-quality photos in any lighting condition.<br>
+                    Tags: iPhone, Technology, AI, Photography</td>
+            </tr>
+            <tr>
+                <th>BiLSTM Rephrase</th>
+                <td class="correct">The new iPhone 15 features a revolutionary camera system with advanced AI capabilities. This groundbreaking technology allows users to capture professional-quality photos in any lighting condition.</td>
+            </tr>
+            <tr>
+                <th>Attention-only Rephrase</th>
+                <td class="correct">The new iPhone 15 features a revolutionary camera system with advanced AI capabilities. This groundbreaking technology allows users to capture professional-quality photos in any lighting condition.</td>
+            </tr>
+            <tr>
+                <th>Ground Truth</th>
+                <td>The new iPhone 15 features a revolutionary camera system with advanced AI capabilities. This groundbreaking technology allows users to capture professional-quality photos in any lighting condition.</td>
+            </tr>
+        </table>
+        <p class="analysis">Both models successfully preserve the main article content while removing metadata (post date, author, tags).</p>
+    </div>
 
     <h2>Mixed Language Content (Challenge Case)</h2>
     <table>
