@@ -127,7 +127,11 @@ def main():
     logger.info(f"Using device: {device}")
     
     try:
+        # Load tokenizer with multilingual support
         tokenizer = AutoTokenizer.from_pretrained('sentence-transformers/all-MiniLM-L6-v2')
+        tokenizer.model_max_length = 512  # Set max length for both languages
+        
+        # Initialize models
         attention_model = ContentFilterModel().to(device)
         lstm_model = LSTMAttentionModel().to(device)
         logger.info("Models loaded successfully")
@@ -136,8 +140,7 @@ def main():
         return
     
     # Test files
-    en_file = '/tmp/test_data.json'  # Use smaller test set
-    zh_file = '/tmp/test_data.json'  # Use same test set for now
+    test_file = '/tmp/test_data.json'  # Use smaller test set with mixed languages
     
     # Evaluate on English data
     logger.info("\nEvaluating on English data:")
