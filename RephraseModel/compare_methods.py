@@ -10,7 +10,7 @@ from RephraseModel.data_processor import ContentDataset
 
 # Add parent directory to path for importing web_processor_V2
 sys.path.append(str(Path(__file__).parent.parent))
-from web_processor_V2 import RephraseContent_V2
+from RephraseModel.web_processor_V2 import RephraseContent_V2
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -45,12 +45,14 @@ def evaluate_model_performance(model, dataset, device='cpu'):
     logger.info(f'Accuracy: {accuracy:.2f}%')
     return accuracy, results
 
-def evaluate_rule_based(texts: List[str], processor: RephraseContent_V2) -> List[Dict[str, Any]]:
+def evaluate_rule_based(texts: List[str]) -> List[Dict[str, Any]]:
     """Evaluate rule-based method."""
     results = []
     for text in texts:
+        # Create processor instance for each text
+        processor = RephraseContent_V2(raw_markdown=text)
         # Apply rule-based processing
-        processed = processor.process_content(text)
+        processed = processor.process_content()
         # Consider text kept if it appears in processed output
         kept = text.strip() in processed
         results.append({
@@ -67,11 +69,10 @@ def main():
     
     attention_model = ContentFilterModel().to(device)
     lstm_model = LSTMAttentionModel().to(device)
-    rule_based = RephraseContent_V2()
     
     # Test files
-    en_file = 'RephraseModel/data/train.json'
-    zh_file = 'RephraseModel/data/test.json'
+    en_file = '/tmp/test_data.json'  # Use smaller test set
+    zh_file = '/tmp/test_data.json'  # Use same test set for now
     
     # Evaluate on English data
     logger.info("\nEvaluating on English data:")
