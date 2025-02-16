@@ -79,5 +79,18 @@ def get_test_data() -> Dict[str, Any]:
         },
         'attention_weights': torch.randn(30, 30),  # Sample attention weights for analysis
         'device': 'cpu',
-        'tokenizer': AutoTokenizer.from_pretrained('sentence-transformers/all-MiniLM-L6-v2')
+        'tokenizer': AutoTokenizer.from_pretrained('sentence-transformers/all-MiniLM-L6-v2'),
+        'test_results': {
+            'timestamp': '2025-02-16T08:52:18.442784',
+            'total_cases': 5,
+            'passed': 3,
+            'failed': 2,
+            'cases': [
+                {'name': 'navigation_menu', 'passed': True, 'expected': False, 'predicted': False, 'category': 'navigation', 'language': 'en'},
+                {'name': 'article_content', 'passed': False, 'expected': True, 'predicted': False, 'category': 'content', 'language': 'en'},
+                {'name': 'social_widgets', 'passed': True, 'expected': False, 'predicted': False, 'category': 'social', 'language': 'en'},
+                {'name': 'chinese_navigation', 'passed': True, 'expected': False, 'predicted': False, 'category': 'navigation', 'language': 'zh'},
+                {'name': 'mixed_language', 'passed': False, 'expected': True, 'predicted': False, 'category': 'content', 'language': 'mixed'}
+            ]
+        }
     }
