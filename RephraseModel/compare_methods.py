@@ -50,12 +50,13 @@ def evaluate_rule_based(dataset: ContentDataset) -> List[Dict[str, Any]]:
     results = []
     for i in range(len(dataset)):
         try:
-            # Get text and label from dataset
-            text = dataset.data[i]
-            label = dataset.labels[i]
+            # Get sample from dataset
+            sample = dataset[i]
+            text = sample['text']
+            label = sample['labels'].item()
             
-            # Skip if text is not a string or empty
-            if not isinstance(text, str) or not text.strip():
+            # Skip if text is empty or "empty" placeholder
+            if not text or text == "empty":
                 continue
                 
             # Create processor instance for each text
