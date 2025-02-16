@@ -106,7 +106,7 @@ def main():
     en_lstm_acc, en_lstm_results = evaluate_model_performance(lstm_model, en_dataset, device)
     
     logger.info("Testing Rule-based method:")
-    en_rule_results = evaluate_rule_based(en_dataset.data)
+    en_rule_results = evaluate_rule_based(en_dataset)
     
     # Evaluate on Chinese data
     logger.info("\nEvaluating on Chinese data:")
@@ -119,7 +119,7 @@ def main():
     zh_lstm_acc, zh_lstm_results = evaluate_model_performance(lstm_model, zh_dataset, device)
     
     logger.info("Testing Rule-based method:")
-    zh_rule_results = evaluate_rule_based(zh_dataset.data)
+    zh_rule_results = evaluate_rule_based(zh_dataset)
     
     # Save results
     results = {
