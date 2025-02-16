@@ -9,6 +9,11 @@ setup(
         'transformers',
         'scikit-learn',
         'numpy',
-        'spacy'
-    ]
+        'spacy',
+        'beautifulsoup4',
+        'tqdm',
+        'requests',
+        'pandas'
+    ],
+    python_requires='>=3.8',
 )
