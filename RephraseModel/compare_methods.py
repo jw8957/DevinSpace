@@ -139,46 +139,38 @@ def main():
         logger.error(f"Error loading models: {str(e)}")
         return
     
-    # Test files
-    test_file = '/tmp/test_data.json'  # Use smaller test set with mixed languages
+    # Test file with mixed languages
+    test_file = '/tmp/test_data.json'
     
-    # Evaluate on English data
-    logger.info("\nEvaluating on English data:")
-    en_dataset = ContentDataset(en_file, tokenizer)
+    # Evaluate on mixed language data
+    logger.info("\nEvaluating models on mixed language data:")
+    dataset = ContentDataset(test_file, tokenizer)
     
-    logger.info("Testing Attention-only model:")
-    en_attn_acc, en_attn_results = evaluate_model_performance(attention_model, en_dataset, device)
+    # Track results
+    results = {'mixed_language': {}}
     
-    logger.info("Testing LSTM+Attention model:")
-    en_lstm_acc, en_lstm_results = evaluate_model_performance(lstm_model, en_dataset, device)
+    # Test attention model
+    logger.info("\nTesting Attention-only model:")
+    attn_acc, attn_results = evaluate_model_performance(attention_model, dataset, device)
+    results['mixed_language']['attention'] = {
+        'accuracy': attn_acc,
+        'results': attn_results
+    }
     
-    logger.info("Testing Rule-based method:")
-    en_rule_results = evaluate_rule_based(en_dataset)
+    # Test LSTM model
+    logger.info("\nTesting LSTM+Attention model:")
+    lstm_acc, lstm_results = evaluate_model_performance(lstm_model, dataset, device)
+    results['mixed_language']['lstm'] = {
+        'accuracy': lstm_acc,
+        'results': lstm_results
+    }
     
-    # Evaluate on Chinese data
-    logger.info("\nEvaluating on Chinese data:")
-    zh_dataset = ContentDataset(zh_file, tokenizer)
-    
-    logger.info("Testing Attention-only model:")
-    zh_attn_acc, zh_attn_results = evaluate_model_performance(attention_model, zh_dataset, device)
-    
-    logger.info("Testing LSTM+Attention model:")
-    zh_lstm_acc, zh_lstm_results = evaluate_model_performance(lstm_model, zh_dataset, device)
-    
-    logger.info("Testing Rule-based method:")
-    zh_rule_results = evaluate_rule_based(zh_dataset)
-    
-    # Save results
-    results = {
-        'english': {
-            'attention': {'accuracy': en_attn_acc, 'results': en_attn_results},
-            'lstm': {'accuracy': en_lstm_acc, 'results': en_lstm_results},
-            'rule_based': {'results': en_rule_results}
-        },
-        'chinese': {
-            'attention': {'accuracy': zh_attn_acc, 'results': zh_attn_results},
-            'lstm': {'accuracy': zh_lstm_acc, 'results': zh_lstm_results},
-            'rule_based': {'results': zh_rule_results}
+    # Test rule-based method
+    logger.info("\nTesting Rule-based method:")
+    rule_results = evaluate_rule_based(dataset)
+    results['mixed_language']['rule_based'] = {
+        'results': rule_results
+    }
         }
     }
     
