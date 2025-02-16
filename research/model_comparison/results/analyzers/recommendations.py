@@ -23,7 +23,7 @@ def analyze_performance_tradeoffs(results: Dict[str, Any]) -> Dict[str, str]:
         )
     
     # Memory vs Accuracy
-    mem_ratio = results['memory']['bilstm'] / results['memory']['attention']
+    mem_ratio = metrics['memory']['bilstm'] / metrics['memory']['attention']
     if mem_ratio > 1.5 and acc_diff < 0.02:
         tradeoffs['memory_vs_accuracy'] = (
             "Attention-only model achieves similar accuracy with lower "
@@ -41,14 +41,13 @@ def analyze_language_specific_performance(results: Dict[str, Any]) -> Dict[str, 
     # For this test data, we'll use overall accuracy as a proxy
     bilstm_acc = metrics['accuracy']['bilstm']
     attn_acc = metrics['accuracy']['attention']
-        
-        if abs(bilstm_acc - attn_acc) > 0.05:
-            better_model = "BiLSTM" if bilstm_acc > attn_acc else "Attention-only"
-            recommendations[f'{lang}_specific'] = (
-                f"{better_model} model performs significantly better for "
-                f"{'English' if lang == 'en' else 'Chinese'} content. "
-                f"Consider using this model for {lang} specific deployments."
-            )
+    
+    if abs(bilstm_acc - attn_acc) > 0.05:
+        better_model = "BiLSTM" if bilstm_acc > attn_acc else "Attention-only"
+        recommendations['overall'] = (
+            f"{better_model} model performs significantly better overall. "
+            "Consider using this model for general deployments."
+        )
     
     return recommendations
 
