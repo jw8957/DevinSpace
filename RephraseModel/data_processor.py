@@ -39,12 +39,13 @@ class ContentDataset(Dataset):
                     
                     # Process each original sentence
                     for sent in orig_sents:
-                        if not sent.strip():
+                        sent_text = sent.strip()
+                        if not sent_text:
                             continue
                         # Label is 1 if sentence appears in cleaned text (keep)
                         # Label is 0 if sentence was removed (filter)
-                        label = 1 if self._is_sentence_kept(sent, clean_sents) else 0
-                        self.data.append(sent)
+                        label = 1 if self._is_sentence_kept(sent_text, clean_sents) else 0
+                        self.data.append(sent_text)
                         self.labels.append(label)
             
             logger.info(f"Loaded {len(self.data)} samples from {data_file}")
