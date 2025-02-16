@@ -51,6 +51,8 @@ def evaluate_rule_based(texts: List[str]) -> List[Dict[str, Any]]:
     for text in texts:
         try:
             # Create processor instance for each text
+            if isinstance(text, (list, tuple)):
+                text = text[0] if text else ""  # Take first element if tuple/list
             processor = RephraseContent_V2(raw_markdown=text)
             # Apply rule-based processing
             processed = processor.process_content()
@@ -64,7 +66,7 @@ def evaluate_rule_based(texts: List[str]) -> List[Dict[str, Any]]:
         except Exception as e:
             logger.error(f"Error processing text with rule-based method: {str(e)}")
             results.append({
-                'text': text,
+                'text': text if isinstance(text, str) else str(text),
                 'predicted': 0,  # Default to removing text on error
                 'method': 'rule_based',
                 'error': str(e)
