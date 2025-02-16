@@ -5,10 +5,11 @@ import logging
 from pathlib import Path
 from typing import Optional
 
-from models import ContentFilterModel, LSTMAttentionModel
-from data_processor import ContentDataset
-from trainer import ModelTrainer
-from train_config import TrainingConfig
+from RephraseModel.models.attention_only import ContentFilterModel
+from RephraseModel.models.lstm_attention import LSTMAttentionModel
+from RephraseModel.data_processor import ContentDataset
+from RephraseModel.trainer import ModelTrainer
+from RephraseModel.train_config import TrainingConfig
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
