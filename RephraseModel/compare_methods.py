@@ -146,8 +146,14 @@ def main():
     logger.info("\nEvaluating models on mixed language data:")
     dataset = ContentDataset(test_file, tokenizer)
     
-    # Track results
-    results = {'mixed_language': {}}
+    # Initialize results
+    results = {
+        'mixed_language': {
+            'attention': {},
+            'lstm': {},
+            'rule_based': {}
+        }
+    }
     
     # Test attention model
     logger.info("\nTesting Attention-only model:")
@@ -171,13 +177,20 @@ def main():
     results['mixed_language']['rule_based'] = {
         'results': rule_results
     }
-        }
-    }
     
-    with open('RephraseModel/evaluation_results.json', 'w') as f:
-        json.dump(results, f, indent=2, ensure_ascii=False)
+    # Save results
+    try:
+        output_dir = Path('RephraseModel')
+        output_dir.mkdir(exist_ok=True)
+        output_file = output_dir / 'evaluation_results.json'
+        
+        with open(output_file, 'w') as f:
+            json.dump(results, f, indent=2, ensure_ascii=False)
+        logger.info(f"\nResults saved to {output_file}")
+    except Exception as e:
+        logger.error(f"Error saving results: {str(e)}")
     
-    logger.info("\nResults saved to RephraseModel/evaluation_results.json")
+    return results
 
 if __name__ == '__main__':
     main()
