@@ -24,23 +24,38 @@ def evaluate_model_performance(model, dataset, device='cpu'):
     
     with torch.no_grad():
         for i in range(len(dataset)):
-            batch = dataset[i]
-            input_ids = batch['input_ids'].unsqueeze(0).to(device)
-            attention_mask = batch['attention_mask'].unsqueeze(0).to(device)
-            label = batch['labels'].item()
-            
-            outputs = model(input_ids, attention_mask)
-            predicted = outputs.argmax(dim=1).item()
-            
-            correct += (predicted == label)
-            total += 1
-            
-            results.append({
-                'text': dataset.data[i],
-                'predicted': predicted,
-                'actual': label
-            })
+            try:
+                batch = dataset[i]
+                input_ids = batch['input_ids'].unsqueeze(0).to(device)
+                attention_mask = batch['attention_mask'].unsqueeze(0).to(device)
+                label = batch['labels'].item()
+                text = batch['text']
+                
+                # Skip empty texts
+                if not text or text == "empty":
+                    continue
+                
+                outputs = model(input_ids, attention_mask)
+                predicted = outputs.argmax(dim=1).item()
+                
+                correct += (predicted == label)
+                total += 1
+                
+                results.append({
+                    'text': text,
+                    'predicted': predicted,
+                    'actual': label,
+                    'method': model.__class__.__name__
+                })
+            except Exception as e:
+                logger.error(f"Error evaluating sample {i}: {str(e)}")
+                logger.error(f"Text: {text if 'text' in locals() else 'unknown'}")
+                continue
     
+    if total == 0:
+        logger.warning("No valid samples found for evaluation")
+        return 0.0, results
+        
     accuracy = 100. * correct / total
     logger.info(f'Accuracy: {accuracy:.2f}%')
     return accuracy, results
