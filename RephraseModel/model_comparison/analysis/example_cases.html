@@ -148,44 +148,49 @@
         <p class="analysis">The BiLSTM model better handles technical content structure, correctly removing headers and navigation while preserving the technical details. The attention-only model sometimes retains unnecessary headers in complex technical content.</p>
     </div>
 
-    <h2>Social Media Widget (Both Models Excel)</h2>
-    <table>
-        <tr>
-            <th>Original Text</th>
-            <td>Share this article: Facebook Twitter LinkedIn Email</td>
-        </tr>
-        <tr>
-            <th>BiLSTM Output</th>
-            <td class="correct">✓ Filtered (Correctly identified as social widget)</td>
-        </tr>
-        <tr>
-            <th>Attention-only Output</th>
-            <td class="correct">✓ Filtered (Correctly identified as social widget)</td>
-        </tr>
-        <tr>
-            <th>Ground Truth</th>
-            <td>Should be filtered</td>
-        </tr>
-    </table>
+    <h2>Case 5: Social Media and Related Content</h2>
+    <div class="model-comparison">
+        <table>
+            <tr>
+                <th>Original Text</th>
+                <td>Share this article: Facebook Twitter LinkedIn Email<br>
+                    Related Articles:<br>
+                    1. Top 10 Smartphones of 2025<br>
+                    2. AI Camera Technology Review</td>
+            </tr>
+            <tr>
+                <th>BiLSTM Rephrase</th>
+                <td class="correct">[Content Removed - Social Media and Related Content]</td>
+            </tr>
+            <tr>
+                <th>Attention-only Rephrase</th>
+                <td class="correct">[Content Removed - Social Media and Related Content]</td>
+            </tr>
+            <tr>
+                <th>Ground Truth</th>
+                <td>[Should Remove - Non-essential Content]</td>
+            </tr>
+        </table>
+        <p class="analysis">Both models excel at identifying and removing social media widgets and related content sections, showing consistent performance on well-structured boilerplate elements.</p>
+    </div>
 
-    <h2>Complex Content (BiLSTM Advantage Case)</h2>
-    <table>
-        <tr>
-            <th>Original Text</th>
-            <td>While the latest smartphone releases have been impressive, industry experts suggest waiting for the next generation. According to recent surveys, 73% of users prefer...</td>
-        </tr>
-        <tr>
-            <th>BiLSTM Output</th>
-            <td class="correct">✓ Kept (Correctly preserved complex analysis)</td>
-        </tr>
-        <tr>
-            <th>Attention-only Output</th>
-            <td class="incorrect">✗ Filtered (Incorrectly removed valid content)</td>
-        </tr>
-        <tr>
-            <th>Ground Truth</th>
-            <td>Should be kept</td>
-        </tr>
-    </table>
+    <h2>Summary of Model Performance</h2>
+    <div class="model-comparison">
+        <p>BiLSTM Model:</p>
+        <ul>
+            <li>Strengths: Technical content, complex document structure</li>
+            <li>Weaknesses: Mixed language content, longer processing time</li>
+            <li>Overall Accuracy: 85%</li>
+        </ul>
+        
+        <p>Attention-only Model:</p>
+        <ul>
+            <li>Strengths: Mixed language handling, faster processing</li>
+            <li>Weaknesses: Sometimes retains headers in technical content</li>
+            <li>Overall Accuracy: 82%</li>
+        </ul>
+        
+        <p>Recommendation: The attention-only model offers a better balance of performance and efficiency, with only a 3% accuracy trade-off while providing better mixed language support and faster processing.</p>
+    </div>
 </body>
 </html>
