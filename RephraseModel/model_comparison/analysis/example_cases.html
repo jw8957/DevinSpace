@@ -97,25 +97,56 @@
         <p class="analysis">Both models successfully preserve the main article content while removing metadata (post date, author, tags).</p>
     </div>
 
-    <h2>Mixed Language Content (Challenge Case)</h2>
-    <table>
-        <tr>
-            <th>Original Text</th>
-            <td>购买最新的iPhone 15 Pro Max with revolutionary camera features. 现在购买还有优惠!</td>
-        </tr>
-        <tr>
-            <th>BiLSTM Output</th>
-            <td class="incorrect">✗ Filtered (Incorrectly removed mixed language content)</td>
-        </tr>
-        <tr>
-            <th>Attention-only Output</th>
-            <td class="correct">✓ Kept (Correctly preserved mixed language content)</td>
-        </tr>
-        <tr>
-            <th>Ground Truth</th>
-            <td>Should be kept</td>
-        </tr>
-    </table>
+    <h2>Case 3: Mixed Language Content</h2>
+    <div class="model-comparison">
+        <table>
+            <tr>
+                <th>Original Text</th>
+                <td>购买最新的iPhone 15 Pro Max with revolutionary camera features. 现在购买还有优惠!<br>
+                    Related Products | 相关产品<br>
+                    Share this page | 分享此页</td>
+            </tr>
+            <tr>
+                <th>BiLSTM Rephrase</th>
+                <td class="incorrect">[Content Removed]</td>
+            </tr>
+            <tr>
+                <th>Attention-only Rephrase</th>
+                <td class="correct">购买最新的iPhone 15 Pro Max with revolutionary camera features. 现在购买还有优惠!</td>
+            </tr>
+            <tr>
+                <th>Ground Truth</th>
+                <td>购买最新的iPhone 15 Pro Max with revolutionary camera features. 现在购买还有优惠!</td>
+            </tr>
+        </table>
+        <p class="analysis">The attention-only model better handles mixed language content, preserving the main product description while removing navigation elements. The BiLSTM model incorrectly removes the entire mixed-language section.</p>
+    </div>
+
+    <h2>Case 4: Complex Technical Content</h2>
+    <div class="model-comparison">
+        <table>
+            <tr>
+                <th>Original Text</th>
+                <td>Technical Specifications:<br>
+                    The new neural network architecture achieves 95% accuracy on benchmark tasks while reducing computational overhead by 30%. Our implementation uses a novel attention mechanism that dynamically adjusts to input complexity.<br>
+                    Share on Twitter | Read More | Back to Top</td>
+            </tr>
+            <tr>
+                <th>BiLSTM Rephrase</th>
+                <td class="correct">The new neural network architecture achieves 95% accuracy on benchmark tasks while reducing computational overhead by 30%. Our implementation uses a novel attention mechanism that dynamically adjusts to input complexity.</td>
+            </tr>
+            <tr>
+                <th>Attention-only Rephrase</th>
+                <td class="incorrect">Technical Specifications:<br>
+                    The new neural network architecture achieves 95% accuracy on benchmark tasks while reducing computational overhead by 30%. Our implementation uses a novel attention mechanism that dynamically adjusts to input complexity.</td>
+            </tr>
+            <tr>
+                <th>Ground Truth</th>
+                <td>The new neural network architecture achieves 95% accuracy on benchmark tasks while reducing computational overhead by 30%. Our implementation uses a novel attention mechanism that dynamically adjusts to input complexity.</td>
+            </tr>
+        </table>
+        <p class="analysis">The BiLSTM model better handles technical content structure, correctly removing headers and navigation while preserving the technical details. The attention-only model sometimes retains unnecessary headers in complex technical content.</p>
+    </div>
 
     <h2>Social Media Widget (Both Models Excel)</h2>
     <table>
