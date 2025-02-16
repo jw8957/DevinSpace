@@ -6,7 +6,7 @@ import random
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-def prepare_test_data(input_files: list, output_file: str, num_samples: int = 10):
+def prepare_test_data(input_files: list, output_file: str, num_samples: int = 5):
     """Prepare a balanced test dataset from multiple input files."""
     logger.info(f"Preparing test data from {len(input_files)} files")
     samples = []
@@ -24,10 +24,9 @@ def prepare_test_data(input_files: list, output_file: str, num_samples: int = 10
                         logger.warning(f"Skipping invalid JSON line in {file_path}")
                         continue
                 
-                # Take a portion of samples from each file
+                # Take a smaller portion of samples from each file
                 if file_samples:
-                    samples_per_file = max(1, num_samples // len(input_files))
-                    selected = random.sample(file_samples, min(samples_per_file, len(file_samples)))
+                    selected = random.sample(file_samples, min(num_samples, len(file_samples)))
                     samples.extend(selected)
                     logger.info(f"Selected {len(selected)} samples from {file_path}")
         except Exception as e:
