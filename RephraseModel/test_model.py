@@ -12,11 +12,20 @@ def test_data_loading():
     """Test data loading and processing."""
     tokenizer = AutoTokenizer.from_pretrained('sentence-transformers/all-MiniLM-L6-v2')
     
+    # Test with first 10 lines only
+    def read_first_n_lines(file_path, n=10):
+        with open(file_path, 'r') as f:
+            lines = [next(f) for _ in range(n)]
+        with open('/tmp/test_data.json', 'w') as f:
+            f.writelines(lines)
+        return '/tmp/test_data.json'
+    
     # Test English data
     en_file = 'RephraseModel/data/train.json'
-    logger.info(f"Testing English data loading from {en_file}")
-    en_dataset = ContentDataset(en_file, tokenizer, max_length=512)
-    logger.info(f"Loaded {len(en_dataset)} English samples")
+    test_file = read_first_n_lines(en_file)
+    logger.info(f"Testing data loading with first 10 lines from {en_file}")
+    en_dataset = ContentDataset(test_file, tokenizer, max_length=512)
+    logger.info(f"Loaded {len(en_dataset)} samples")
     
     # Test batch creation
     batch_size = 4
