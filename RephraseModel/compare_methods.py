@@ -49,17 +49,26 @@ def evaluate_rule_based(texts: List[str]) -> List[Dict[str, Any]]:
     """Evaluate rule-based method."""
     results = []
     for text in texts:
-        # Create processor instance for each text
-        processor = RephraseContent_V2(raw_markdown=text)
-        # Apply rule-based processing
-        processed = processor.process_content()
-        # Consider text kept if it appears in processed output
-        kept = text.strip() in processed
-        results.append({
-            'text': text,
-            'predicted': int(kept),
-            'method': 'rule_based'
-        })
+        try:
+            # Create processor instance for each text
+            processor = RephraseContent_V2(raw_markdown=text)
+            # Apply rule-based processing
+            processed = processor.process_content()
+            # Consider text kept if it appears in processed output
+            kept = text.strip() in processed
+            results.append({
+                'text': text,
+                'predicted': int(kept),
+                'method': 'rule_based'
+            })
+        except Exception as e:
+            logger.error(f"Error processing text with rule-based method: {str(e)}")
+            results.append({
+                'text': text,
+                'predicted': 0,  # Default to removing text on error
+                'method': 'rule_based',
+                'error': str(e)
+            })
     return results
 
 def main():
@@ -85,7 +94,7 @@ def main():
     en_lstm_acc, en_lstm_results = evaluate_model_performance(lstm_model, en_dataset, device)
     
     logger.info("Testing Rule-based method:")
-    en_rule_results = evaluate_rule_based(en_dataset.data, rule_based)
+    en_rule_results = evaluate_rule_based(en_dataset.data)
     
     # Evaluate on Chinese data
     logger.info("\nEvaluating on Chinese data:")
@@ -98,7 +107,7 @@ def main():
     zh_lstm_acc, zh_lstm_results = evaluate_model_performance(lstm_model, zh_dataset, device)
     
     logger.info("Testing Rule-based method:")
-    zh_rule_results = evaluate_rule_based(zh_dataset.data, rule_based)
+    zh_rule_results = evaluate_rule_based(zh_dataset.data)
     
     # Save results
     results = {
