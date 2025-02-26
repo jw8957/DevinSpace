@@ -26,7 +26,7 @@ The implementation generates 500 Chinese research queries with the following cha
 - Coverage across 84 different topics
 - Complexity distribution: ~51% level 2, ~49% level 3
 - Persona distribution: ~31% with persona, ~69% without persona
-- All queries are in Chinese and do NOT start with "我是一个"
+- Diverse query styles with various structures and formats
 
 ## Usage
 
