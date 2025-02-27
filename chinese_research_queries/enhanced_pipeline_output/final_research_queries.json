@@ -1,0 +1,3502 @@
+[
+  {
+    "original_question": "绿色能源领域的专家们是如何看待体育的？",
+    "research_query": "以环保工作者的身份，请比较绿色能源的不同理论或方法，请给出可行的解决方案，请考虑不同行业的应用场景，需要考虑不同人群的需求，请按照地区进行分类比较，请梳理成脉络清晰的内容",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "绿色能源"
+  },
+  {
+    "original_question": "物联网领域的创新对社会有什么影响？",
+    "research_query": "请比较物联网的不同理论或方法，主要针对物联网的核心领域，请按照时间顺序进行分析，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "物联网"
+  },
+  {
+    "original_question": "如何评价最近历史研究领域的热点事件？",
+    "research_query": "针对历史研究，请提供深入的分析，请给出可行的解决方案，请评估未来的发展趋势，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "历史研究"
+  },
+  {
+    "original_question": "在世界历史领域，哪些因素会影响未来的发展趋势？",
+    "research_query": "请分析世界历史的法律法规和政策框架，请分析其中的因果关系，请评估未来的发展趋势，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "世界历史"
+  },
+  {
+    "original_question": "家庭关系领域的创业机会有哪些？",
+    "research_query": "从环保工作者的角度，关于家庭关系，需要全面的分析和研究，请重点关注最近5年的变化，需要分析国内外的差异，需要考虑不同人群的需求，请分析相关政策的影响，请制作一个决策框架",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "家庭关系"
+  },
+  {
+    "original_question": "历史领域的研究方法有哪些优缺点？",
+    "research_query": "作为旅游业从业者，请分析历史的技术发展和创新方向，不包括历史的边缘情况，请提供具体的数据支持，需要考虑不同人群的需求，请提供详细的分析结果",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "历史"
+  },
+  {
+    "original_question": "旅游产业领域的创新对社会有什么影响？",
+    "research_query": "针对旅游产业，请提供深入的分析，请评估未来的发展趋势，请提供具体的数据支持，请考虑不同行业的应用场景，请提供详细的分析结果",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "旅游产业"
+  },
+  {
+    "original_question": "奥运会领域的专家们是如何看待社会保障的？",
+    "research_query": "关于奥运会的问题，请进行详细研究，请列出主要的优缺点，请重点关注最近5年的变化，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "奥运会"
+  },
+  {
+    "original_question": "足球领域的专家们是如何看待社会的？",
+    "research_query": "请分析足球的发展历史和未来趋势，请分析其中的因果关系，请列出主要的优缺点，请从多个角度进行分析，请提炼出核心的结论",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "足球"
+  },
+  {
+    "original_question": "5G与在线教育之间有什么关系？",
+    "research_query": "请分析5G的市场规模和竞争格局，请重点关注最近5年的变化，不包括5G的边缘情况，请分析其中的因果关系，请按照具体的品类分类",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "5G"
+  },
+  {
+    "original_question": "如何平衡金融发展与环境保护的关系？",
+    "research_query": "请查找关于金融的详细数据和分析，请重点关注最近5年的变化，不包括金融的边缘情况，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "金融"
+  },
+  {
+    "original_question": "如何评价最近文化产业领域的热点事件？",
+    "research_query": "请比较文化产业的不同理论或方法，请给出可行的解决方案，请按照地区进行分类比较，请重点关注最近5年的变化，请考虑不同行业的应用场景，请提炼出核心的结论",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "文化产业"
+  },
+  {
+    "original_question": "篮球领域的专家们是如何看待金融的？",
+    "research_query": "以社会学研究者的身份，请查找关于篮球的详细数据和分析，需要考虑不同人群的需求，请提供具体的数据支持，不包括篮球的边缘情况，请考虑不同行业的应用场景，请按照具体的品类分类",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "篮球"
+  },
+  {
+    "original_question": "如何评价社会保障领域的标准化进程？",
+    "research_query": "作为科技行业从业者，针对社会保障，请提供深入的分析，请重点关注最近5年的变化，主要针对社会保障的核心领域，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "社会保障"
+  },
+  {
+    "original_question": "在教育方面，年轻人应该如何规划自己的发展？",
+    "research_query": "请研究教育的最佳实践和案例，请列出主要的优缺点，请按照时间顺序进行分析，请提炼出核心的结论",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "教育"
+  },
+  {
+    "original_question": "为什么区块链在中国的发展与国外有差异？",
+    "research_query": "关于区块链，需要全面的分析和研究，不包括区块链的边缘情况，需要分析国内外的差异，请从多个角度进行分析，请按照时间顺序进行分析，请找出关键的影响因素",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "区块链"
+  },
+  {
+    "original_question": "医疗政策领域的技术发展对就业有什么影响？",
+    "research_query": "请分析医疗政策的技术发展和创新方向，请给出可行的解决方案，请按照时间顺序进行分析，请从多个角度进行分析，请评估未来的发展趋势，请归纳成几个主要类别",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "医疗政策"
+  },
+  {
+    "original_question": "如何从多角度分析旅游政策领域的问题？",
+    "research_query": "关于旅游政策的问题，请进行详细研究，请评估未来的发展趋势，请给出可行的解决方案，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "旅游政策"
+  },
+  {
+    "original_question": "为什么中国历史在中国的发展与国外有差异？",
+    "research_query": "请分析中国历史的市场规模和竞争格局，请分析相关政策的影响，请列出主要的优缺点，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "中国历史"
+  },
+  {
+    "original_question": "如何看待科技领域的全球化趋势？",
+    "research_query": "请查找关于科技的详细数据和分析，请给出可行的解决方案，不包括科技的边缘情况，请按照地区进行分类比较，请评估未来的发展趋势，请归纳成几个主要类别",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "科技"
+  },
+  {
+    "original_question": "职场关系领域的国际合作有哪些机会和挑战？",
+    "research_query": "请分析职场关系在不同国家或地区的差异，请考虑不同行业的应用场景，请分析其中的因果关系，主要针对职场关系的核心领域，请提供一个分析框架",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "职场关系"
+  },
+  {
+    "original_question": "环保领域的技术发展对就业有什么影响？",
+    "research_query": "作为历史研究学者，关于环保的问题，请进行详细研究，请给出可行的解决方案，主要针对环保的核心领域，不包括环保的边缘情况，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "环保"
+  },
+  {
+    "original_question": "在国际旅游领域，哪些因素会影响未来的发展趋势？",
+    "research_query": "请分析国际旅游的法律法规和政策框架，请分析其中的因果关系，请分析相关政策的影响，请评估未来的发展趋势，请重点关注最近5年的变化，请归纳成几个主要类别",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "国际旅游"
+  },
+  {
+    "original_question": "如何看待旅游领域的全球化趋势？",
+    "research_query": "请研究旅游的风险因素和应对策略，需要考虑不同人群的需求，主要针对旅游的核心领域，请评估未来的发展趋势，请考虑不同行业的应用场景，请提炼出核心的结论",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "旅游"
+  },
+  {
+    "original_question": "健身领域的专家们是如何看待大数据的？",
+    "research_query": "以投资人的身份，请研究健身的最佳实践和案例，请提供具体的数据支持，请重点关注最近5年的变化，请列成表格",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "健身"
+  },
+  {
+    "original_question": "法律法规领域的创新对社会有什么影响？",
+    "research_query": "请分析法律法规在不同国家或地区的差异，请按照时间顺序进行分析，请评估未来的发展趋势，请从多个角度进行分析，请列成表格",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "法律法规"
+  },
+  {
+    "original_question": "股票领域的专家们是如何看待艺术的？",
+    "research_query": "请分析股票的法律法规和政策框架，请分析相关政策的影响，请提供相关的案例研究，请提供详细的分析结果",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "股票"
+  },
+  {
+    "original_question": "在高等教育领域，哪些因素会影响未来的发展趋势？",
+    "research_query": "请分析高等教育对社会/经济/文化的影响，请分析相关政策的影响，请提供相关的案例研究，请提供一个分析框架",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "高等教育"
+  },
+  {
+    "original_question": "疾病预防领域的创新对社会有什么影响？",
+    "research_query": "请分析疾病预防对社会/经济/文化的影响，请按照地区进行分类比较，请提供具体的数据支持，请给出可行的解决方案，请提供一个分析框架",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "疾病预防"
+  },
+  {
+    "original_question": "碳中和领域的专家们是如何看待医疗保险的？",
+    "research_query": "关于碳中和，需要全面的分析和研究，请从多个角度进行分析，请提供具体的数据支持，请考虑不同行业的应用场景，请列出主要的优缺点，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "碳中和"
+  },
+  {
+    "original_question": "如何看待人工智能领域的最新发展？",
+    "research_query": "请分析人工智能的市场规模和竞争格局，请提供具体的数据支持，请从多个角度进行分析，请按照时间顺序进行分析，请考虑不同行业的应用场景，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "人工智能"
+  },
+  {
+    "original_question": "如何看待医疗保险领域的最新发展？",
+    "research_query": "请分析医疗保险的技术发展和创新方向，请考虑不同行业的应用场景，请评估未来的发展趋势，请找出关键的影响因素",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "医疗保险"
+  },
+  {
+    "original_question": "如何看待社会发展领域的全球化趋势？",
+    "research_query": "请分析社会发展对社会/经济/文化的影响，请按照地区进行分类比较，需要分析国内外的差异，请提供具体的数据支持，请制作一个决策框架",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会发展"
+  },
+  {
+    "original_question": "气候变化领域的专家们是如何看待社会保障的？",
+    "research_query": "以社会学研究者的身份，请分析气候变化的技术发展和创新方向，请提供相关的案例研究，不包括气候变化的边缘情况，请重点关注最近5年的变化，请按照地区进行分类比较，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "气候变化"
+  },
+  {
+    "original_question": "如何看待文化保护领域的全球化趋势？",
+    "research_query": "针对文化保护，请提供深入的分析，请给出可行的解决方案，请从多个角度进行分析，请重点关注最近5年的变化，请归纳成几个主要类别",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "文化保护"
+  },
+  {
+    "original_question": "家庭教育对普通人的日常生活有什么影响？",
+    "research_query": "作为金融分析师，请研究家庭教育的最佳实践和案例，不包括家庭教育的边缘情况，请从多个角度进行分析，需要考虑不同人群的需求，请按照时间顺序进行分析，请归纳成几个主要类别",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "家庭教育"
+  },
+  {
+    "original_question": "为什么社会问题在中国的发展与国外有差异？",
+    "research_query": "请比较社会问题的不同理论或方法，请考虑不同行业的应用场景，需要考虑不同人群的需求，请列成表格",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会问题"
+  },
+  {
+    "original_question": "房地产与职场问题之间有什么关系？",
+    "research_query": "从历史研究学者的角度，请分析房地产的发展历史和未来趋势，需要考虑不同人群的需求，请提供具体的数据支持，请按照时间顺序进行分析，请重点关注最近5年的变化，请归纳成几个主要类别",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "房地产"
+  },
+  {
+    "original_question": "音乐领域的专家们是如何看待历史的？",
+    "research_query": "从学生的角度，请分析音乐的技术发展和创新方向，请从多个角度进行分析，需要考虑不同人群的需求，请评估未来的发展趋势，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "音乐"
+  },
+  {
+    "original_question": "为什么心理在中国的发展与国外有差异？",
+    "research_query": "关于心理的问题，请进行详细研究，请评估未来的发展趋势，请重点关注最近5年的变化，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "心理"
+  },
+  {
+    "original_question": "可持续发展领域的创业机会有哪些？",
+    "research_query": "关于可持续发展的问题，请进行详细研究，请从多个角度进行分析，请按照地区进行分类比较，请列成表格",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "可持续发展"
+  },
+  {
+    "original_question": "如何评估国际关系领域的投资价值？",
+    "research_query": "以旅游业从业者的身份，关于国际关系，需要全面的分析和研究，请给出可行的解决方案，需要考虑不同人群的需求，请按照地区进行分类比较，请按照时间顺序进行分析，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "国际关系"
+  },
+  {
+    "original_question": "如何看待心理咨询领域的全球化趋势？",
+    "research_query": "请查找关于心理咨询的详细数据和分析，请列出主要的优缺点，请提供具体的数据支持，请按照地区进行分类比较，请按照时间顺序进行分析，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "心理咨询"
+  },
+  {
+    "original_question": "在心理健康领域，哪些因素会影响未来的发展趋势？",
+    "research_query": "请研究心理健康的风险因素和应对策略，请给出可行的解决方案，请从多个角度进行分析，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "心理健康"
+  },
+  {
+    "original_question": "舞蹈领域的专家们是如何看待职场技能的？",
+    "research_query": "请研究舞蹈的风险因素和应对策略，主要针对舞蹈的核心领域，请提供相关的案例研究，请按照时间顺序进行分析，请归纳成几个主要类别",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "舞蹈"
+  },
+  {
+    "original_question": "医疗领域的创新对社会有什么影响？",
+    "research_query": "关于医疗的问题，请进行详细研究，请提供相关的案例研究，需要分析国内外的差异，需要考虑不同人群的需求，请按照时间顺序进行分析，请提炼出核心的结论",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "医疗"
+  },
+  {
+    "original_question": "文化领域的技术发展对就业有什么影响？",
+    "research_query": "请分析文化的法律法规和政策框架，请重点关注最近5年的变化，请给出可行的解决方案，请分析其中的因果关系，不包括文化的边缘情况，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "文化"
+  },
+  {
+    "original_question": "法律与心理咨询之间有什么关系？",
+    "research_query": "关于法律，需要全面的分析和研究，请按照地区进行分类比较，请重点关注最近5年的变化，请按照时间顺序进行分析，请提供具体的数据支持，请找出关键的影响因素",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "法律"
+  },
+  {
+    "original_question": "电影领域的创新对社会有什么影响？",
+    "research_query": "关于电影，需要全面的分析和研究，需要考虑不同人群的需求，请提供具体的数据支持，请从多个角度进行分析，请做一个对比分析",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "电影"
+  },
+  {
+    "original_question": "如何看待大数据领域的最新发展？",
+    "research_query": "以投资人的身份，请研究大数据的最佳实践和案例，请从多个角度进行分析，请列出主要的优缺点，请给出可行的解决方案，请提炼出核心的结论",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "大数据"
+  },
+  {
+    "original_question": "云计算领域的创新对社会有什么影响？",
+    "research_query": "请分析云计算在不同国家或地区的差异，请分析其中的因果关系，请从多个角度进行分析，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "云计算"
+  },
+  {
+    "original_question": "在历史事件方面，年轻人应该如何规划自己的发展？",
+    "research_query": "请比较历史事件的不同理论或方法，需要分析国内外的差异，请按照地区进行分类比较，请列出主要的优缺点，请重点关注最近5年的变化，请归纳成几个主要类别",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "历史事件"
+  },
+  {
+    "original_question": "社会政策领域的研究方法有哪些优缺点？",
+    "research_query": "请查找关于社会政策的详细数据和分析，请评估未来的发展趋势，请提供具体的数据支持，请分析其中的因果关系，请归纳成几个主要类别",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会政策"
+  },
+  {
+    "original_question": "职业发展领域的教育和培训应该如何改进？",
+    "research_query": "作为社会学研究者，请查找关于职业发展的详细数据和分析，请按照时间顺序进行分析，请分析其中的因果关系，请从多个角度进行分析，请按照具体的品类分类",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "职业发展"
+  },
+  {
+    "original_question": "政治与旅游产业之间有什么关系？",
+    "research_query": "请分析政治在不同国家或地区的差异，请按照地区进行分类比较，请列出主要的优缺点，请分析其中的因果关系，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "政治"
+  },
+  {
+    "original_question": "政治改革对普通人的日常生活有什么影响？",
+    "research_query": "以政策研究员的身份，请比较政治改革的不同理论或方法，主要针对政治改革的核心领域，需要分析国内外的差异，请提供具体的数据支持，请给出可行的解决方案，请总结主要观点",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "政治改革"
+  },
+  {
+    "original_question": "投资领域的研究方法有哪些优缺点？",
+    "research_query": "请比较投资的不同理论或方法，请评估未来的发展趋势，请考虑不同行业的应用场景，请提供具体的数据支持，请做一个对比分析",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "投资"
+  },
+  {
+    "original_question": "法律政策领域的创新对社会有什么影响？",
+    "research_query": "针对法律政策，请提供深入的分析，请分析相关政策的影响，需要分析国内外的差异，请从多个角度进行分析，请按照具体的品类分类",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "法律政策"
+  },
+  {
+    "original_question": "体育对普通人的日常生活有什么影响？",
+    "research_query": "请分析体育对社会/经济/文化的影响，请提供相关的案例研究，请重点关注最近5年的变化，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "体育"
+  },
+  {
+    "original_question": "在职场领域，哪些因素会影响未来的发展趋势？",
+    "research_query": "请分析职场的法律法规和政策框架，请列出主要的优缺点，请考虑不同行业的应用场景，请按照时间顺序进行分析，请从多个角度进行分析，请归纳成几个主要类别",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "职场"
+  },
+  {
+    "original_question": "文化交流与家庭问题之间有什么关系？",
+    "research_query": "请分析文化交流在不同国家或地区的差异，请列出主要的优缺点，主要针对文化交流的核心领域，请按照时间顺序进行分析，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "文化交流"
+  },
+  {
+    "original_question": "在政治体制方面，年轻人应该如何规划自己的发展？",
+    "research_query": "针对政治体制，请提供深入的分析，请提供具体的数据支持，请分析其中的因果关系，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "政治体制"
+  },
+  {
+    "original_question": "教育政策与心理健康之间有什么关系？",
+    "research_query": "从市场分析师的角度，请研究教育政策的最佳实践和案例，请给出可行的解决方案，请提供相关的案例研究，请梳理成脉络清晰的内容",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "教育政策"
+  },
+  {
+    "original_question": "社会领域的可持续发展策略有哪些？",
+    "research_query": "请分析社会在不同国家或地区的差异，请提供相关的案例研究，请列出主要的优缺点，请按照时间顺序进行分析，请做一个对比分析",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会"
+  },
+  {
+    "original_question": "为什么心理学在中国的发展与国外有差异？",
+    "research_query": "请对心理学进行多角度的分析，请提供具体的数据支持，需要考虑不同人群的需求，请考虑不同行业的应用场景，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "心理学"
+  },
+  {
+    "original_question": "绘画领域的创新对社会有什么影响？",
+    "research_query": "请分析绘画的市场规模和竞争格局，请提供具体的数据支持，需要考虑不同人群的需求，请重点关注最近5年的变化，主要针对绘画的核心领域，请列成表格",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "绘画"
+  },
+  {
+    "original_question": "家庭与传统文化之间有什么关系？",
+    "research_query": "以政策研究员的身份，关于家庭的问题，请进行详细研究，请按照时间顺序进行分析，请按照地区进行分类比较，请评估未来的发展趋势，请重点关注最近5年的变化，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "家庭"
+  },
+  {
+    "original_question": "如何评价最近健康领域的热点事件？",
+    "research_query": "作为金融分析师，关于健康，需要全面的分析和研究，请重点关注最近5年的变化，请按照地区进行分类比较，请归纳成几个主要类别",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "健康"
+  },
+  {
+    "original_question": "职业教育对普通人的日常生活有什么影响？",
+    "research_query": "以环保工作者的身份，请分析职业教育在不同国家或地区的差异，请从多个角度进行分析，请列出主要的优缺点，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "职业教育"
+  },
+  {
+    "original_question": "家庭问题领域的创新对社会有什么影响？",
+    "research_query": "作为政策研究员，请分析家庭问题的技术发展和创新方向，需要考虑不同人群的需求，请按照时间顺序进行分析，请从多个角度进行分析，请提供详细的分析结果",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "家庭问题"
+  },
+  {
+    "original_question": "如何评估家庭发展领域的社会责任？",
+    "research_query": "作为市场分析师，请对家庭发展进行多角度的分析，请提供具体的数据支持，需要分析国内外的差异，请从多个角度进行分析，请梳理成脉络清晰的内容",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "家庭发展"
+  },
+  {
+    "original_question": "基金领域的创新对社会有什么影响？",
+    "research_query": "请分析基金对社会/经济/文化的影响，主要针对基金的核心领域，请分析其中的因果关系，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "基金"
+  },
+  {
+    "original_question": "心理问题对普通人的日常生活有什么影响？",
+    "research_query": "请分析心理问题在不同国家或地区的差异，请分析相关政策的影响，需要分析国内外的差异，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "心理问题"
+  },
+  {
+    "original_question": "政治政策领域的政策变化对行业有什么影响？",
+    "research_query": "请分析政治政策的发展历史和未来趋势，请分析其中的因果关系，请提供相关的案例研究，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "政治政策"
+  },
+  {
+    "original_question": "法律改革领域的创新对社会有什么影响？",
+    "research_query": "作为医疗专业人士，请比较法律改革的不同理论或方法，请给出可行的解决方案，请重点关注最近5年的变化，请提供相关的案例研究，请提炼出核心的结论",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "法律改革"
+  },
+  {
+    "original_question": "职场问题领域的专家们是如何看待文学的？",
+    "research_query": "请分析职场问题的法律法规和政策框架，请按照时间顺序进行分析，请分析其中的因果关系，请列成表格",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "职场问题"
+  },
+  {
+    "original_question": "在在线教育方面，年轻人应该如何规划自己的发展？",
+    "research_query": "请对在线教育进行多角度的分析，需要分析国内外的差异，请按照时间顺序进行分析，不包括在线教育的边缘情况，请提供详细的分析结果",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "在线教育"
+  },
+  {
+    "original_question": "传统文化领域的技术发展对就业有什么影响？",
+    "research_query": "作为研究者，关于传统文化，需要全面的分析和研究，请列出主要的优缺点，请评估未来的发展趋势，请分析其中的因果关系，请给出可行的解决方案，请提炼出核心的结论",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "传统文化"
+  },
+  {
+    "original_question": "保险领域的创新对社会有什么影响？",
+    "research_query": "从创业者的角度，请查找关于保险的详细数据和分析，需要分析国内外的差异，主要针对保险的核心领域，请提供具体的数据支持，请列出主要的优缺点，请总结主要观点",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "保险"
+  },
+  {
+    "original_question": "如何看待职场技能领域的跨界融合趋势？",
+    "research_query": "作为环保工作者，请分析职场技能对社会/经济/文化的影响，请重点关注最近5年的变化，不包括职场技能的边缘情况，请分析相关政策的影响，请列出主要的优缺点，请提炼出核心的结论",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "职场技能"
+  },
+  {
+    "original_question": "如何从多角度分析经济领域的问题？",
+    "research_query": "以金融分析师的身份，针对经济，请提供深入的分析，请按照地区进行分类比较，主要针对经济的核心领域，请提供相关的案例研究，请重点关注最近5年的变化，请归纳成几个主要类别",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "经济"
+  },
+  {
+    "original_question": "国内旅游领域的政策变化对行业有什么影响？",
+    "research_query": "请分析国内旅游在不同国家或地区的差异，不包括国内旅游的边缘情况，请评估未来的发展趋势，请归纳成几个主要类别",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "国内旅游"
+  },
+  {
+    "original_question": "文学领域的创新对社会有什么影响？",
+    "research_query": "请分析文学对社会/经济/文化的影响，请列出主要的优缺点，请考虑不同行业的应用场景，不包括文学的边缘情况，请制作一个决策框架",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "文学"
+  },
+  {
+    "original_question": "艺术领域的创新对社会有什么影响？",
+    "research_query": "从市场分析师的角度，请分析艺术对社会/经济/文化的影响，请分析其中的因果关系，请按照地区进行分类比较，请按照时间顺序进行分析，请重点关注最近5年的变化，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "艺术"
+  },
+  {
+    "original_question": "旅游产业领域的创新对社会有什么影响？",
+    "research_query": "请分析旅游产业在不同国家或地区的差异，请提供相关的案例研究，请考虑不同行业的应用场景，请提供具体的数据支持，请分析相关政策的影响，请提炼出核心的结论",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "旅游产业"
+  },
+  {
+    "original_question": "为什么国内旅游在中国的发展与国外有差异？",
+    "research_query": "以金融分析师的身份，请研究国内旅游的最佳实践和案例，请提供相关的案例研究，请列出主要的优缺点，请重点关注最近5年的变化，请制作一个决策框架",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "国内旅游"
+  },
+  {
+    "original_question": "法律政策领域的创新对社会有什么影响？",
+    "research_query": "针对法律政策，请提供深入的分析，请按照地区进行分类比较，请考虑不同行业的应用场景，请分析相关政策的影响，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "法律政策"
+  },
+  {
+    "original_question": "世界历史领域的研究方法有哪些优缺点？",
+    "research_query": "请分析世界历史的技术发展和创新方向，请按照时间顺序进行分析，需要分析国内外的差异，请重点关注最近5年的变化，请制作一个决策框架",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "世界历史"
+  },
+  {
+    "original_question": "社会发展领域的国际合作有哪些机会和挑战？",
+    "research_query": "作为市场分析师，请分析社会发展的市场规模和竞争格局，请考虑不同行业的应用场景，请按照时间顺序进行分析，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "社会发展"
+  },
+  {
+    "original_question": "为什么职场问题在中国的发展与国外有差异？",
+    "research_query": "关于职场问题，需要全面的分析和研究，需要分析国内外的差异，请分析其中的因果关系，请梳理成脉络清晰的内容",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "职场问题"
+  },
+  {
+    "original_question": "高等教育领域的技术发展对就业有什么影响？",
+    "research_query": "请分析高等教育的市场规模和竞争格局，请分析相关政策的影响，请列出主要的优缺点，请提供详细的分析结果",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "高等教育"
+  },
+  {
+    "original_question": "在在线教育方面，年轻人应该如何规划自己的发展？",
+    "research_query": "请研究在线教育的最佳实践和案例，请考虑不同行业的应用场景，请分析其中的因果关系，不包括在线教育的边缘情况，请总结主要观点",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "在线教育"
+  },
+  {
+    "original_question": "在医疗政策方面，年轻人应该如何规划自己的发展？",
+    "research_query": "请分析医疗政策的发展历史和未来趋势，需要考虑不同人群的需求，主要针对医疗政策的核心领域，请给出可行的解决方案，不包括医疗政策的边缘情况，请提供一个分析框架",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "医疗政策"
+  },
+  {
+    "original_question": "心理领域的技术发展对就业有什么影响？",
+    "research_query": "作为金融分析师，关于心理，需要全面的分析和研究，请按照地区进行分类比较，需要分析国内外的差异，请做一个对比分析",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "心理"
+  },
+  {
+    "original_question": "医疗保险领域的创新对社会有什么影响？",
+    "research_query": "请分析医疗保险的法律法规和政策框架，请按照时间顺序进行分析，请分析其中的因果关系，请给出可行的解决方案，请考虑不同行业的应用场景，请列成表格",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "医疗保险"
+  },
+  {
+    "original_question": "传统文化领域的技术发展对就业有什么影响？",
+    "research_query": "请研究传统文化的最佳实践和案例，不包括传统文化的边缘情况，请按照地区进行分类比较，请考虑不同行业的应用场景，请给出可行的解决方案，请归纳成几个主要类别",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "传统文化"
+  },
+  {
+    "original_question": "如何平衡旅游产业发展与环境保护的关系？",
+    "research_query": "从医疗专业人士的角度，请分析旅游产业对社会/经济/文化的影响，请重点关注最近5年的变化，请提供具体的数据支持，请从多个角度进行分析，不包括旅游产业的边缘情况，请找出关键的影响因素",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "旅游产业"
+  },
+  {
+    "original_question": "大数据与政治改革之间有什么关系？",
+    "research_query": "请比较大数据的不同理论或方法，请提供具体的数据支持，主要针对大数据的核心领域，请评估未来的发展趋势，请给出可行的解决方案，请归纳成几个主要类别",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "大数据"
+  },
+  {
+    "original_question": "如何评价政治政策领域的标准化进程？",
+    "research_query": "以科技行业从业者的身份，请分析政治政策在不同国家或地区的差异，不包括政治政策的边缘情况，需要考虑不同人群的需求，请列成表格",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "政治政策"
+  },
+  {
+    "original_question": "如何从多角度分析国内旅游领域的问题？",
+    "research_query": "请分析国内旅游的市场规模和竞争格局，请提供具体的数据支持，请重点关注最近5年的变化，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "国内旅游"
+  },
+  {
+    "original_question": "如何评价最近文化交流领域的热点事件？",
+    "research_query": "请研究文化交流的风险因素和应对策略，请按照时间顺序进行分析，请提供相关的案例研究，需要分析国内外的差异，请找出关键的影响因素",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "文化交流"
+  },
+  {
+    "original_question": "国际旅游领域的创新对社会有什么影响？",
+    "research_query": "从投资人的角度，请分析国际旅游的市场规模和竞争格局，请提供相关的案例研究，请按照地区进行分类比较，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "国际旅游"
+  },
+  {
+    "original_question": "职场对普通人的日常生活有什么影响？",
+    "research_query": "请对职场进行多角度的分析，请按照时间顺序进行分析，请提供相关的案例研究，不包括职场的边缘情况，需要考虑不同人群的需求，请归纳成几个主要类别",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "职场"
+  },
+  {
+    "original_question": "历史事件对普通人的日常生活有什么影响？",
+    "research_query": "请分析历史事件的法律法规和政策框架，请列出主要的优缺点，请提供具体的数据支持，请分析相关政策的影响，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "历史事件"
+  },
+  {
+    "original_question": "心理健康领域的研究方法有哪些优缺点？",
+    "research_query": "请研究心理健康的风险因素和应对策略，请按照时间顺序进行分析，请给出可行的解决方案，需要分析国内外的差异，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "心理健康"
+  },
+  {
+    "original_question": "如何看待心理健康领域的全球化趋势？",
+    "research_query": "请分析心理健康对社会/经济/文化的影响，请按照地区进行分类比较，请重点关注最近5年的变化，需要考虑不同人群的需求，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "心理健康"
+  },
+  {
+    "original_question": "心理问题领域的专家们是如何看待足球的？",
+    "research_query": "作为市场分析师，关于心理问题，需要全面的分析和研究，需要考虑不同人群的需求，主要针对心理问题的核心领域，请按照地区进行分类比较，请提供具体的数据支持，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "心理问题"
+  },
+  {
+    "original_question": "社会发展领域的伦理问题应该如何处理？",
+    "research_query": "以科技行业从业者的身份，请查找关于社会发展的详细数据和分析，不包括社会发展的边缘情况，请考虑不同行业的应用场景，请从多个角度进行分析，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "社会发展"
+  },
+  {
+    "original_question": "在区块链方面，年轻人应该如何规划自己的发展？",
+    "research_query": "以科技行业从业者的身份，请研究区块链的风险因素和应对策略，请分析其中的因果关系，需要考虑不同人群的需求，请分析相关政策的影响，需要分析国内外的差异，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "区块链"
+  },
+  {
+    "original_question": "如何从多角度分析职场问题领域的问题？",
+    "research_query": "请分析职场问题的技术发展和创新方向，请分析相关政策的影响，请评估未来的发展趋势，请归纳成几个主要类别",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "职场问题"
+  },
+  {
+    "original_question": "教育对普通人的日常生活有什么影响？",
+    "research_query": "针对教育，请提供深入的分析，需要分析国内外的差异，请分析相关政策的影响，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "教育"
+  },
+  {
+    "original_question": "电影领域的专家们是如何看待职场技能的？",
+    "research_query": "以文化产业从业者的身份，针对电影，请提供深入的分析，需要考虑不同人群的需求，请重点关注最近5年的变化，请分析其中的因果关系，请按照地区进行分类比较，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "电影"
+  },
+  {
+    "original_question": "如何平衡大数据发展与环境保护的关系？",
+    "research_query": "从政策研究员的角度，请研究大数据的风险因素和应对策略，请按照时间顺序进行分析，请分析其中的因果关系，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "大数据"
+  },
+  {
+    "original_question": "金融领域的政策变化对行业有什么影响？",
+    "research_query": "作为环保工作者，关于金融的问题，请进行详细研究，请从多个角度进行分析，请提供具体的数据支持，需要考虑不同人群的需求，请提供详细的分析结果",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "金融"
+  },
+  {
+    "original_question": "如何看待职场关系领域的跨界融合趋势？",
+    "research_query": "关于职场关系，需要全面的分析和研究，请提供相关的案例研究，请考虑不同行业的应用场景，请按照时间顺序进行分析，请从多个角度进行分析，请制作一个决策框架",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "职场关系"
+  },
+  {
+    "original_question": "旅游政策领域的创新对社会有什么影响？",
+    "research_query": "关于旅游政策的问题，请进行详细研究，请分析其中的因果关系，主要针对旅游政策的核心领域，请按照地区进行分类比较，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "旅游政策"
+  },
+  {
+    "original_question": "如何评价最近心理问题领域的热点事件？",
+    "research_query": "作为政策研究员，请分析心理问题的发展历史和未来趋势，请考虑不同行业的应用场景，请评估未来的发展趋势，请给出可行的解决方案，请提供相关的案例研究，请列成表格",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "心理问题"
+  },
+  {
+    "original_question": "如何评价最近国际旅游领域的热点事件？",
+    "research_query": "从学生的角度，请分析国际旅游的技术发展和创新方向，请分析其中的因果关系，请列出主要的优缺点，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "国际旅游"
+  },
+  {
+    "original_question": "如何评价最近职业教育领域的热点事件？",
+    "research_query": "以环保工作者的身份，针对职业教育，请提供深入的分析，主要针对职业教育的核心领域，请按照地区进行分类比较，请分析其中的因果关系，请提炼出核心的结论",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "职业教育"
+  },
+  {
+    "original_question": "社会保障对普通人的日常生活有什么影响？",
+    "research_query": "请分析社会保障在不同国家或地区的差异，请提供具体的数据支持，请提供相关的案例研究，请从多个角度进行分析，请提炼出核心的结论",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "社会保障"
+  },
+  {
+    "original_question": "如何评价医疗政策领域的标准化进程？",
+    "research_query": "请分析医疗政策的市场规模和竞争格局，请从多个角度进行分析，请评估未来的发展趋势，请重点关注最近5年的变化，请按照时间顺序进行分析，请归纳成几个主要类别",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "医疗政策"
+  },
+  {
+    "original_question": "职场与文化交流之间有什么关系？",
+    "research_query": "请对职场进行多角度的分析，请列出主要的优缺点，请按照地区进行分类比较，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "职场"
+  },
+  {
+    "original_question": "在经济方面，年轻人应该如何规划自己的发展？",
+    "research_query": "请研究经济的最佳实践和案例，请从多个角度进行分析，请重点关注最近5年的变化，请考虑不同行业的应用场景，请分析其中的因果关系，请列成表格",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "经济"
+  },
+  {
+    "original_question": "在大数据领域，哪些因素会影响未来的发展趋势？",
+    "research_query": "请分析大数据的技术发展和创新方向，请分析相关政策的影响，主要针对大数据的核心领域，请提供具体的数据支持，请总结主要观点",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "大数据"
+  },
+  {
+    "original_question": "社会保障领域的技术发展对就业有什么影响？",
+    "research_query": "请对社会保障进行多角度的分析，需要分析国内外的差异，主要针对社会保障的核心领域，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会保障"
+  },
+  {
+    "original_question": "家庭关系领域的创业机会有哪些？",
+    "research_query": "请分析家庭关系的技术发展和创新方向，需要考虑不同人群的需求，请从多个角度进行分析，请列出主要的优缺点，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "家庭关系"
+  },
+  {
+    "original_question": "艺术对普通人的日常生活有什么影响？",
+    "research_query": "针对艺术，请提供深入的分析，请按照时间顺序进行分析，请给出可行的解决方案，请提炼出核心的结论",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "艺术"
+  },
+  {
+    "original_question": "国内旅游领域的技术发展对就业有什么影响？",
+    "research_query": "以市场分析师的身份，请比较国内旅游的不同理论或方法，请提供具体的数据支持，请提供相关的案例研究，请给出可行的解决方案，主要针对国内旅游的核心领域，请提供详细的分析结果",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "国内旅游"
+  },
+  {
+    "original_question": "疾病预防与教育政策之间有什么关系？",
+    "research_query": "请分析疾病预防的发展历史和未来趋势，请分析相关政策的影响，请按照地区进行分类比较，请给出可行的解决方案，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "疾病预防"
+  },
+  {
+    "original_question": "如何评价科技领域的标准化进程？",
+    "research_query": "请研究科技的风险因素和应对策略，请重点关注最近5年的变化，请分析相关政策的影响，请评估未来的发展趋势，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "科技"
+  },
+  {
+    "original_question": "如何从多角度分析人工智能领域的问题？",
+    "research_query": "请分析人工智能对社会/经济/文化的影响，请分析其中的因果关系，需要分析国内外的差异，请重点关注最近5年的变化，请归纳成几个主要类别",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "人工智能"
+  },
+  {
+    "original_question": "家庭教育领域的创新对社会有什么影响？",
+    "research_query": "请分析家庭教育的法律法规和政策框架，请重点关注最近5年的变化，请从多个角度进行分析，请提供相关的案例研究，请列成表格",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "家庭教育"
+  },
+  {
+    "original_question": "心理与旅游产业之间有什么关系？",
+    "research_query": "作为创业者，请分析心理的发展历史和未来趋势，请分析其中的因果关系，请从多个角度进行分析，请按照地区进行分类比较，主要针对心理的核心领域，请总结主要观点",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "心理"
+  },
+  {
+    "original_question": "职场技能领域的创新对社会有什么影响？",
+    "research_query": "请分析职场技能在不同国家或地区的差异，主要针对职场技能的核心领域，请分析其中的因果关系，请考虑不同行业的应用场景，请梳理成脉络清晰的内容",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "职场技能"
+  },
+  {
+    "original_question": "如何从多角度分析艺术领域的问题？",
+    "research_query": "请研究艺术的最佳实践和案例，不包括艺术的边缘情况，请提供具体的数据支持，请分析其中的因果关系，请提炼出核心的结论",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "艺术"
+  },
+  {
+    "original_question": "人工智能领域的专家们是如何看待家庭的？",
+    "research_query": "关于人工智能，需要全面的分析和研究，请列出主要的优缺点，请分析其中的因果关系，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "人工智能"
+  },
+  {
+    "original_question": "人工智能与政治体制之间有什么关系？",
+    "research_query": "从社会学研究者的角度，请对人工智能进行多角度的分析，需要考虑不同人群的需求，请分析其中的因果关系，不包括人工智能的边缘情况，请提炼出核心的结论",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "人工智能"
+  },
+  {
+    "original_question": "职场技能对普通人的日常生活有什么影响？",
+    "research_query": "请比较职场技能的不同理论或方法，请重点关注最近5年的变化，请提供具体的数据支持，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "职场技能"
+  },
+  {
+    "original_question": "如何看待文化交流领域的最新发展？",
+    "research_query": "请研究文化交流的最佳实践和案例，请按照地区进行分类比较，请评估未来的发展趋势，请分析相关政策的影响，需要考虑不同人群的需求，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "文化交流"
+  },
+  {
+    "original_question": "国际关系领域的教育和培训应该如何改进？",
+    "research_query": "请查找关于国际关系的详细数据和分析，需要分析国内外的差异，请按照时间顺序进行分析，请提供相关的案例研究，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "国际关系"
+  },
+  {
+    "original_question": "如何平衡环保发展与环境保护的关系？",
+    "research_query": "请分析环保的市场规模和竞争格局，请提供具体的数据支持，请提供相关的案例研究，请按照具体的品类分类",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "环保"
+  },
+  {
+    "original_question": "如何看待政治政策领域的跨界融合趋势？",
+    "research_query": "以科技行业从业者的身份，请分析政治政策的市场规模和竞争格局，请提供具体的数据支持，不包括政治政策的边缘情况，请重点关注最近5年的变化，请从多个角度进行分析，请列成表格",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "政治政策"
+  },
+  {
+    "original_question": "如何看待体育领域的跨界融合趋势？",
+    "research_query": "作为科技行业从业者，请对体育进行多角度的分析，请按照时间顺序进行分析，请提供相关的案例研究，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "体育"
+  },
+  {
+    "original_question": "健康领域的可持续发展策略有哪些？",
+    "research_query": "请研究健康的最佳实践和案例，请重点关注最近5年的变化，主要针对健康的核心领域，需要考虑不同人群的需求，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "健康"
+  },
+  {
+    "original_question": "职场关系领域未来十年可能会有哪些变化？",
+    "research_query": "请分析职场关系在不同国家或地区的差异，请重点关注最近5年的变化，主要针对职场关系的核心领域，请考虑不同行业的应用场景，请列出主要的优缺点，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "职场关系"
+  },
+  {
+    "original_question": "如何评价文化交流领域的标准化进程？",
+    "research_query": "请比较文化交流的不同理论或方法，主要针对文化交流的核心领域，请重点关注最近5年的变化，请归纳成几个主要类别",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "文化交流"
+  },
+  {
+    "original_question": "如何评价旅游产业领域的标准化进程？",
+    "research_query": "关于旅游产业，需要全面的分析和研究，请评估未来的发展趋势，需要考虑不同人群的需求，请提供具体的数据支持，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "旅游产业"
+  },
+  {
+    "original_question": "心理健康领域的创新对社会有什么影响？",
+    "research_query": "作为旅游业从业者，请分析心理健康的市场规模和竞争格局，需要考虑不同人群的需求，请提供相关的案例研究，需要分析国内外的差异，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "心理健康"
+  },
+  {
+    "original_question": "如何评价文化保护领域的标准化进程？",
+    "research_query": "请研究文化保护的最佳实践和案例，主要针对文化保护的核心领域，请按照时间顺序进行分析，请提供具体的数据支持，请考虑不同行业的应用场景，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "文化保护"
+  },
+  {
+    "original_question": "如何看待旅游领域的跨界融合趋势？",
+    "research_query": "请研究旅游的风险因素和应对策略，请考虑不同行业的应用场景，请给出可行的解决方案，请重点关注最近5年的变化，请归纳成几个主要类别",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "旅游"
+  },
+  {
+    "original_question": "国际旅游领域的政策变化对行业有什么影响？",
+    "research_query": "关于国际旅游的问题，请进行详细研究，请分析其中的因果关系，请提供相关的案例研究，不包括国际旅游的边缘情况，请从多个角度进行分析，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "国际旅游"
+  },
+  {
+    "original_question": "如何评价投资领域的标准化进程？",
+    "research_query": "关于投资，需要全面的分析和研究，请从多个角度进行分析，请列出主要的优缺点，请提供详细的分析结果",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "投资"
+  },
+  {
+    "original_question": "如何看待家庭教育领域的最新发展？",
+    "research_query": "请查找关于家庭教育的详细数据和分析，请按照地区进行分类比较，请按照时间顺序进行分析，不包括家庭教育的边缘情况，主要针对家庭教育的核心领域，请归纳成几个主要类别",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "家庭教育"
+  },
+  {
+    "original_question": "如何评价最近医疗保险领域的热点事件？",
+    "research_query": "请对医疗保险进行多角度的分析，主要针对医疗保险的核心领域，不包括医疗保险的边缘情况，请提供一个分析框架",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "医疗保险"
+  },
+  {
+    "original_question": "健身领域的专家们是如何看待大数据的？",
+    "research_query": "请比较健身的不同理论或方法，请评估未来的发展趋势，请按照地区进行分类比较，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "健身"
+  },
+  {
+    "original_question": "如何看待高等教育领域的全球化趋势？",
+    "research_query": "请分析高等教育的市场规模和竞争格局，请按照时间顺序进行分析，请评估未来的发展趋势，请提供详细的分析结果",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "高等教育"
+  },
+  {
+    "original_question": "在职场技能领域，哪些因素会影响未来的发展趋势？",
+    "research_query": "作为文化产业从业者，请分析职场技能对社会/经济/文化的影响，请列出主要的优缺点，需要分析国内外的差异，请从多个角度进行分析，主要针对职场技能的核心领域，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "职场技能"
+  },
+  {
+    "original_question": "如何看待人工智能领域的全球化趋势？",
+    "research_query": "请研究人工智能的最佳实践和案例，主要针对人工智能的核心领域，请列出主要的优缺点，请给出可行的解决方案，需要考虑不同人群的需求，请找出关键的影响因素",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "人工智能"
+  },
+  {
+    "original_question": "政治体制领域的可持续发展策略有哪些？",
+    "research_query": "请比较政治体制的不同理论或方法，请提供具体的数据支持，需要考虑不同人群的需求，请给出可行的解决方案，请评估未来的发展趋势，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "政治体制"
+  },
+  {
+    "original_question": "科技对普通人的日常生活有什么影响？",
+    "research_query": "以文化产业从业者的身份，请分析科技对社会/经济/文化的影响，请从多个角度进行分析，请给出可行的解决方案，请考虑不同行业的应用场景，不包括科技的边缘情况，请做一个对比分析",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "科技"
+  },
+  {
+    "original_question": "如何平衡政治改革发展与环境保护的关系？",
+    "research_query": "请对政治改革进行多角度的分析，请按照时间顺序进行分析，请按照地区进行分类比较，需要分析国内外的差异，需要考虑不同人群的需求，请提供详细的分析结果",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "政治改革"
+  },
+  {
+    "original_question": "碳中和领域的创新对社会有什么影响？",
+    "research_query": "请分析碳中和的技术发展和创新方向，请给出可行的解决方案，请考虑不同行业的应用场景，请提炼出核心的结论",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "碳中和"
+  },
+  {
+    "original_question": "篮球领域的专家们是如何看待金融的？",
+    "research_query": "请比较篮球的不同理论或方法，主要针对篮球的核心领域，请提供具体的数据支持，请从多个角度进行分析，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "篮球"
+  },
+  {
+    "original_question": "为什么大数据在中国的发展与国外有差异？",
+    "research_query": "以医疗专业人士的身份，针对大数据，请提供深入的分析，请按照地区进行分类比较，需要分析国内外的差异，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "大数据"
+  },
+  {
+    "original_question": "如何看待心理问题领域的全球化趋势？",
+    "research_query": "从科技行业从业者的角度，请分析心理问题在不同国家或地区的差异，请列出主要的优缺点，请给出可行的解决方案，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "心理问题"
+  },
+  {
+    "original_question": "健康对普通人的日常生活有什么影响？",
+    "research_query": "请分析健康的市场规模和竞争格局，请考虑不同行业的应用场景，需要分析国内外的差异，请制作一个决策框架",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "健康"
+  },
+  {
+    "original_question": "艺术领域的政策变化对行业有什么影响？",
+    "research_query": "从历史研究学者的角度，请分析艺术的法律法规和政策框架，请给出可行的解决方案，需要分析国内外的差异，需要考虑不同人群的需求，不包括艺术的边缘情况，请做一个对比分析",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "艺术"
+  },
+  {
+    "original_question": "心理学对普通人的日常生活有什么影响？",
+    "research_query": "从环保工作者的角度，请分析心理学的法律法规和政策框架，请分析其中的因果关系，请列出主要的优缺点，请分析相关政策的影响，请归纳成几个主要类别",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "心理学"
+  },
+  {
+    "original_question": "如何看待世界历史领域的全球化趋势？",
+    "research_query": "作为法律顾问，请分析世界历史对社会/经济/文化的影响，请分析其中的因果关系，请重点关注最近5年的变化，请给出可行的解决方案，请从多个角度进行分析，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "世界历史"
+  },
+  {
+    "original_question": "国际关系领域的专家们是如何看待社会问题的？",
+    "research_query": "请分析国际关系的发展历史和未来趋势，请按照地区进行分类比较，需要考虑不同人群的需求，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "国际关系"
+  },
+  {
+    "original_question": "环保对普通人的日常生活有什么影响？",
+    "research_query": "请对环保进行多角度的分析，需要考虑不同人群的需求，请按照时间顺序进行分析，请提供相关的案例研究，请列成表格",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "环保"
+  },
+  {
+    "original_question": "在社会政策领域，哪些因素会影响未来的发展趋势？",
+    "research_query": "请分析社会政策在不同国家或地区的差异，请提供具体的数据支持，请提供相关的案例研究，请分析相关政策的影响，请归纳成几个主要类别",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会政策"
+  },
+  {
+    "original_question": "文化产业领域的政策变化对行业有什么影响？",
+    "research_query": "请研究文化产业的风险因素和应对策略，请考虑不同行业的应用场景，请分析相关政策的影响，主要针对文化产业的核心领域，请梳理成脉络清晰的内容",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "文化产业"
+  },
+  {
+    "original_question": "在社会问题方面，年轻人应该如何规划自己的发展？",
+    "research_query": "请分析社会问题在不同国家或地区的差异，需要考虑不同人群的需求，请考虑不同行业的应用场景，请重点关注最近5年的变化，请提供详细的分析结果",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会问题"
+  },
+  {
+    "original_question": "社会政策领域的研究方法有哪些优缺点？",
+    "research_query": "关于社会政策的问题，请进行详细研究，请从多个角度进行分析，请考虑不同行业的应用场景，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会政策"
+  },
+  {
+    "original_question": "传统文化对普通人的日常生活有什么影响？",
+    "research_query": "请分析传统文化的技术发展和创新方向，请评估未来的发展趋势，请分析相关政策的影响，请列成表格",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "传统文化"
+  },
+  {
+    "original_question": "心理咨询领域的专家们是如何看待文化的？",
+    "research_query": "请分析心理咨询的市场规模和竞争格局，请提供相关的案例研究，请按照时间顺序进行分析，请按照地区进行分类比较，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "心理咨询"
+  },
+  {
+    "original_question": "在心理健康方面，年轻人应该如何规划自己的发展？",
+    "research_query": "以投资人的身份，请分析心理健康的发展历史和未来趋势，请分析其中的因果关系，请给出可行的解决方案，请归纳成几个主要类别",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "心理健康"
+  },
+  {
+    "original_question": "如何看待人工智能领域的最新发展？",
+    "research_query": "请研究人工智能的风险因素和应对策略，请列出主要的优缺点，请评估未来的发展趋势，需要考虑不同人群的需求，请提供相关的案例研究，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "人工智能"
+  },
+  {
+    "original_question": "在线教育领域的专家们是如何看待健身的？",
+    "research_query": "请比较在线教育的不同理论或方法，请从多个角度进行分析，请重点关注最近5年的变化，请评估未来的发展趋势，不包括在线教育的边缘情况，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "在线教育"
+  },
+  {
+    "original_question": "如何看待职业教育领域的最新发展？",
+    "research_query": "请分析职业教育的市场规模和竞争格局，请给出可行的解决方案，请评估未来的发展趋势，请分析其中的因果关系，请按照时间顺序进行分析，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "职业教育"
+  },
+  {
+    "original_question": "心理健康领域的政策变化对行业有什么影响？",
+    "research_query": "请研究心理健康的风险因素和应对策略，需要考虑不同人群的需求，请列出主要的优缺点，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "心理健康"
+  },
+  {
+    "original_question": "文化交流领域的创新对社会有什么影响？",
+    "research_query": "针对文化交流，请提供深入的分析，主要针对文化交流的核心领域，请分析其中的因果关系，请给出可行的解决方案，请梳理成脉络清晰的内容",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "文化交流"
+  },
+  {
+    "original_question": "政治政策领域的政策变化对行业有什么影响？",
+    "research_query": "作为研究者，请对政治政策进行多角度的分析，请列出主要的优缺点，请按照时间顺序进行分析，请提供具体的数据支持，请提炼出核心的结论",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "政治政策"
+  },
+  {
+    "original_question": "如何评价最近健康领域的热点事件？",
+    "research_query": "请分析健康的技术发展和创新方向，需要考虑不同人群的需求，需要分析国内外的差异，请重点关注最近5年的变化，请提供具体的数据支持，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "健康"
+  },
+  {
+    "original_question": "如何从多角度分析文化交流领域的问题？",
+    "research_query": "作为医疗专业人士，请比较文化交流的不同理论或方法，请评估未来的发展趋势，请分析其中的因果关系，请考虑不同行业的应用场景，请提供具体的数据支持，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "文化交流"
+  },
+  {
+    "original_question": "在线教育领域的创新对社会有什么影响？",
+    "research_query": "关于在线教育，需要全面的分析和研究，请评估未来的发展趋势，请分析相关政策的影响，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "在线教育"
+  },
+  {
+    "original_question": "如何从多角度分析心理领域的问题？",
+    "research_query": "请分析心理的法律法规和政策框架，请考虑不同行业的应用场景，请提供具体的数据支持，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "心理"
+  },
+  {
+    "original_question": "社会领域的可持续发展策略有哪些？",
+    "research_query": "请分析社会的发展历史和未来趋势，请考虑不同行业的应用场景，不包括社会的边缘情况，请重点关注最近5年的变化，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会"
+  },
+  {
+    "original_question": "政治政策领域的可持续发展策略有哪些？",
+    "research_query": "请比较政治政策的不同理论或方法，需要考虑不同人群的需求，需要分析国内外的差异，请按照时间顺序进行分析，请列成表格",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "政治政策"
+  },
+  {
+    "original_question": "人工智能领域的技术发展对就业有什么影响？",
+    "research_query": "请分析人工智能的市场规模和竞争格局，主要针对人工智能的核心领域，请考虑不同行业的应用场景，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "人工智能"
+  },
+  {
+    "original_question": "如何评价最近政治体制领域的热点事件？",
+    "research_query": "请分析政治体制的发展历史和未来趋势，请考虑不同行业的应用场景，请列出主要的优缺点，请给出可行的解决方案，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "政治体制"
+  },
+  {
+    "original_question": "人工智能领域的可持续发展策略有哪些？",
+    "research_query": "从研究者的角度，请分析人工智能的市场规模和竞争格局，请提供相关的案例研究，请给出可行的解决方案，请按照具体的品类分类",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "人工智能"
+  },
+  {
+    "original_question": "如何看待社会发展领域的全球化趋势？",
+    "research_query": "请比较社会发展的不同理论或方法，请按照地区进行分类比较，请提供具体的数据支持，需要分析国内外的差异，请梳理成脉络清晰的内容",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会发展"
+  },
+  {
+    "original_question": "在心理健康领域，哪些因素会影响未来的发展趋势？",
+    "research_query": "作为旅游业从业者，请查找关于心理健康的详细数据和分析，请提供具体的数据支持，请给出可行的解决方案，主要针对心理健康的核心领域，请按照时间顺序进行分析，请总结主要观点",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "心理健康"
+  },
+  {
+    "original_question": "医疗领域的研究方法有哪些优缺点？",
+    "research_query": "请研究医疗的最佳实践和案例，主要针对医疗的核心领域，请重点关注最近5年的变化，请提供相关的案例研究，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "医疗"
+  },
+  {
+    "original_question": "心理咨询对普通人的日常生活有什么影响？",
+    "research_query": "请分析心理咨询的市场规模和竞争格局，请评估未来的发展趋势，请提供相关的案例研究，请重点关注最近5年的变化，请考虑不同行业的应用场景，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "心理咨询"
+  },
+  {
+    "original_question": "历史研究与旅游产业之间有什么关系？",
+    "research_query": "请分析历史研究在不同国家或地区的差异，请列出主要的优缺点，请分析相关政策的影响，请重点关注最近5年的变化，请考虑不同行业的应用场景，请做一个对比分析",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "历史研究"
+  },
+  {
+    "original_question": "在职业教育领域，哪些因素会影响未来的发展趋势？",
+    "research_query": "请分析职业教育在不同国家或地区的差异，需要分析国内外的差异，请提供相关的案例研究，请分析其中的因果关系，请梳理成脉络清晰的内容",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "职业教育"
+  },
+  {
+    "original_question": "如何评价最近高等教育领域的热点事件？",
+    "research_query": "请研究高等教育的最佳实践和案例，请给出可行的解决方案，请重点关注最近5年的变化，需要分析国内外的差异，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "高等教育"
+  },
+  {
+    "original_question": "政治改革对普通人的日常生活有什么影响？",
+    "research_query": "请对政治改革进行多角度的分析，请考虑不同行业的应用场景，请给出可行的解决方案，请总结主要观点",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "政治改革"
+  },
+  {
+    "original_question": "在文化交流领域，哪些因素会影响未来的发展趋势？",
+    "research_query": "作为旅游业从业者，请分析文化交流对社会/经济/文化的影响，请考虑不同行业的应用场景，请评估未来的发展趋势，请总结主要观点",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "文化交流"
+  },
+  {
+    "original_question": "传统文化与职场之间有什么关系？",
+    "research_query": "请研究传统文化的最佳实践和案例，请考虑不同行业的应用场景，请分析其中的因果关系，请重点关注最近5年的变化，需要分析国内外的差异，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "传统文化"
+  },
+  {
+    "original_question": "环保领域的专家们是如何看待历史研究的？",
+    "research_query": "请分析环保的法律法规和政策框架，请提供相关的案例研究，请按照地区进行分类比较，主要针对环保的核心领域，请分析相关政策的影响，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "环保"
+  },
+  {
+    "original_question": "区块链对普通人的日常生活有什么影响？",
+    "research_query": "以旅游业从业者的身份，关于区块链，需要全面的分析和研究，请评估未来的发展趋势，请分析相关政策的影响，请列成表格",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "区块链"
+  },
+  {
+    "original_question": "社会发展与教育政策之间有什么关系？",
+    "research_query": "请分析社会发展的市场规模和竞争格局，请分析相关政策的影响，请提供具体的数据支持，请重点关注最近5年的变化，请列成表格",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会发展"
+  },
+  {
+    "original_question": "如何评价最近大数据领域的热点事件？",
+    "research_query": "从学生的角度，请分析大数据的市场规模和竞争格局，请分析相关政策的影响，请提供相关的案例研究，请评估未来的发展趋势，请找出关键的影响因素",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "大数据"
+  },
+  {
+    "original_question": "政治政策领域的专家们是如何看待职业教育的？",
+    "research_query": "请分析政治政策的发展历史和未来趋势，不包括政治政策的边缘情况，请提供相关的案例研究，请分析其中的因果关系，需要分析国内外的差异，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "政治政策"
+  },
+  {
+    "original_question": "旅游领域的创新对社会有什么影响？",
+    "research_query": "以市场分析师的身份，请分析旅游的技术发展和创新方向，请考虑不同行业的应用场景，请分析相关政策的影响，请按照地区进行分类比较，请给出可行的解决方案，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "旅游"
+  },
+  {
+    "original_question": "如何看待文化交流领域的全球化趋势？",
+    "research_query": "以医疗专业人士的身份，请分析文化交流的市场规模和竞争格局，请从多个角度进行分析，请考虑不同行业的应用场景，请找出关键的影响因素",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "文化交流"
+  },
+  {
+    "original_question": "国际旅游对普通人的日常生活有什么影响？",
+    "research_query": "请研究国际旅游的最佳实践和案例，请列出主要的优缺点，请分析其中的因果关系，请分析相关政策的影响，请考虑不同行业的应用场景，请提炼出核心的结论",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "国际旅游"
+  },
+  {
+    "original_question": "如何看待在线教育领域的最新发展？",
+    "research_query": "关于在线教育，需要全面的分析和研究，请评估未来的发展趋势，请分析相关政策的影响，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "在线教育"
+  },
+  {
+    "original_question": "政治改革领域的创新对社会有什么影响？",
+    "research_query": "请研究政治改革的最佳实践和案例，请重点关注最近5年的变化，请列出主要的优缺点，请从多个角度进行分析，请归纳成几个主要类别",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "政治改革"
+  },
+  {
+    "original_question": "文化交流领域的研究方法有哪些优缺点？",
+    "research_query": "从科技行业从业者的角度，请分析文化交流在不同国家或地区的差异，请分析相关政策的影响，主要针对文化交流的核心领域，请提供相关的案例研究，请评估未来的发展趋势，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "文化交流"
+  },
+  {
+    "original_question": "如何评价职场技能领域的标准化进程？",
+    "research_query": "请分析职场技能在不同国家或地区的差异，请列出主要的优缺点，不包括职场技能的边缘情况，请总结主要观点",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "职场技能"
+  },
+  {
+    "original_question": "如何从多角度分析历史研究领域的问题？",
+    "research_query": "请查找关于历史研究的详细数据和分析，请分析相关政策的影响，请按照地区进行分类比较，请提供具体的数据支持，请重点关注最近5年的变化，请按照具体的品类分类",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "历史研究"
+  },
+  {
+    "original_question": "如何从多角度分析环保领域的问题？",
+    "research_query": "以学生的身份，请比较环保的不同理论或方法，请给出可行的解决方案，请列出主要的优缺点，主要针对环保的核心领域，请提供一个分析框架",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "环保"
+  },
+  {
+    "original_question": "金融领域的研究方法有哪些优缺点？",
+    "research_query": "从旅游业从业者的角度，请查找关于金融的详细数据和分析，需要分析国内外的差异，请按照地区进行分类比较，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "金融"
+  },
+  {
+    "original_question": "政治政策领域的研究方法有哪些优缺点？",
+    "research_query": "关于政治政策，需要全面的分析和研究，请提供具体的数据支持，请从多个角度进行分析，主要针对政治政策的核心领域，请评估未来的发展趋势，请找出关键的影响因素",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "政治政策"
+  },
+  {
+    "original_question": "历史领域的专家们是如何看待心理学的？",
+    "research_query": "从创业者的角度，针对历史，请提供深入的分析，请考虑不同行业的应用场景，主要针对历史的核心领域，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "历史"
+  },
+  {
+    "original_question": "如何看待国内旅游领域的最新发展？",
+    "research_query": "针对国内旅游，请提供深入的分析，请分析其中的因果关系，请按照时间顺序进行分析，请提供相关的案例研究，请给出可行的解决方案，请列成表格",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "国内旅游"
+  },
+  {
+    "original_question": "如何评价最近历史研究领域的热点事件？",
+    "research_query": "作为研究者，请比较历史研究的不同理论或方法，请给出可行的解决方案，主要针对历史研究的核心领域，请重点关注最近5年的变化，请分析其中的因果关系，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "历史研究"
+  },
+  {
+    "original_question": "物联网领域的创新对社会有什么影响？",
+    "research_query": "以旅游业从业者的身份，请分析物联网在不同国家或地区的差异，请按照地区进行分类比较，需要考虑不同人群的需求，请分析相关政策的影响，请分析其中的因果关系，请总结主要观点",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "物联网"
+  },
+  {
+    "original_question": "社会问题领域的技术发展对就业有什么影响？",
+    "research_query": "请分析社会问题在不同国家或地区的差异，请重点关注最近5年的变化，请按照时间顺序进行分析，请评估未来的发展趋势，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "社会问题"
+  },
+  {
+    "original_question": "在投资领域，哪些因素会影响未来的发展趋势？",
+    "research_query": "请分析投资的市场规模和竞争格局，请重点关注最近5年的变化，请按照地区进行分类比较，主要针对投资的核心领域，请从多个角度进行分析，请提供详细的分析结果",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "投资"
+  },
+  {
+    "original_question": "家庭发展领域的教育和培训应该如何改进？",
+    "research_query": "以教育工作者的身份，请分析家庭发展的法律法规和政策框架，请按照时间顺序进行分析，不包括家庭发展的边缘情况，主要针对家庭发展的核心领域，请提供一个分析框架",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "家庭发展"
+  },
+  {
+    "original_question": "如何看待社会政策领域的最新发展？",
+    "research_query": "请查找关于社会政策的详细数据和分析，请重点关注最近5年的变化，请分析相关政策的影响，请分析其中的因果关系，请提供详细的分析结果",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "社会政策"
+  },
+  {
+    "original_question": "在文化保护方面，年轻人应该如何规划自己的发展？",
+    "research_query": "关于文化保护的问题，请进行详细研究，请按照时间顺序进行分析，请评估未来的发展趋势，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "文化保护"
+  },
+  {
+    "original_question": "职场领域的可持续发展策略有哪些？",
+    "research_query": "请比较职场的不同理论或方法，请列出主要的优缺点，请提供相关的案例研究，请评估未来的发展趋势，请提供具体的数据支持，请梳理成脉络清晰的内容",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "职场"
+  },
+  {
+    "original_question": "职场关系领域的政策变化对行业有什么影响？",
+    "research_query": "作为历史研究学者，请分析职场关系的法律法规和政策框架，请评估未来的发展趋势，请分析其中的因果关系，请考虑不同行业的应用场景，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "职场关系"
+  },
+  {
+    "original_question": "如何从多角度分析区块链领域的问题？",
+    "research_query": "作为金融分析师，关于区块链的问题，请进行详细研究，请给出可行的解决方案，请提供具体的数据支持，请考虑不同行业的应用场景，请按照具体的品类分类",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "区块链"
+  },
+  {
+    "original_question": "如何看待旅游产业领域的最新发展？",
+    "research_query": "以科技行业从业者的身份，请查找关于旅游产业的详细数据和分析，请按照地区进行分类比较，请分析其中的因果关系，请分析相关政策的影响，请提供具体的数据支持，请总结主要观点",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "旅游产业"
+  },
+  {
+    "original_question": "为什么旅游在中国的发展与国外有差异？",
+    "research_query": "请分析旅游的发展历史和未来趋势，请分析相关政策的影响，请按照时间顺序进行分析，请分析其中的因果关系，请提供具体的数据支持，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "旅游"
+  },
+  {
+    "original_question": "如何从多角度分析大数据领域的问题？",
+    "research_query": "请研究大数据的风险因素和应对策略，主要针对大数据的核心领域，请提供具体的数据支持，请列出主要的优缺点，请分析其中的因果关系，请列成表格",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "大数据"
+  },
+  {
+    "original_question": "为什么职场关系在中国的发展与国外有差异？",
+    "research_query": "从旅游业从业者的角度，关于职场关系，需要全面的分析和研究，请提供具体的数据支持，不包括职场关系的边缘情况，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "职场关系"
+  },
+  {
+    "original_question": "如何从多角度分析政治体制领域的问题？",
+    "research_query": "请对政治体制进行多角度的分析，不包括政治体制的边缘情况，请考虑不同行业的应用场景，请提炼出核心的结论",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "政治体制"
+  },
+  {
+    "original_question": "如何看待高等教育领域的最新发展？",
+    "research_query": "请分析高等教育的市场规模和竞争格局，需要分析国内外的差异，请给出可行的解决方案，请从多个角度进行分析，请总结主要观点",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "高等教育"
+  },
+  {
+    "original_question": "如何平衡职场发展与环境保护的关系？",
+    "research_query": "关于职场，需要全面的分析和研究，请给出可行的解决方案，需要考虑不同人群的需求，请考虑不同行业的应用场景，请梳理成脉络清晰的内容",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "职场"
+  },
+  {
+    "original_question": "社会保障领域的政策变化对行业有什么影响？",
+    "research_query": "请对社会保障进行多角度的分析，请从多个角度进行分析，需要分析国内外的差异，请提供具体的数据支持，请分析其中的因果关系，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会保障"
+  },
+  {
+    "original_question": "如何看待高等教育领域的跨界融合趋势？",
+    "research_query": "请对高等教育进行多角度的分析，需要分析国内外的差异，请给出可行的解决方案，请提供详细的分析结果",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "高等教育"
+  },
+  {
+    "original_question": "如何从多角度分析社会政策领域的问题？",
+    "research_query": "请分析社会政策的市场规模和竞争格局，请评估未来的发展趋势，请重点关注最近5年的变化，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "社会政策"
+  },
+  {
+    "original_question": "医疗保险领域的政策变化对行业有什么影响？",
+    "research_query": "以环保工作者的身份，关于医疗保险，需要全面的分析和研究，请提供具体的数据支持，不包括医疗保险的边缘情况，主要针对医疗保险的核心领域，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "医疗保险"
+  },
+  {
+    "original_question": "世界历史与家庭问题之间有什么关系？",
+    "research_query": "作为科技行业从业者，请研究世界历史的风险因素和应对策略，主要针对世界历史的核心领域，请重点关注最近5年的变化，请提供具体的数据支持，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "世界历史"
+  },
+  {
+    "original_question": "电影领域的创新对社会有什么影响？",
+    "research_query": "请比较电影的不同理论或方法，主要针对电影的核心领域，请从多个角度进行分析，请梳理成脉络清晰的内容",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "电影"
+  },
+  {
+    "original_question": "5G领域的专家们是如何看待环保的？",
+    "research_query": "请研究5G的最佳实践和案例，需要考虑不同人群的需求，请评估未来的发展趋势，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "5G"
+  },
+  {
+    "original_question": "文学领域的专家们是如何看待人工智能的？",
+    "research_query": "关于文学，需要全面的分析和研究，请评估未来的发展趋势，请列出主要的优缺点，请从多个角度进行分析，主要针对文学的核心领域，请列成表格",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "文学"
+  },
+  {
+    "original_question": "职场关系领域的用户体验应该如何改进？",
+    "research_query": "作为医疗专业人士，请分析职场关系的技术发展和创新方向，请考虑不同行业的应用场景，请分析相关政策的影响，请重点关注最近5年的变化，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "职场关系"
+  },
+  {
+    "original_question": "为什么政治体制在中国的发展与国外有差异？",
+    "research_query": "以金融分析师的身份，请分析政治体制的技术发展和创新方向，请提供相关的案例研究，请按照时间顺序进行分析，请梳理成脉络清晰的内容",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "政治体制"
+  },
+  {
+    "original_question": "在心理领域，哪些因素会影响未来的发展趋势？",
+    "research_query": "关于心理的问题，请进行详细研究，请从多个角度进行分析，请按照地区进行分类比较，请列成表格",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "心理"
+  },
+  {
+    "original_question": "家庭教育领域的专家们是如何看待旅游的？",
+    "research_query": "关于家庭教育的问题，请进行详细研究，请评估未来的发展趋势，请考虑不同行业的应用场景，请梳理成脉络清晰的内容",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "家庭教育"
+  },
+  {
+    "original_question": "如何评价心理问题领域的标准化进程？",
+    "research_query": "请分析心理问题的技术发展和创新方向，主要针对心理问题的核心领域，请按照时间顺序进行分析，请提供一个分析框架",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "心理问题"
+  },
+  {
+    "original_question": "社会保障领域的专家们是如何看待国际关系的？",
+    "research_query": "请分析社会保障的技术发展和创新方向，需要考虑不同人群的需求，请按照地区进行分类比较，请按照时间顺序进行分析，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会保障"
+  },
+  {
+    "original_question": "文化领域的研究方法有哪些优缺点？",
+    "research_query": "关于文化，需要全面的分析和研究，请考虑不同行业的应用场景，请分析其中的因果关系，请重点关注最近5年的变化，主要针对文化的核心领域，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "文化"
+  },
+  {
+    "original_question": "职场问题领域的专家们是如何看待文学的？",
+    "research_query": "关于职场问题的问题，请进行详细研究，请考虑不同行业的应用场景，需要分析国内外的差异，请给出可行的解决方案，请提供相关的案例研究，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "职场问题"
+  },
+  {
+    "original_question": "心理咨询领域的技术发展对就业有什么影响？",
+    "research_query": "以旅游业从业者的身份，请查找关于心理咨询的详细数据和分析，请按照地区进行分类比较，请分析相关政策的影响，请列成表格",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "心理咨询"
+  },
+  {
+    "original_question": "绿色能源与投资之间有什么关系？",
+    "research_query": "从科技行业从业者的角度，请研究绿色能源的最佳实践和案例，请重点关注最近5年的变化，请考虑不同行业的应用场景，请列出主要的优缺点，请梳理成脉络清晰的内容",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "绿色能源"
+  },
+  {
+    "original_question": "如何看待医疗政策领域的跨界融合趋势？",
+    "research_query": "以金融分析师的身份，请分析医疗政策的市场规模和竞争格局，请考虑不同行业的应用场景，请按照地区进行分类比较，需要考虑不同人群的需求，请总结主要观点",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "医疗政策"
+  },
+  {
+    "original_question": "社会发展领域未来十年可能会有哪些变化？",
+    "research_query": "请研究社会发展的风险因素和应对策略，请分析相关政策的影响，请分析其中的因果关系，请梳理成脉络清晰的内容",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "社会发展"
+  },
+  {
+    "original_question": "在医疗领域，哪些因素会影响未来的发展趋势？",
+    "research_query": "请比较医疗的不同理论或方法，需要考虑不同人群的需求，请按照地区进行分类比较，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "医疗"
+  },
+  {
+    "original_question": "如何看待中国历史领域的跨界融合趋势？",
+    "research_query": "关于中国历史，需要全面的分析和研究，请提供相关的案例研究，需要分析国内外的差异，请重点关注最近5年的变化，请列成表格",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "中国历史"
+  },
+  {
+    "original_question": "医疗与文化产业之间有什么关系？",
+    "research_query": "关于医疗的问题，请进行详细研究，请分析相关政策的影响，请给出可行的解决方案，请考虑不同行业的应用场景，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "医疗"
+  },
+  {
+    "original_question": "政治改革与心理咨询之间有什么关系？",
+    "research_query": "以投资人的身份，请分析政治改革的市场规模和竞争格局，请考虑不同行业的应用场景，请评估未来的发展趋势，请按照地区进行分类比较，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "政治改革"
+  },
+  {
+    "original_question": "如何看待政治体制领域的全球化趋势？",
+    "research_query": "请分析政治体制的技术发展和创新方向，请考虑不同行业的应用场景，主要针对政治体制的核心领域，请评估未来的发展趋势，请从多个角度进行分析，请按照具体的品类分类",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "政治体制"
+  },
+  {
+    "original_question": "中国历史领域的可持续发展策略有哪些？",
+    "research_query": "请分析中国历史的市场规模和竞争格局，请从多个角度进行分析，需要分析国内外的差异，请提供具体的数据支持，请重点关注最近5年的变化，请按照具体的品类分类",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "中国历史"
+  },
+  {
+    "original_question": "在教育方面，年轻人应该如何规划自己的发展？",
+    "research_query": "请分析教育的发展历史和未来趋势，请提供相关的案例研究，不包括教育的边缘情况，请总结主要观点",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "教育"
+  },
+  {
+    "original_question": "政治领域的专家们是如何看待家庭教育的？",
+    "research_query": "以市场分析师的身份，请研究政治的最佳实践和案例，请提供具体的数据支持，请分析相关政策的影响，不包括政治的边缘情况，请按照具体的品类分类",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "政治"
+  },
+  {
+    "original_question": "职场问题对普通人的日常生活有什么影响？",
+    "research_query": "从科技行业从业者的角度，请分析职场问题的法律法规和政策框架，需要考虑不同人群的需求，请列出主要的优缺点，请给出可行的解决方案，请分析其中的因果关系，请总结主要观点",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "职场问题"
+  },
+  {
+    "original_question": "社会发展领域的教育和培训应该如何改进？",
+    "research_query": "请分析社会发展在不同国家或地区的差异，请考虑不同行业的应用场景，需要考虑不同人群的需求，请分析相关政策的影响，请给出可行的解决方案，请提炼出核心的结论",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "社会发展"
+  },
+  {
+    "original_question": "社会保障与文学之间有什么关系？",
+    "research_query": "从研究者的角度，请查找关于社会保障的详细数据和分析，请分析相关政策的影响，请提供具体的数据支持，需要分析国内外的差异，请梳理成脉络清晰的内容",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "社会保障"
+  },
+  {
+    "original_question": "历史领域的政策变化对行业有什么影响？",
+    "research_query": "请分析历史对社会/经济/文化的影响，需要考虑不同人群的需求，请按照地区进行分类比较，请列出主要的优缺点，请制作一个决策框架",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "历史"
+  },
+  {
+    "original_question": "高等教育领域的可持续发展策略有哪些？",
+    "research_query": "关于高等教育，需要全面的分析和研究，需要考虑不同人群的需求，主要针对高等教育的核心领域，请提供详细的分析结果",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "高等教育"
+  },
+  {
+    "original_question": "政治政策对普通人的日常生活有什么影响？",
+    "research_query": "请分析政治政策的市场规模和竞争格局，请从多个角度进行分析，需要分析国内外的差异，请分析相关政策的影响，请归纳成几个主要类别",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "政治政策"
+  },
+  {
+    "original_question": "社会政策对普通人的日常生活有什么影响？",
+    "research_query": "请分析社会政策对社会/经济/文化的影响，需要分析国内外的差异，请提供具体的数据支持，请按照地区进行分类比较，请分析其中的因果关系，请归纳成几个主要类别",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "社会政策"
+  },
+  {
+    "original_question": "历史事件领域的政策变化对行业有什么影响？",
+    "research_query": "请比较历史事件的不同理论或方法，请列出主要的优缺点，需要考虑不同人群的需求，请归纳成几个主要类别",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "历史事件"
+  },
+  {
+    "original_question": "为什么职场技能在中国的发展与国外有差异？",
+    "research_query": "请研究职场技能的最佳实践和案例，请列出主要的优缺点，不包括职场技能的边缘情况，请提供一个分析框架",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "职场技能"
+  },
+  {
+    "original_question": "如何平衡政治政策发展与环境保护的关系？",
+    "research_query": "从社会学研究者的角度，关于政治政策的问题，请进行详细研究，请提供相关的案例研究，请列出主要的优缺点，请分析其中的因果关系，请按照时间顺序进行分析，请提供一个分析框架",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "政治政策"
+  },
+  {
+    "original_question": "如何看待教育政策领域的跨界融合趋势？",
+    "research_query": "请对教育政策进行多角度的分析，请给出可行的解决方案，请考虑不同行业的应用场景，不包括教育政策的边缘情况，请提炼出核心的结论",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "教育政策"
+  },
+  {
+    "original_question": "如何平衡医疗政策发展与环境保护的关系？",
+    "research_query": "请分析医疗政策的市场规模和竞争格局，需要考虑不同人群的需求，请提供具体的数据支持，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "医疗政策"
+  },
+  {
+    "original_question": "在旅游领域，哪些因素会影响未来的发展趋势？",
+    "research_query": "作为旅游业从业者，请查找关于旅游的详细数据和分析，请提供具体的数据支持，需要考虑不同人群的需求，不包括旅游的边缘情况，请分析其中的因果关系，请提供详细的分析结果",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "旅游"
+  },
+  {
+    "original_question": "如何看待科技领域的全球化趋势？",
+    "research_query": "从教育工作者的角度，请分析科技对社会/经济/文化的影响，请分析相关政策的影响，请按照时间顺序进行分析，请评估未来的发展趋势，请提供具体的数据支持，请提供一个分析框架",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "科技"
+  },
+  {
+    "original_question": "如何评价最近历史事件领域的热点事件？",
+    "research_query": "请分析历史事件的市场规模和竞争格局，请按照时间顺序进行分析，请从多个角度进行分析，请提供具体的数据支持，请梳理成脉络清晰的内容",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "历史事件"
+  },
+  {
+    "original_question": "如何从多角度分析经济领域的问题？",
+    "research_query": "请分析经济在不同国家或地区的差异，请评估未来的发展趋势，需要考虑不同人群的需求，需要分析国内外的差异，请列出主要的优缺点，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "经济"
+  },
+  {
+    "original_question": "如何看待文化领域的跨界融合趋势？",
+    "research_query": "以政策研究员的身份，请研究文化的最佳实践和案例，需要分析国内外的差异，请从多个角度进行分析，请按照地区进行分类比较，请梳理成脉络清晰的内容",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "文化"
+  },
+  {
+    "original_question": "旅游领域的政策变化对行业有什么影响？",
+    "research_query": "请分析旅游的市场规模和竞争格局，请考虑不同行业的应用场景，主要针对旅游的核心领域，需要分析国内外的差异，请分析相关政策的影响，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "旅游"
+  },
+  {
+    "original_question": "教育政策对普通人的日常生活有什么影响？",
+    "research_query": "请分析教育政策的技术发展和创新方向，请按照时间顺序进行分析，需要分析国内外的差异，请评估未来的发展趋势，请梳理成脉络清晰的内容",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "教育政策"
+  },
+  {
+    "original_question": "如何评估家庭关系领域的社会责任？",
+    "research_query": "请分析家庭关系的市场规模和竞争格局，请提供具体的数据支持，请分析相关政策的影响，请按照地区进行分类比较，需要考虑不同人群的需求，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "家庭关系"
+  },
+  {
+    "original_question": "历史研究领域的政策变化对行业有什么影响？",
+    "research_query": "请分析历史研究的市场规模和竞争格局，请分析相关政策的影响，请按照时间顺序进行分析，不包括历史研究的边缘情况，请评估未来的发展趋势，请提炼出核心的结论",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "历史研究"
+  },
+  {
+    "original_question": "如何平衡经济发展与环境保护的关系？",
+    "research_query": "请分析经济的法律法规和政策框架，请提供相关的案例研究，请按照地区进行分类比较，请提炼出核心的结论",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "经济"
+  },
+  {
+    "original_question": "法律与心理咨询之间有什么关系？",
+    "research_query": "从社会学研究者的角度，请对法律进行多角度的分析，请分析其中的因果关系，请提供具体的数据支持，请分析相关政策的影响，请重点关注最近5年的变化，请梳理成脉络清晰的内容",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "法律"
+  },
+  {
+    "original_question": "如何看待金融领域的跨界融合趋势？",
+    "research_query": "请分析金融的市场规模和竞争格局，请重点关注最近5年的变化，需要考虑不同人群的需求，请从多个角度进行分析，请分析其中的因果关系，请列成表格",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "金融"
+  },
+  {
+    "original_question": "云计算领域的创新对社会有什么影响？",
+    "research_query": "请分析云计算的法律法规和政策框架，请给出可行的解决方案，请列出主要的优缺点，需要考虑不同人群的需求，请提供详细的分析结果",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "云计算"
+  },
+  {
+    "original_question": "政治改革领域的政策变化对行业有什么影响？",
+    "research_query": "针对政治改革，请提供深入的分析，主要针对政治改革的核心领域，请列出主要的优缺点，需要考虑不同人群的需求，请从多个角度进行分析，请总结主要观点",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "政治改革"
+  },
+  {
+    "original_question": "5G领域的创新对社会有什么影响？",
+    "research_query": "以社会学研究者的身份，请研究5G的最佳实践和案例，请分析相关政策的影响，请列出主要的优缺点，请按照具体的品类分类",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "5G"
+  },
+  {
+    "original_question": "教育领域的研究方法有哪些优缺点？",
+    "research_query": "请分析教育的技术发展和创新方向，请按照地区进行分类比较，需要分析国内外的差异，需要考虑不同人群的需求，请分析相关政策的影响，请提供详细的分析结果",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "教育"
+  },
+  {
+    "original_question": "社会政策领域的创新对社会有什么影响？",
+    "research_query": "从市场分析师的角度，关于社会政策，需要全面的分析和研究，请按照地区进行分类比较，请提供相关的案例研究，请提供具体的数据支持，请给出可行的解决方案，请列成表格",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "社会政策"
+  },
+  {
+    "original_question": "为什么社会政策在中国的发展与国外有差异？",
+    "research_query": "关于社会政策的问题，请进行详细研究，请按照地区进行分类比较，请从多个角度进行分析，请评估未来的发展趋势，请给出可行的解决方案，请梳理成脉络清晰的内容",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会政策"
+  },
+  {
+    "original_question": "如何评估国际关系领域的社会责任？",
+    "research_query": "请分析国际关系对社会/经济/文化的影响，需要分析国内外的差异，请给出可行的解决方案，请按照地区进行分类比较，请提供详细的分析结果",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "国际关系"
+  },
+  {
+    "original_question": "如何评价最近经济领域的热点事件？",
+    "research_query": "请分析经济的市场规模和竞争格局，需要分析国内外的差异，请评估未来的发展趋势，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "经济"
+  },
+  {
+    "original_question": "职场关系领域的专家们是如何看待云计算的？",
+    "research_query": "请分析职场关系的技术发展和创新方向，请评估未来的发展趋势，请分析相关政策的影响，请提炼出核心的结论",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "职场关系"
+  },
+  {
+    "original_question": "传统文化领域的创新对社会有什么影响？",
+    "research_query": "请研究传统文化的最佳实践和案例，请考虑不同行业的应用场景，主要针对传统文化的核心领域，请归纳成几个主要类别",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "传统文化"
+  },
+  {
+    "original_question": "为什么旅游政策在中国的发展与国外有差异？",
+    "research_query": "请研究旅游政策的风险因素和应对策略，请给出可行的解决方案，请提供具体的数据支持，请列成表格",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "旅游政策"
+  },
+  {
+    "original_question": "在文化方面，年轻人应该如何规划自己的发展？",
+    "research_query": "请分析文化的发展历史和未来趋势，请重点关注最近5年的变化，请按照时间顺序进行分析，请列出主要的优缺点，请给出可行的解决方案，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "文化"
+  },
+  {
+    "original_question": "如何评价职场关系领域的标准化进程？",
+    "research_query": "从研究者的角度，请对职场关系进行多角度的分析，请按照时间顺序进行分析，请给出可行的解决方案，请按照地区进行分类比较，请从多个角度进行分析，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "职场关系"
+  },
+  {
+    "original_question": "医疗政策对普通人的日常生活有什么影响？",
+    "research_query": "请分析医疗政策的市场规模和竞争格局，请重点关注最近5年的变化，不包括医疗政策的边缘情况，需要考虑不同人群的需求，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "医疗政策"
+  },
+  {
+    "original_question": "如何评价最近医疗政策领域的热点事件？",
+    "research_query": "请分析医疗政策的法律法规和政策框架，请按照地区进行分类比较，请按照时间顺序进行分析，主要针对医疗政策的核心领域，请提炼出核心的结论",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "医疗政策"
+  },
+  {
+    "original_question": "职场关系领域的创业机会有哪些？",
+    "research_query": "作为政策研究员，请分析职场关系对社会/经济/文化的影响，请重点关注最近5年的变化，请按照时间顺序进行分析，主要针对职场关系的核心领域，请做一个对比分析",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "职场关系"
+  },
+  {
+    "original_question": "社会领域的专家们是如何看待金融的？",
+    "research_query": "请分析社会对社会/经济/文化的影响，请按照地区进行分类比较，请给出可行的解决方案，请提供相关的案例研究，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "社会"
+  },
+  {
+    "original_question": "法律法规与高等教育之间有什么关系？",
+    "research_query": "请研究法律法规的风险因素和应对策略，请分析其中的因果关系，请列出主要的优缺点，请总结主要观点",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "法律法规"
+  },
+  {
+    "original_question": "政治领域的研究方法有哪些优缺点？",
+    "research_query": "关于政治的问题，请进行详细研究，请提供相关的案例研究，请分析其中的因果关系，请列出主要的优缺点，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "政治"
+  },
+  {
+    "original_question": "投资领域的技术发展对就业有什么影响？",
+    "research_query": "以研究者的身份，请比较投资的不同理论或方法，请按照地区进行分类比较，请从多个角度进行分析，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "投资"
+  },
+  {
+    "original_question": "职场关系领域的技术发展对就业有什么影响？",
+    "research_query": "请分析职场关系的市场规模和竞争格局，请评估未来的发展趋势，请重点关注最近5年的变化，请考虑不同行业的应用场景，请提供具体的数据支持，请梳理成脉络清晰的内容",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "职场关系"
+  },
+  {
+    "original_question": "如何平衡旅游政策发展与环境保护的关系？",
+    "research_query": "以政策研究员的身份，请查找关于旅游政策的详细数据和分析，请给出可行的解决方案，请分析其中的因果关系，请列出主要的优缺点，请提炼出核心的结论",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "旅游政策"
+  },
+  {
+    "original_question": "如何评价最近文化产业领域的热点事件？",
+    "research_query": "针对文化产业，请提供深入的分析，请给出可行的解决方案，请评估未来的发展趋势，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "文化产业"
+  },
+  {
+    "original_question": "为什么高等教育在中国的发展与国外有差异？",
+    "research_query": "请分析高等教育的技术发展和创新方向，请从多个角度进行分析，请提供相关的案例研究，请提供详细的分析结果",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "高等教育"
+  },
+  {
+    "original_question": "为什么传统文化在中国的发展与国外有差异？",
+    "research_query": "作为医疗专业人士，请查找关于传统文化的详细数据和分析，请分析相关政策的影响，不包括传统文化的边缘情况，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "传统文化"
+  },
+  {
+    "original_question": "旅游产业领域的研究方法有哪些优缺点？",
+    "research_query": "请比较旅游产业的不同理论或方法，请按照时间顺序进行分析，不包括旅游产业的边缘情况，主要针对旅游产业的核心领域，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "旅游产业"
+  },
+  {
+    "original_question": "区块链领域的创新对社会有什么影响？",
+    "research_query": "请分析区块链的发展历史和未来趋势，请提供相关的案例研究，请重点关注最近5年的变化，需要考虑不同人群的需求，请提供具体的数据支持，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "区块链"
+  },
+  {
+    "original_question": "社会发展对普通人的日常生活有什么影响？",
+    "research_query": "请查找关于社会发展的详细数据和分析，请提供相关的案例研究，主要针对社会发展的核心领域，请列成表格",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会发展"
+  },
+  {
+    "original_question": "如何评价最近职场问题领域的热点事件？",
+    "research_query": "请分析职场问题的法律法规和政策框架，主要针对职场问题的核心领域，请从多个角度进行分析，请提供具体的数据支持，请列出主要的优缺点，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "职场问题"
+  },
+  {
+    "original_question": "疾病预防领域的创新对社会有什么影响？",
+    "research_query": "针对疾病预防，请提供深入的分析，请列出主要的优缺点，请提供具体的数据支持，请列成表格",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "疾病预防"
+  },
+  {
+    "original_question": "如何评价最近心理学领域的热点事件？",
+    "research_query": "请查找关于心理学的详细数据和分析，需要分析国内外的差异，不包括心理学的边缘情况，请给出可行的解决方案，需要考虑不同人群的需求，请提炼出核心的结论",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "心理学"
+  },
+  {
+    "original_question": "文化交流与家庭问题之间有什么关系？",
+    "research_query": "请分析文化交流的法律法规和政策框架，不包括文化交流的边缘情况，请分析其中的因果关系，请分析相关政策的影响，请从多个角度进行分析，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "文化交流"
+  },
+  {
+    "original_question": "高等教育领域的政策变化对行业有什么影响？",
+    "research_query": "请分析高等教育的发展历史和未来趋势，请从多个角度进行分析，请给出可行的解决方案，请分析其中的因果关系，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "高等教育"
+  },
+  {
+    "original_question": "职场领域的创新对社会有什么影响？",
+    "research_query": "请分析职场的法律法规和政策框架，请按照地区进行分类比较，请列出主要的优缺点，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "职场"
+  },
+  {
+    "original_question": "为什么教育在中国的发展与国外有差异？",
+    "research_query": "请研究教育的风险因素和应对策略，请分析其中的因果关系，请重点关注最近5年的变化，不包括教育的边缘情况，请考虑不同行业的应用场景，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "教育"
+  },
+  {
+    "original_question": "如何从多角度分析旅游政策领域的问题？",
+    "research_query": "请分析旅游政策的技术发展和创新方向，请给出可行的解决方案，请从多个角度进行分析，请提供具体的数据支持，请总结主要观点",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "旅游政策"
+  },
+  {
+    "original_question": "如何看待社会政策领域的全球化趋势？",
+    "research_query": "作为科技行业从业者，针对社会政策，请提供深入的分析，请按照地区进行分类比较，主要针对社会政策的核心领域，请给出可行的解决方案，请列出主要的优缺点，请列成表格",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "社会政策"
+  },
+  {
+    "original_question": "家庭关系领域的创新对社会有什么影响？",
+    "research_query": "请分析家庭关系的法律法规和政策框架，请重点关注最近5年的变化，请分析相关政策的影响，不包括家庭关系的边缘情况，需要考虑不同人群的需求，请归纳成几个主要类别",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "家庭关系"
+  },
+  {
+    "original_question": "保险领域的创新对社会有什么影响？",
+    "research_query": "请分析保险对社会/经济/文化的影响，请按照时间顺序进行分析，请分析相关政策的影响，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "保险"
+  },
+  {
+    "original_question": "如何看待健康领域的跨界融合趋势？",
+    "research_query": "请对健康进行多角度的分析，请提供具体的数据支持，不包括健康的边缘情况，请考虑不同行业的应用场景，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "健康"
+  },
+  {
+    "original_question": "如何看待历史研究领域的全球化趋势？",
+    "research_query": "请研究历史研究的风险因素和应对策略，请列出主要的优缺点，不包括历史研究的边缘情况，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "历史研究"
+  },
+  {
+    "original_question": "如何从多角度分析家庭教育领域的问题？",
+    "research_query": "请研究家庭教育的最佳实践和案例，请按照地区进行分类比较，主要针对家庭教育的核心领域，请从多个角度进行分析，请给出可行的解决方案，请归纳成几个主要类别",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "家庭教育"
+  },
+  {
+    "original_question": "社会问题领域的政策变化对行业有什么影响？",
+    "research_query": "请分析社会问题对社会/经济/文化的影响，请评估未来的发展趋势，请给出可行的解决方案，不包括社会问题的边缘情况，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会问题"
+  },
+  {
+    "original_question": "如何看待国内旅游领域的全球化趋势？",
+    "research_query": "关于国内旅游的问题，请进行详细研究，请列出主要的优缺点，主要针对国内旅游的核心领域，请考虑不同行业的应用场景，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "国内旅游"
+  },
+  {
+    "original_question": "如何提高职场关系领域的竞争力？",
+    "research_query": "请对职场关系进行多角度的分析，请按照时间顺序进行分析，请给出可行的解决方案，请制作一个决策框架",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "职场关系"
+  },
+  {
+    "original_question": "文化产业领域的创新对社会有什么影响？",
+    "research_query": "请研究文化产业的风险因素和应对策略，请分析其中的因果关系，请给出可行的解决方案，请归纳成几个主要类别",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "文化产业"
+  },
+  {
+    "original_question": "体育领域的可持续发展策略有哪些？",
+    "research_query": "请分析体育的技术发展和创新方向，需要考虑不同人群的需求，不包括体育的边缘情况，请列出主要的优缺点，请按照地区进行分类比较，请提供详细的分析结果",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "体育"
+  },
+  {
+    "original_question": "文化产业领域的可持续发展策略有哪些？",
+    "research_query": "以管理者的身份，请分析文化产业的发展历史和未来趋势，不包括文化产业的边缘情况，请考虑不同行业的应用场景，请归纳成几个主要类别",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "文化产业"
+  },
+  {
+    "original_question": "如何平衡文化发展与环境保护的关系？",
+    "research_query": "请研究文化的最佳实践和案例，请分析相关政策的影响，请重点关注最近5年的变化，主要针对文化的核心领域，请做一个对比分析",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "文化"
+  },
+  {
+    "original_question": "政治体制领域的技术发展对就业有什么影响？",
+    "research_query": "请分析政治体制的法律法规和政策框架，请重点关注最近5年的变化，请从多个角度进行分析，请提供具体的数据支持，请评估未来的发展趋势，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "政治体制"
+  },
+  {
+    "original_question": "心理学领域的技术发展对就业有什么影响？",
+    "research_query": "作为金融分析师，针对心理学，请提供深入的分析，请提供具体的数据支持，请考虑不同行业的应用场景，请按照地区进行分类比较，请从多个角度进行分析，请提供详细的分析结果",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "心理学"
+  },
+  {
+    "original_question": "如何平衡职业教育发展与环境保护的关系？",
+    "research_query": "以社会学研究者的身份，请研究职业教育的风险因素和应对策略，主要针对职业教育的核心领域，需要分析国内外的差异，请归纳成几个主要类别",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "职业教育"
+  },
+  {
+    "original_question": "如何从多角度分析历史事件领域的问题？",
+    "research_query": "以金融分析师的身份，请研究历史事件的风险因素和应对策略，不包括历史事件的边缘情况，请分析相关政策的影响，请给出可行的解决方案，请提供详细的分析结果",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "历史事件"
+  },
+  {
+    "original_question": "如何评价最近职场技能领域的热点事件？",
+    "research_query": "请查找关于职场技能的详细数据和分析，请从多个角度进行分析，请提供具体的数据支持，请提炼出核心的结论",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "职场技能"
+  },
+  {
+    "original_question": "在政治体制方面，年轻人应该如何规划自己的发展？",
+    "research_query": "请分析政治体制的技术发展和创新方向，不包括政治体制的边缘情况，需要分析国内外的差异，请分析其中的因果关系，请给出可行的解决方案，请提供详细的分析结果",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "政治体制"
+  },
+  {
+    "original_question": "国际旅游领域的专家们是如何看待社会的？",
+    "research_query": "请研究国际旅游的最佳实践和案例，请分析其中的因果关系，请列出主要的优缺点，请按照地区进行分类比较，请列成表格",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "国际旅游"
+  },
+  {
+    "original_question": "如何评价政治体制领域的标准化进程？",
+    "research_query": "请分析政治体制的技术发展和创新方向，请按照时间顺序进行分析，请列出主要的优缺点，请重点关注最近5年的变化，请提供相关的案例研究，请归纳成几个主要类别",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "政治体制"
+  },
+  {
+    "original_question": "绿色能源领域的专家们是如何看待体育的？",
+    "research_query": "关于绿色能源，需要全面的分析和研究，请从多个角度进行分析，请考虑不同行业的应用场景，请给出可行的解决方案，请分析其中的因果关系，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "绿色能源"
+  },
+  {
+    "original_question": "如何看待社会政策领域的跨界融合趋势？",
+    "research_query": "请分析社会政策对社会/经济/文化的影响，需要分析国内外的差异，请提供相关的案例研究，请从多个角度进行分析，请提供详细的分析结果",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "社会政策"
+  },
+  {
+    "original_question": "如何平衡投资发展与环境保护的关系？",
+    "research_query": "请分析投资的法律法规和政策框架，请重点关注最近5年的变化，请评估未来的发展趋势，请提供相关的案例研究，请提供一个分析框架",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "投资"
+  },
+  {
+    "original_question": "人工智能领域的创新对社会有什么影响？",
+    "research_query": "请分析人工智能在不同国家或地区的差异，请列出主要的优缺点，请分析其中的因果关系，请提供相关的案例研究，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "人工智能"
+  },
+  {
+    "original_question": "经济对普通人的日常生活有什么影响？",
+    "research_query": "针对经济，请提供深入的分析，不包括经济的边缘情况，请提供相关的案例研究，请按照具体的品类分类",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "经济"
+  },
+  {
+    "original_question": "在环保方面，年轻人应该如何规划自己的发展？",
+    "research_query": "作为管理者，关于环保的问题，请进行详细研究，主要针对环保的核心领域，请从多个角度进行分析，请分析其中的因果关系，请分析相关政策的影响，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "环保"
+  },
+  {
+    "original_question": "职业教育领域的可持续发展策略有哪些？",
+    "research_query": "作为市场分析师，请分析职业教育对社会/经济/文化的影响，主要针对职业教育的核心领域，请分析相关政策的影响，需要考虑不同人群的需求，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "职业教育"
+  },
+  {
+    "original_question": "如何看待艺术领域的全球化趋势？",
+    "research_query": "以创业者的身份，请分析艺术的技术发展和创新方向，请重点关注最近5年的变化，请分析其中的因果关系，请制作一个决策框架",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "艺术"
+  },
+  {
+    "original_question": "如何评价环保领域的标准化进程？",
+    "research_query": "请查找关于环保的详细数据和分析，请给出可行的解决方案，请重点关注最近5年的变化，主要针对环保的核心领域，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "环保"
+  },
+  {
+    "original_question": "心理问题领域的研究方法有哪些优缺点？",
+    "research_query": "以文化产业从业者的身份，请分析心理问题的市场规模和竞争格局，需要考虑不同人群的需求，请重点关注最近5年的变化，请列出主要的优缺点，请分析其中的因果关系，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "心理问题"
+  },
+  {
+    "original_question": "如何评价最近社会领域的热点事件？",
+    "research_query": "针对社会，请提供深入的分析，请考虑不同行业的应用场景，需要分析国内外的差异，请按照时间顺序进行分析，请列成表格",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "社会"
+  },
+  {
+    "original_question": "如何评价心理领域的标准化进程？",
+    "research_query": "从研究者的角度，请研究心理的最佳实践和案例，请从多个角度进行分析，需要考虑不同人群的需求，请提供详细的分析结果",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "心理"
+  },
+  {
+    "original_question": "心理问题领域的技术发展对就业有什么影响？",
+    "research_query": "请分析心理问题在不同国家或地区的差异，请评估未来的发展趋势，请从多个角度进行分析，请按照时间顺序进行分析，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "心理问题"
+  },
+  {
+    "original_question": "如何看待中国历史领域的最新发展？",
+    "research_query": "请分析中国历史对社会/经济/文化的影响，需要分析国内外的差异，请分析相关政策的影响，请考虑不同行业的应用场景，请评估未来的发展趋势，请提供详细的分析结果",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "中国历史"
+  },
+  {
+    "original_question": "职场领域的技术发展对就业有什么影响？",
+    "research_query": "以投资人的身份，请分析职场的发展历史和未来趋势，请提供相关的案例研究，请按照地区进行分类比较，请提炼出核心的结论",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "职场"
+  },
+  {
+    "original_question": "区块链领域的研究方法有哪些优缺点？",
+    "research_query": "请对区块链进行多角度的分析，请给出可行的解决方案，请分析相关政策的影响，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "区块链"
+  },
+  {
+    "original_question": "碳中和领域的专家们是如何看待医疗保险的？",
+    "research_query": "以旅游业从业者的身份，请对碳中和进行多角度的分析，需要分析国内外的差异，请考虑不同行业的应用场景，请提炼出核心的结论",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "碳中和"
+  },
+  {
+    "original_question": "如何评价最近社会发展领域的热点事件？",
+    "research_query": "请研究社会发展的风险因素和应对策略，请提供相关的案例研究，不包括社会发展的边缘情况，请梳理成脉络清晰的内容",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会发展"
+  },
+  {
+    "original_question": "职场技能领域的可持续发展策略有哪些？",
+    "research_query": "请对职场技能进行多角度的分析，请重点关注最近5年的变化，请考虑不同行业的应用场景，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "职场技能"
+  },
+  {
+    "original_question": "为什么区块链在中国的发展与国外有差异？",
+    "research_query": "作为管理者，请对区块链进行多角度的分析，请按照时间顺序进行分析，请从多个角度进行分析，请按照地区进行分类比较，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "区块链"
+  },
+  {
+    "original_question": "社会发展领域的可持续发展策略有哪些？",
+    "research_query": "请分析社会发展的技术发展和创新方向，请提供具体的数据支持，需要分析国内外的差异，请分析其中的因果关系，请列成表格",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会发展"
+  },
+  {
+    "original_question": "如何评价历史事件领域的标准化进程？",
+    "research_query": "请分析历史事件的技术发展和创新方向，请提供相关的案例研究，请按照时间顺序进行分析，需要分析国内外的差异，请重点关注最近5年的变化，请列成表格",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "历史事件"
+  },
+  {
+    "original_question": "如何评估社会发展领域的投资价值？",
+    "research_query": "请比较社会发展的不同理论或方法，请重点关注最近5年的变化，请按照时间顺序进行分析，主要针对社会发展的核心领域，不包括社会发展的边缘情况，请提供详细的分析结果",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会发展"
+  },
+  {
+    "original_question": "艺术领域的专家们是如何看待心理学的？",
+    "research_query": "请比较艺术的不同理论或方法，请按照地区进行分类比较，请评估未来的发展趋势，请梳理成脉络清晰的内容",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "艺术"
+  },
+  {
+    "original_question": "如何看待文化产业领域的跨界融合趋势？",
+    "research_query": "以环保工作者的身份，请查找关于文化产业的详细数据和分析，主要针对文化产业的核心领域，请评估未来的发展趋势，请列成表格",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "文化产业"
+  },
+  {
+    "original_question": "文化交流领域的专家们是如何看待政治改革的？",
+    "research_query": "请分析文化交流在不同国家或地区的差异，请从多个角度进行分析，请列出主要的优缺点，需要考虑不同人群的需求，请分析其中的因果关系，请列成表格",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "文化交流"
+  },
+  {
+    "original_question": "旅游产业对普通人的日常生活有什么影响？",
+    "research_query": "请查找关于旅游产业的详细数据和分析，请分析其中的因果关系，请提供相关的案例研究，请重点关注最近5年的变化，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "旅游产业"
+  },
+  {
+    "original_question": "历史领域的技术发展对就业有什么影响？",
+    "research_query": "请对历史进行多角度的分析，请按照地区进行分类比较，需要分析国内外的差异，需要考虑不同人群的需求，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "历史"
+  },
+  {
+    "original_question": "在教育政策方面，年轻人应该如何规划自己的发展？",
+    "research_query": "请分析教育政策在不同国家或地区的差异，请评估未来的发展趋势，请按照时间顺序进行分析，请找出关键的影响因素",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "教育政策"
+  },
+  {
+    "original_question": "在旅游产业领域，哪些因素会影响未来的发展趋势？",
+    "research_query": "请分析旅游产业的市场规模和竞争格局，请分析相关政策的影响，请分析其中的因果关系，请梳理成脉络清晰的内容",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "旅游产业"
+  },
+  {
+    "original_question": "大数据领域的创新对社会有什么影响？",
+    "research_query": "作为法律顾问，请研究大数据的风险因素和应对策略，请提供相关的案例研究，请按照时间顺序进行分析，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "大数据"
+  },
+  {
+    "original_question": "在线教育与保险之间有什么关系？",
+    "research_query": "作为市场分析师，请分析在线教育的市场规模和竞争格局，请重点关注最近5年的变化，请从多个角度进行分析，请提供具体的数据支持，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "在线教育"
+  },
+  {
+    "original_question": "在传统文化领域，哪些因素会影响未来的发展趋势？",
+    "research_query": "从学生的角度，请分析传统文化的技术发展和创新方向，请重点关注最近5年的变化，主要针对传统文化的核心领域，请梳理成脉络清晰的内容",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "传统文化"
+  },
+  {
+    "original_question": "在人工智能方面，年轻人应该如何规划自己的发展？",
+    "research_query": "请分析人工智能对社会/经济/文化的影响，不包括人工智能的边缘情况，主要针对人工智能的核心领域，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "人工智能"
+  },
+  {
+    "original_question": "房地产与职场问题之间有什么关系？",
+    "research_query": "以政策研究员的身份，关于房地产的问题，请进行详细研究，请按照时间顺序进行分析，请列出主要的优缺点，请梳理成脉络清晰的内容",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "房地产"
+  },
+  {
+    "original_question": "如何平衡社会问题发展与环境保护的关系？",
+    "research_query": "请对社会问题进行多角度的分析，请给出可行的解决方案，不包括社会问题的边缘情况，请提炼出核心的结论",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会问题"
+  },
+  {
+    "original_question": "可持续发展领域的创新对社会有什么影响？",
+    "research_query": "关于可持续发展的问题，请进行详细研究，不包括可持续发展的边缘情况，请提供具体的数据支持，请按照时间顺序进行分析，请提供详细的分析结果",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "可持续发展"
+  },
+  {
+    "original_question": "世界历史领域的政策变化对行业有什么影响？",
+    "research_query": "作为金融分析师，请分析世界历史在不同国家或地区的差异，请列出主要的优缺点，请考虑不同行业的应用场景，请提供具体的数据支持，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "世界历史"
+  },
+  {
+    "original_question": "如何看待投资领域的跨界融合趋势？",
+    "research_query": "请分析投资的市场规模和竞争格局，主要针对投资的核心领域，请按照时间顺序进行分析，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "投资"
+  },
+  {
+    "original_question": "科技领域的可持续发展策略有哪些？",
+    "research_query": "关于科技，需要全面的分析和研究，需要考虑不同人群的需求，请评估未来的发展趋势，请按照地区进行分类比较，请重点关注最近5年的变化，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "科技"
+  },
+  {
+    "original_question": "为什么文化保护在中国的发展与国外有差异？",
+    "research_query": "请研究文化保护的风险因素和应对策略，需要考虑不同人群的需求，请列出主要的优缺点，请归纳成几个主要类别",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "文化保护"
+  },
+  {
+    "original_question": "心理领域的可持续发展策略有哪些？",
+    "research_query": "关于心理，需要全面的分析和研究，请给出可行的解决方案，请按照地区进行分类比较，主要针对心理的核心领域，请分析其中的因果关系，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "心理"
+  },
+  {
+    "original_question": "如何评价最近旅游产业领域的热点事件？",
+    "research_query": "请研究旅游产业的风险因素和应对策略，请给出可行的解决方案，请按照地区进行分类比较，请提供相关的案例研究，需要考虑不同人群的需求，请提供详细的分析结果",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "旅游产业"
+  },
+  {
+    "original_question": "心理领域的研究方法有哪些优缺点？",
+    "research_query": "请对心理进行多角度的分析，请考虑不同行业的应用场景，请按照地区进行分类比较，请列出主要的优缺点，请归纳成几个主要类别",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "心理"
+  },
+  {
+    "original_question": "金融领域的可持续发展策略有哪些？",
+    "research_query": "从环保工作者的角度，请分析金融的市场规模和竞争格局，请按照时间顺序进行分析，主要针对金融的核心领域，请从多个角度进行分析，请分析其中的因果关系，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "金融"
+  },
+  {
+    "original_question": "如何评价最近体育领域的热点事件？",
+    "research_query": "从金融分析师的角度，针对体育，请提供深入的分析，请提供相关的案例研究，请考虑不同行业的应用场景，主要针对体育的核心领域，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "体育"
+  },
+  {
+    "original_question": "如何评估社会发展领域的社会责任？",
+    "research_query": "从市场分析师的角度，请对社会发展进行多角度的分析，请考虑不同行业的应用场景，需要考虑不同人群的需求，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "社会发展"
+  },
+  {
+    "original_question": "如何从多角度分析心理咨询领域的问题？",
+    "research_query": "请对心理咨询进行多角度的分析，请列出主要的优缺点，请考虑不同行业的应用场景，请重点关注最近5年的变化，请制作一个决策框架",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "心理咨询"
+  },
+  {
+    "original_question": "如何看待中国历史领域的全球化趋势？",
+    "research_query": "请比较中国历史的不同理论或方法，主要针对中国历史的核心领域，请分析相关政策的影响，请按照地区进行分类比较，请给出可行的解决方案，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "中国历史"
+  },
+  {
+    "original_question": "家庭教育对普通人的日常生活有什么影响？",
+    "research_query": "以科技行业从业者的身份，关于家庭教育的问题，请进行详细研究，请从多个角度进行分析，请分析其中的因果关系，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "家庭教育"
+  },
+  {
+    "original_question": "如何评价最近旅游领域的热点事件？",
+    "research_query": "请分析旅游的法律法规和政策框架，请重点关注最近5年的变化，请按照地区进行分类比较，请评估未来的发展趋势，需要考虑不同人群的需求，请归纳成几个主要类别",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "旅游"
+  },
+  {
+    "original_question": "政治体制领域的研究方法有哪些优缺点？",
+    "research_query": "从环保工作者的角度，请研究政治体制的风险因素和应对策略，需要考虑不同人群的需求，主要针对政治体制的核心领域，请给出可行的解决方案，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "政治体制"
+  },
+  {
+    "original_question": "在社会保障领域，哪些因素会影响未来的发展趋势？",
+    "research_query": "从政策研究员的角度，请研究社会保障的最佳实践和案例，请给出可行的解决方案，需要分析国内外的差异，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "社会保障"
+  },
+  {
+    "original_question": "区块链领域的可持续发展策略有哪些？",
+    "research_query": "关于区块链，需要全面的分析和研究，需要分析国内外的差异，请从多个角度进行分析，请列出主要的优缺点，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "区块链"
+  },
+  {
+    "original_question": "在社会发展领域，哪些因素会影响未来的发展趋势？",
+    "research_query": "请分析社会发展的技术发展和创新方向，需要考虑不同人群的需求，不包括社会发展的边缘情况，请从多个角度进行分析，请提炼出核心的结论",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会发展"
+  },
+  {
+    "original_question": "职场问题领域的研究方法有哪些优缺点？",
+    "research_query": "请分析职场问题对社会/经济/文化的影响，请给出可行的解决方案，请分析相关政策的影响，请提供一个分析框架",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "职场问题"
+  },
+  {
+    "original_question": "如何评价最近世界历史领域的热点事件？",
+    "research_query": "以投资人的身份，请分析世界历史的法律法规和政策框架，请从多个角度进行分析，需要分析国内外的差异，请给出可行的解决方案，请按照地区进行分类比较，请提炼出核心的结论",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "世界历史"
+  },
+  {
+    "original_question": "医疗保险领域的技术发展对就业有什么影响？",
+    "research_query": "关于医疗保险的问题，请进行详细研究，需要考虑不同人群的需求，请重点关注最近5年的变化，请总结主要观点",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "医疗保险"
+  },
+  {
+    "original_question": "如何看待传统文化领域的最新发展？",
+    "research_query": "请研究传统文化的风险因素和应对策略，请从多个角度进行分析，请分析其中的因果关系，请提供具体的数据支持，不包括传统文化的边缘情况，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "传统文化"
+  },
+  {
+    "original_question": "为什么职业教育在中国的发展与国外有差异？",
+    "research_query": "请分析职业教育在不同国家或地区的差异，请重点关注最近5年的变化，请给出可行的解决方案，请按照地区进行分类比较，主要针对职业教育的核心领域，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "职业教育"
+  },
+  {
+    "original_question": "如何评价旅游政策领域的标准化进程？",
+    "research_query": "请对旅游政策进行多角度的分析，请考虑不同行业的应用场景，不包括旅游政策的边缘情况，请评估未来的发展趋势，请从多个角度进行分析，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "旅游政策"
+  },
+  {
+    "original_question": "为什么心理学在中国的发展与国外有差异？",
+    "research_query": "请分析心理学的发展历史和未来趋势，需要考虑不同人群的需求，请分析其中的因果关系，请列出主要的优缺点，请制作一个决策框架",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "心理学"
+  },
+  {
+    "original_question": "大数据领域的政策变化对行业有什么影响？",
+    "research_query": "以学生的身份，请查找关于大数据的详细数据和分析，主要针对大数据的核心领域，请按照时间顺序进行分析，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "大数据"
+  },
+  {
+    "original_question": "如何看待文化保护领域的跨界融合趋势？",
+    "research_query": "请分析文化保护的市场规模和竞争格局，请考虑不同行业的应用场景，不包括文化保护的边缘情况，请提供具体的数据支持，请列出主要的优缺点，请列成表格",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "文化保护"
+  },
+  {
+    "original_question": "如何看待投资领域的全球化趋势？",
+    "research_query": "请分析投资对社会/经济/文化的影响，请列出主要的优缺点，请分析相关政策的影响，请按照时间顺序进行分析，需要考虑不同人群的需求，请找出关键的影响因素",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "投资"
+  },
+  {
+    "original_question": "如何平衡中国历史发展与环境保护的关系？",
+    "research_query": "请分析中国历史在不同国家或地区的差异，请分析相关政策的影响，主要针对中国历史的核心领域，请从多个角度进行分析，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "中国历史"
+  },
+  {
+    "original_question": "区块链与职业教育之间有什么关系？",
+    "research_query": "请对区块链进行多角度的分析，请按照地区进行分类比较，请评估未来的发展趋势，请制作一个决策框架",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "区块链"
+  },
+  {
+    "original_question": "政治体制领域的政策变化对行业有什么影响？",
+    "research_query": "作为研究者，请分析政治体制的法律法规和政策框架，请从多个角度进行分析，需要分析国内外的差异，请评估未来的发展趋势，请列出主要的优缺点，请梳理成脉络清晰的内容",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "政治体制"
+  },
+  {
+    "original_question": "文化产业领域的技术发展对就业有什么影响？",
+    "research_query": "请研究文化产业的风险因素和应对策略，请考虑不同行业的应用场景，主要针对文化产业的核心领域，请分析相关政策的影响，请总结主要观点",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "文化产业"
+  },
+  {
+    "original_question": "心理问题与家庭问题之间有什么关系？",
+    "research_query": "以政策研究员的身份，请查找关于心理问题的详细数据和分析，请按照地区进行分类比较，不包括心理问题的边缘情况，请总结主要观点",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "心理问题"
+  },
+  {
+    "original_question": "在政治方面，年轻人应该如何规划自己的发展？",
+    "research_query": "请分析政治的技术发展和创新方向，请提供相关的案例研究，请分析其中的因果关系，需要考虑不同人群的需求，请重点关注最近5年的变化，请制作一个决策框架",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "政治"
+  },
+  {
+    "original_question": "如何评价心理咨询领域的标准化进程？",
+    "research_query": "以法律顾问的身份，请分析心理咨询的技术发展和创新方向，不包括心理咨询的边缘情况，主要针对心理咨询的核心领域，请分析相关政策的影响，请按照时间顺序进行分析，请梳理成脉络清晰的内容",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "心理咨询"
+  },
+  {
+    "original_question": "如何评价经济领域的标准化进程？",
+    "research_query": "请查找关于经济的详细数据和分析，需要考虑不同人群的需求，请给出可行的解决方案，请列出主要的优缺点，请分析其中的因果关系，请列成表格",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "经济"
+  },
+  {
+    "original_question": "如何评价健康领域的标准化进程？",
+    "research_query": "请研究健康的风险因素和应对策略，请提供相关的案例研究，请评估未来的发展趋势，需要考虑不同人群的需求，主要针对健康的核心领域，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "健康"
+  },
+  {
+    "original_question": "在医疗方面，年轻人应该如何规划自己的发展？",
+    "research_query": "关于医疗，需要全面的分析和研究，请评估未来的发展趋势，需要考虑不同人群的需求，主要针对医疗的核心领域，请重点关注最近5年的变化，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "医疗"
+  },
+  {
+    "original_question": "如何平衡世界历史发展与环境保护的关系？",
+    "research_query": "以市场分析师的身份，请研究世界历史的风险因素和应对策略，不包括世界历史的边缘情况，请评估未来的发展趋势，请分析其中的因果关系，请做一个对比分析",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "世界历史"
+  },
+  {
+    "original_question": "如何平衡传统文化发展与环境保护的关系？",
+    "research_query": "作为科技行业从业者，针对传统文化，请提供深入的分析，请重点关注最近5年的变化，请列出主要的优缺点，需要分析国内外的差异，请提供具体的数据支持，请列成表格",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "传统文化"
+  },
+  {
+    "original_question": "心理健康对普通人的日常生活有什么影响？",
+    "research_query": "请分析心理健康在不同国家或地区的差异，请评估未来的发展趋势，请考虑不同行业的应用场景，需要考虑不同人群的需求，请制作一个决策框架",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "心理健康"
+  },
+  {
+    "original_question": "社会领域的技术发展对就业有什么影响？",
+    "research_query": "请比较社会的不同理论或方法，请分析其中的因果关系，请评估未来的发展趋势，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "社会"
+  },
+  {
+    "original_question": "职场领域的专家们是如何看待股票的？",
+    "research_query": "以旅游业从业者的身份，请分析职场的市场规模和竞争格局，需要考虑不同人群的需求，请考虑不同行业的应用场景，请分析相关政策的影响，请提供相关的案例研究，请提炼出核心的结论",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "职场"
+  },
+  {
+    "original_question": "如何看待在线教育领域的跨界融合趋势？",
+    "research_query": "以社会学研究者的身份，请研究在线教育的风险因素和应对策略，需要考虑不同人群的需求，请提供相关的案例研究，请按照时间顺序进行分析，不包括在线教育的边缘情况，请提供详细的分析结果",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "在线教育"
+  },
+  {
+    "original_question": "如何看待心理问题领域的跨界融合趋势？",
+    "research_query": "以历史研究学者的身份，请查找关于心理问题的详细数据和分析，请给出可行的解决方案，请从多个角度进行分析，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "心理问题"
+  },
+  {
+    "original_question": "如何看待心理咨询领域的跨界融合趋势？",
+    "research_query": "针对心理咨询，请提供深入的分析，请给出可行的解决方案，请提供具体的数据支持，请分析相关政策的影响，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "心理咨询"
+  },
+  {
+    "original_question": "健康领域的创新对社会有什么影响？",
+    "research_query": "请分析健康在不同国家或地区的差异，不包括健康的边缘情况，请列出主要的优缺点，请评估未来的发展趋势，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "健康"
+  },
+  {
+    "original_question": "政治改革领域的研究方法有哪些优缺点？",
+    "research_query": "关于政治改革的问题，请进行详细研究，请分析相关政策的影响，请考虑不同行业的应用场景，请提炼出核心的结论",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "政治改革"
+  },
+  {
+    "original_question": "文化产业对普通人的日常生活有什么影响？",
+    "research_query": "作为管理者，请研究文化产业的最佳实践和案例，需要分析国内外的差异，请提供具体的数据支持，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "文化产业"
+  },
+  {
+    "original_question": "如何看待职场技能领域的全球化趋势？",
+    "research_query": "请分析职场技能的法律法规和政策框架，请分析相关政策的影响，不包括职场技能的边缘情况，请重点关注最近5年的变化，需要考虑不同人群的需求，请归纳成几个主要类别",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "职场技能"
+  },
+  {
+    "original_question": "教育领域的创新对社会有什么影响？",
+    "research_query": "作为金融分析师，请研究教育的风险因素和应对策略，请评估未来的发展趋势，请列出主要的优缺点，需要考虑不同人群的需求，请分析其中的因果关系，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "教育"
+  },
+  {
+    "original_question": "医疗政策领域的政策变化对行业有什么影响？",
+    "research_query": "请分析医疗政策对社会/经济/文化的影响，需要考虑不同人群的需求，请分析相关政策的影响，主要针对医疗政策的核心领域，请按照地区进行分类比较，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "医疗政策"
+  },
+  {
+    "original_question": "如何从多角度分析政治改革领域的问题？",
+    "research_query": "请比较政治改革的不同理论或方法，请提供相关的案例研究，请按照时间顺序进行分析，请分析其中的因果关系，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "政治改革"
+  },
+  {
+    "original_question": "如何评价职场问题领域的标准化进程？",
+    "research_query": "请比较职场问题的不同理论或方法，请重点关注最近5年的变化，请按照地区进行分类比较，请分析其中的因果关系，请列成表格",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "职场问题"
+  },
+  {
+    "original_question": "政治体制与心理之间有什么关系？",
+    "research_query": "请分析政治体制对社会/经济/文化的影响，请考虑不同行业的应用场景，需要考虑不同人群的需求，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "政治体制"
+  },
+  {
+    "original_question": "投资领域的创新对社会有什么影响？",
+    "research_query": "请分析投资对社会/经济/文化的影响，需要考虑不同人群的需求，请重点关注最近5年的变化，请按照时间顺序进行分析，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "投资"
+  },
+  {
+    "original_question": "如何看待经济领域的跨界融合趋势？",
+    "research_query": "请对经济进行多角度的分析，主要针对经济的核心领域，请提供相关的案例研究，请列成表格",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "经济"
+  },
+  {
+    "original_question": "如何评价心理健康领域的标准化进程？",
+    "research_query": "关于心理健康的问题，请进行详细研究，请重点关注最近5年的变化，请从多个角度进行分析，请列成表格",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "心理健康"
+  },
+  {
+    "original_question": "历史研究对普通人的日常生活有什么影响？",
+    "research_query": "作为投资人，请查找关于历史研究的详细数据和分析，请给出可行的解决方案，请重点关注最近5年的变化，请按照地区进行分类比较，需要分析国内外的差异，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "历史研究"
+  },
+  {
+    "original_question": "体育领域的研究方法有哪些优缺点？",
+    "research_query": "请比较体育的不同理论或方法，请提供相关的案例研究，需要考虑不同人群的需求，请按照具体的品类分类",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "体育"
+  },
+  {
+    "original_question": "如何评价最近社会问题领域的热点事件？",
+    "research_query": "请比较社会问题的不同理论或方法，请按照地区进行分类比较，请提供具体的数据支持，请按照时间顺序进行分析，需要考虑不同人群的需求，请做一个对比分析",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会问题"
+  },
+  {
+    "original_question": "如何平衡职场技能发展与环境保护的关系？",
+    "research_query": "请分析职场技能的法律法规和政策框架，请分析相关政策的影响，需要考虑不同人群的需求，不包括职场技能的边缘情况，请按照地区进行分类比较，请总结主要观点",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "职场技能"
+  },
+  {
+    "original_question": "如何看待在线教育领域的全球化趋势？",
+    "research_query": "请分析在线教育的法律法规和政策框架，请重点关注最近5年的变化，请提供具体的数据支持，请评估未来的发展趋势，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "在线教育"
+  },
+  {
+    "original_question": "政治领域的政策变化对行业有什么影响？",
+    "research_query": "请分析政治对社会/经济/文化的影响，请提供相关的案例研究，主要针对政治的核心领域，请列成表格",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "政治"
+  },
+  {
+    "original_question": "体育对普通人的日常生活有什么影响？",
+    "research_query": "请对体育进行多角度的分析，请提供相关的案例研究，请按照地区进行分类比较，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "体育"
+  },
+  {
+    "original_question": "环保领域的研究方法有哪些优缺点？",
+    "research_query": "作为医疗专业人士，请查找关于环保的详细数据和分析，请给出可行的解决方案，请按照时间顺序进行分析，请提供具体的数据支持，请制作一个决策框架",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "环保"
+  },
+  {
+    "original_question": "如何平衡医疗发展与环境保护的关系？",
+    "research_query": "关于医疗，需要全面的分析和研究，需要分析国内外的差异，请按照地区进行分类比较，需要考虑不同人群的需求，请考虑不同行业的应用场景，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "医疗"
+  },
+  {
+    "original_question": "历史事件领域的专家们是如何看待5G的？",
+    "research_query": "请查找关于历史事件的详细数据和分析，需要考虑不同人群的需求，需要分析国内外的差异，请列成表格",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "历史事件"
+  },
+  {
+    "original_question": "职业教育与绘画之间有什么关系？",
+    "research_query": "作为金融分析师，请分析职业教育的技术发展和创新方向，请给出可行的解决方案，请列出主要的优缺点，主要针对职业教育的核心领域，请重点关注最近5年的变化，请提供一个分析框架",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "职业教育"
+  },
+  {
+    "original_question": "如何评价最近政治政策领域的热点事件？",
+    "research_query": "请分析政治政策的发展历史和未来趋势，请按照时间顺序进行分析，请分析其中的因果关系，需要考虑不同人群的需求，请提供相关的案例研究，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "政治政策"
+  },
+  {
+    "original_question": "如何评价高等教育领域的标准化进程？",
+    "research_query": "请查找关于高等教育的详细数据和分析，请重点关注最近5年的变化，请按照时间顺序进行分析，需要分析国内外的差异，不包括高等教育的边缘情况，请提炼出核心的结论",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "高等教育"
+  },
+  {
+    "original_question": "如何平衡家庭教育发展与环境保护的关系？",
+    "research_query": "请分析家庭教育的市场规模和竞争格局，需要分析国内外的差异，请评估未来的发展趋势，请提供具体的数据支持，请做一个对比分析",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "家庭教育"
+  },
+  {
+    "original_question": "政治改革领域的专家们是如何看待政治体制的？",
+    "research_query": "从研究者的角度，关于政治改革的问题，请进行详细研究，主要针对政治改革的核心领域，请分析其中的因果关系，请列成表格",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "政治改革"
+  },
+  {
+    "original_question": "文化交流领域的可持续发展策略有哪些？",
+    "research_query": "作为历史研究学者，请分析文化交流的市场规模和竞争格局，不包括文化交流的边缘情况，需要分析国内外的差异，请提供具体的数据支持，请找出关键的影响因素",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "文化交流"
+  },
+  {
+    "original_question": "在职场方面，年轻人应该如何规划自己的发展？",
+    "research_query": "请查找关于职场的详细数据和分析，不包括职场的边缘情况，请考虑不同行业的应用场景，请列出主要的优缺点，请给出可行的解决方案，请提炼出核心的结论",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "职场"
+  },
+  {
+    "original_question": "文化保护领域的可持续发展策略有哪些？",
+    "research_query": "以法律顾问的身份，关于文化保护的问题，请进行详细研究，请给出可行的解决方案，需要考虑不同人群的需求，请分析其中的因果关系，主要针对文化保护的核心领域，请制作一个决策框架",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "文化保护"
+  },
+  {
+    "original_question": "文化领域的技术发展对就业有什么影响？",
+    "research_query": "请分析文化在不同国家或地区的差异，请从多个角度进行分析，请列出主要的优缺点，请按照地区进行分类比较，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "文化"
+  },
+  {
+    "original_question": "历史研究领域的可持续发展策略有哪些？",
+    "research_query": "请比较历史研究的不同理论或方法，不包括历史研究的边缘情况，主要针对历史研究的核心领域，请按照地区进行分类比较，请列成表格",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "历史研究"
+  },
+  {
+    "original_question": "在科技领域，哪些因素会影响未来的发展趋势？",
+    "research_query": "请查找关于科技的详细数据和分析，主要针对科技的核心领域，请按照地区进行分类比较，请分析相关政策的影响，请从多个角度进行分析，请归纳成几个主要类别",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "科技"
+  },
+  {
+    "original_question": "舞蹈领域的创新对社会有什么影响？",
+    "research_query": "作为管理者，请比较舞蹈的不同理论或方法，需要分析国内外的差异，请重点关注最近5年的变化，请评估未来的发展趋势，请列成表格",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "舞蹈"
+  },
+  {
+    "original_question": "在职场关系方面，年轻人应该如何规划自己的发展？",
+    "research_query": "请分析职场关系对社会/经济/文化的影响，请分析相关政策的影响，请重点关注最近5年的变化，不包括职场关系的边缘情况，请梳理成脉络清晰的内容",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "职场关系"
+  },
+  {
+    "original_question": "旅游政策领域的专家们是如何看待碳中和的？",
+    "research_query": "作为环保工作者，请研究旅游政策的最佳实践和案例，请评估未来的发展趋势，请重点关注最近5年的变化，请按照地区进行分类比较，请分析其中的因果关系，请提供详细的分析结果",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "旅游政策"
+  },
+  {
+    "original_question": "如何评价最近国内旅游领域的热点事件？",
+    "research_query": "请分析国内旅游在不同国家或地区的差异，请分析相关政策的影响，主要针对国内旅游的核心领域，请做一个对比分析",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "国内旅游"
+  },
+  {
+    "original_question": "心理健康与大数据之间有什么关系？",
+    "research_query": "作为创业者，请分析心理健康对社会/经济/文化的影响，请分析其中的因果关系，请评估未来的发展趋势，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "心理健康"
+  },
+  {
+    "original_question": "在科技方面，年轻人应该如何规划自己的发展？",
+    "research_query": "请分析科技对社会/经济/文化的影响，请分析其中的因果关系，需要分析国内外的差异，请考虑不同行业的应用场景，请提供具体的数据支持，请列成表格",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "科技"
+  },
+  {
+    "original_question": "旅游领域的可持续发展策略有哪些？",
+    "research_query": "关于旅游，需要全面的分析和研究，请提供相关的案例研究，请按照时间顺序进行分析，请给出可行的解决方案，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "旅游"
+  },
+  {
+    "original_question": "如何评价传统文化领域的标准化进程？",
+    "research_query": "请研究传统文化的风险因素和应对策略，请提供相关的案例研究，请重点关注最近5年的变化，需要考虑不同人群的需求，请评估未来的发展趋势，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "传统文化"
+  },
+  {
+    "original_question": "可持续发展领域的创业机会有哪些？",
+    "research_query": "请查找关于可持续发展的详细数据和分析，请按照地区进行分类比较，请分析其中的因果关系，主要针对可持续发展的核心领域，请提供详细的分析结果",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "可持续发展"
+  },
+  {
+    "original_question": "为什么体育在中国的发展与国外有差异？",
+    "research_query": "以科技行业从业者的身份，请研究体育的风险因素和应对策略，请从多个角度进行分析，需要分析国内外的差异，请分析相关政策的影响，请提供具体的数据支持，请总结主要观点",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "体育"
+  },
+  {
+    "original_question": "职业发展领域的教育和培训应该如何改进？",
+    "research_query": "请查找关于职业发展的详细数据和分析，主要针对职业发展的核心领域，请分析其中的因果关系，请从多个角度进行分析，请评估未来的发展趋势，请提供一个分析框架",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "职业发展"
+  },
+  {
+    "original_question": "政治对普通人的日常生活有什么影响？",
+    "research_query": "从管理者的角度，请分析政治的市场规模和竞争格局，请列出主要的优缺点，请分析相关政策的影响，需要分析国内外的差异，请从多个角度进行分析，请总结主要观点",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "政治"
+  },
+  {
+    "original_question": "心理学与气候变化之间有什么关系？",
+    "research_query": "请分析心理学的发展历史和未来趋势，请从多个角度进行分析，请给出可行的解决方案，不包括心理学的边缘情况，请提供具体的数据支持，请梳理成脉络清晰的内容",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "心理学"
+  },
+  {
+    "original_question": "如何从多角度分析文化产业领域的问题？",
+    "research_query": "请分析文化产业在不同国家或地区的差异，不包括文化产业的边缘情况，请分析相关政策的影响，请按照地区进行分类比较，请列出主要的优缺点，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "文化产业"
+  },
+  {
+    "original_question": "历史研究领域的研究方法有哪些优缺点？",
+    "research_query": "请分析历史研究在不同国家或地区的差异，请重点关注最近5年的变化，请提供相关的案例研究，请总结主要观点",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "历史研究"
+  },
+  {
+    "original_question": "社会发展领域的用户体验应该如何改进？",
+    "research_query": "请分析社会发展的市场规模和竞争格局，请考虑不同行业的应用场景，请给出可行的解决方案，请列出主要的优缺点，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会发展"
+  },
+  {
+    "original_question": "历史领域的创新对社会有什么影响？",
+    "research_query": "针对历史，请提供深入的分析，请按照地区进行分类比较，请重点关注最近5年的变化，请分析其中的因果关系，请评估未来的发展趋势，请整理成一份报告",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "历史"
+  },
+  {
+    "original_question": "科技领域的专家们是如何看待历史研究的？",
+    "research_query": "作为教育工作者，请分析科技的技术发展和创新方向，请按照时间顺序进行分析，请分析其中的因果关系，请考虑不同行业的应用场景，请按照具体的品类分类",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "科技"
+  },
+  {
+    "original_question": "如何从多角度分析医疗保险领域的问题？",
+    "research_query": "关于医疗保险的问题，请进行详细研究，主要针对医疗保险的核心领域，请提供相关的案例研究，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "医疗保险"
+  },
+  {
+    "original_question": "旅游政策对普通人的日常生活有什么影响？",
+    "research_query": "请分析旅游政策的市场规模和竞争格局，主要针对旅游政策的核心领域，请从多个角度进行分析，请制作一个决策框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "旅游政策"
+  },
+  {
+    "original_question": "医疗领域的专家们是如何看待心理问题的？",
+    "research_query": "针对医疗，请提供深入的分析，请评估未来的发展趋势，需要考虑不同人群的需求，请提供具体的数据支持，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "医疗"
+  },
+  {
+    "original_question": "家庭教育与旅游产业之间有什么关系？",
+    "research_query": "针对家庭教育，请提供深入的分析，请评估未来的发展趋势，请列出主要的优缺点，请考虑不同行业的应用场景，请整理成一份报告",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "家庭教育"
+  },
+  {
+    "original_question": "心理领域的创新对社会有什么影响？",
+    "research_query": "从法律顾问的角度，请分析心理对社会/经济/文化的影响，请给出可行的解决方案，请从多个角度进行分析，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "心理"
+  },
+  {
+    "original_question": "如何评价最近文化保护领域的热点事件？",
+    "research_query": "请分析文化保护的市场规模和竞争格局，请按照时间顺序进行分析，请重点关注最近5年的变化，请分析相关政策的影响，请梳理成脉络清晰的内容",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "文化保护"
+  },
+  {
+    "original_question": "如何从多角度分析历史领域的问题？",
+    "research_query": "请比较历史的不同理论或方法，请提供具体的数据支持，不包括历史的边缘情况，需要分析国内外的差异，请做一个对比分析",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "历史"
+  },
+  {
+    "original_question": "为什么政治政策在中国的发展与国外有差异？",
+    "research_query": "从文化产业从业者的角度，请分析政治政策的发展历史和未来趋势，请列出主要的优缺点，请按照地区进行分类比较，请评估未来的发展趋势，请提供一个分析框架",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "政治政策"
+  },
+  {
+    "original_question": "为什么社会发展在中国的发展与国外有差异？",
+    "research_query": "请对社会发展进行多角度的分析，请按照时间顺序进行分析，请按照地区进行分类比较，请总结主要观点",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会发展"
+  },
+  {
+    "original_question": "社会领域的政策变化对行业有什么影响？",
+    "research_query": "以研究者的身份，请分析社会在不同国家或地区的差异，主要针对社会的核心领域，请按照时间顺序进行分析，请提供一个分析框架",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "社会"
+  },
+  {
+    "original_question": "如何看待社会问题领域的跨界融合趋势？",
+    "research_query": "请分析社会问题的法律法规和政策框架，主要针对社会问题的核心领域，请重点关注最近5年的变化，请分析相关政策的影响，请找出关键的影响因素",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "社会问题"
+  },
+  {
+    "original_question": "如何评价最近职场领域的热点事件？",
+    "research_query": "以金融分析师的身份，关于职场，需要全面的分析和研究，请分析其中的因果关系，请提供具体的数据支持，请重点关注最近5年的变化，需要分析国内外的差异，请梳理成脉络清晰的内容",
+    "complexity": 2,
+    "has_persona": true,
+    "topic": "职场"
+  },
+  {
+    "original_question": "在国际旅游方面，年轻人应该如何规划自己的发展？",
+    "research_query": "请分析国际旅游的法律法规和政策框架，请按照地区进行分类比较，请分析其中的因果关系，请评估未来的发展趋势，请提供一个分析框架",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "国际旅游"
+  },
+  {
+    "original_question": "如何评价政治改革领域的标准化进程？",
+    "research_query": "请研究政治改革的风险因素和应对策略，请提供具体的数据支持，请提供相关的案例研究，请给出可行的解决方案，请列成表格",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "政治改革"
+  },
+  {
+    "original_question": "医疗政策领域的研究方法有哪些优缺点？",
+    "research_query": "作为政策研究员，请分析医疗政策在不同国家或地区的差异，需要分析国内外的差异，请考虑不同行业的应用场景，请从多个角度进行分析，请分析相关政策的影响，请制作一个决策框架",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "医疗政策"
+  },
+  {
+    "original_question": "社会领域的研究方法有哪些优缺点？",
+    "research_query": "请分析社会对社会/经济/文化的影响，需要考虑不同人群的需求，请评估未来的发展趋势，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "社会"
+  },
+  {
+    "original_question": "如何看待教育政策领域的最新发展？",
+    "research_query": "请分析教育政策的市场规模和竞争格局，请评估未来的发展趋势，不包括教育政策的边缘情况，主要针对教育政策的核心领域，请从多个角度进行分析，请找出关键的影响因素",
+    "complexity": 3,
+    "has_persona": false,
+    "topic": "教育政策"
+  },
+  {
+    "original_question": "高等教育对普通人的日常生活有什么影响？",
+    "research_query": "以环保工作者的身份，请分析高等教育在不同国家或地区的差异，请考虑不同行业的应用场景，请分析相关政策的影响，请按照地区进行分类比较，请提炼出核心的结论",
+    "complexity": 3,
+    "has_persona": true,
+    "topic": "高等教育"
+  },
+  {
+    "original_question": "教育政策领域的专家们是如何看待职业发展的？",
+    "research_query": "关于教育政策的问题，请进行详细研究，请给出可行的解决方案，请考虑不同行业的应用场景，请分析其中的因果关系，请提供相关的案例研究，请按照具体的品类分类",
+    "complexity": 2,
+    "has_persona": false,
+    "topic": "教育政策"
+  }
+]
