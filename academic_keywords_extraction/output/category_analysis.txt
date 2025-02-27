@@ -1,0 +1,61 @@
+Academic Keyword Categories
+
+medicine: 2074
+  - surgery: 1602
+  - pathology: 280
+  - oncology: 58
+  - cardiology: 24
+  - neurology: 52
+  - immunology: 29
+  - radiology: 29
+
+humanities: 1957
+  - history: 1054
+  - literature: 691
+  - philosophy: 10
+  - ethics: 201
+  - linguistics: 1
+
+social sciences: 595
+  - psychology: 27
+  - sociology: 8
+  - economics: 29
+  - political science: 4
+  - education: 527
+
+biology: 555
+  - evolution: 365
+  - genetics: 54
+  - molecular biology: 15
+  - cell biology: 12
+  - microbiology: 50
+  - ecology: 59
+
+mathematics: 476
+  - probability: 275
+  - algebra: 59
+  - geometry: 99
+  - calculus: 43
+
+computer science: 185
+  - machine learning: 150
+  - artificial intelligence: 13
+  - neural network: 20
+  - deep learning: 2
+
+environmental: 149
+  - climate change: 20
+  - pollution: 116
+  - sustainability: 8
+  - renewable energy: 5
+
+physics: 104
+  - quantum mechanics: 27
+  - relativity: 27
+  - particle physics: 5
+  - astrophysics: 21
+  - thermodynamics: 24
+
+engineering: 1
+  - electrical engineering: 1
+
